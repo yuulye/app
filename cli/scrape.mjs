@@ -1,4 +1,5 @@
 import { PlaywrightCrawler } from 'crawlee';
+import * as fs from 'fs';
 
 async function process(items) {
   for (let i = 0; i < items.length; i++) {
@@ -22,6 +23,16 @@ class Type {
   constructor(name, items) {
     this.name = name;
     this.items = items;
+
+    const filename = `./data/mlbb/equipment/${name}.json`;
+    fs.writeFile(
+      filename
+      , JSON.stringify(items, null, 2)
+      , function(err) {
+        if (err) throw err;
+        console.log(`complete writing ${filename}!`);
+      }
+    );
   }
 }
 
@@ -34,7 +45,6 @@ const crawler = new PlaywrightCrawler({
         `.content${i+1} .gallery .gallerybox .thumb a`
       ).all());
       types[i] = new Type(types[i], items);
-      console.log(types[i]);
     }
   },
 });

@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Sea Halberd",
+    "link": "/mobilelegends/Sea_Halberd",
+    "img": "/commons/images/0/0f/Item_Sea_Halberd_ML.png"
+  },
+  {
+    "name": "Rose Gold Meteor",
+    "link": "/mobilelegends/Rose_Gold_Meteor",
+    "img": "/commons/images/9/9d/Item_Rose_Gold_Meteor_ML.png"
+  },
+  {
+    "name": "Bloodlust Axe",
+    "link": "/mobilelegends/Bloodlust_Axe",
+    "img": "/commons/images/b/b7/Item_Bloodlust_Axe_ML.png"
+  },
+  {
+    "name": "Hunter Strike",
+    "link": "/mobilelegends/Hunter_Strike",
+    "img": "/commons/images/2/22/Item_Hunter_Strike_ML.png"
+  },
+  {
+    "name": "Blade of Despair",
+    "link": "/mobilelegends/Blade_of_Despair",
+    "img": "/commons/images/8/81/Item_Blade_of_Despair_ML.png"
+  },
+  {
+    "name": "Blade of the Heptaseas",
+    "link": "/mobilelegends/Blade_of_the_Heptaseas",
+    "img": "/commons/images/d/db/Item_Blade_of_the_Heptaseas_ML.png"
+  },
+  {
+    "name": "Great Dragon Spear",
+    "link": "/mobilelegends/Great_Dragon_Spear",
+    "img": "/commons/images/d/d8/Item_Great_Dragon_Spear_ML.png"
+  },
+  {
+    "name": "Windtalker",
+    "link": "/mobilelegends/Windtalker",
+    "img": "/commons/images/6/6d/Item_Windtalker_ML.png"
+  },
+  {
+    "name": "Endless Battle",
+    "link": "/mobilelegends/Endless_Battle",
+    "img": "/commons/images/d/d1/Item_Endless_Battle_ML.png"
+  },
+  {
+    "name": "Berserker's Fury",
+    "link": "/mobilelegends/Berserker%27s_Fury",
+    "img": "/commons/images/9/99/Item_Berserker%27s_Fury_ML.png"
+  },
+  {
+    "name": "Haas's Claws",
+    "link": "/mobilelegends/Haas%27s_Claws",
+    "img": "/commons/images/f/fa/Item_Haas%27s_Claws_ML.png"
+  },
+  {
+    "name": "Malefic Roar",
+    "link": "/mobilelegends/Malefic_Roar",
+    "img": "/commons/images/1/14/Item_Malefic_Roar_ML.png"
+  },
+  {
+    "name": "War Axe",
+    "link": "/mobilelegends/War_Axe",
+    "img": "/commons/images/3/33/Item_War_Axe_ML.png"
+  },
+  {
+    "name": "Wind of Nature",
+    "link": "/mobilelegends/Wind_of_Nature",
+    "img": "/commons/images/9/99/Item_Wind_of_Nature_ML.png"
+  },
+  {
+    "name": "Golden Staff",
+    "link": "/mobilelegends/Golden_Staff",
+    "img": "/commons/images/d/db/Item_Golden_Staff_ML.png"
+  },
+  {
+    "name": "Corrosion Scythe",
+    "link": "/mobilelegends/Corrosion_Scythe",
+    "img": "/commons/images/6/68/Item_Corrosion_Scythe_ML.png"
+  },
+  {
+    "name": "Demon Hunter Sword",
+    "link": "/mobilelegends/Demon_Hunter_Sword",
+    "img": "/commons/images/0/08/Item_Demon_Hunter_Sword_ML.png"
+  },
+  {
+    "name": "Swift Crossbow",
+    "link": "/mobilelegends/Swift_Crossbow",
+    "img": "/commons/images/6/63/Item_Swift_Crossbow_ML.png"
+  },
+  {
+    "name": "Magic Blade",
+    "link": "/mobilelegends/Magic_Blade",
+    "img": "/commons/images/e/e9/Item_Magic_Blade_ML.png"
+  },
+  {
+    "name": "Fury Hammer",
+    "link": "/mobilelegends/Fury_Hammer",
+    "img": "/commons/images/3/3b/Item_Fury_Hammer_ML.png"
+  },
+  {
+    "name": "Rogue Meteor",
+    "link": "/mobilelegends/Rogue_Meteor",
+    "img": "/commons/images/5/5b/Item_Rogue_Meteor_ML.png"
+  },
+  {
+    "name": "Ogre Tomahawk",
+    "link": "/mobilelegends/Ogre_Tomahawk",
+    "img": "/commons/images/6/65/Item_Ogre_Tomahawk_ML.png"
+  },
+  {
+    "name": "Legion Sword",
+    "link": "/mobilelegends/Legion_Sword",
+    "img": "/commons/images/b/be/Item_Legion_Sword_ML.png"
+  },
+  {
+    "name": "Regular Spear",
+    "link": "/mobilelegends/Regular_Spear",
+    "img": "/commons/images/7/7a/Item_Regular_Spear_ML.png"
+  },
+  {
+    "name": "Iron Hunting Bow",
+    "link": "/mobilelegends/Iron_Hunting_Bow",
+    "img": "/commons/images/5/5e/Item_Iron_Hunting_Bow_ML.png"
+  },
+  {
+    "name": "Vampire Mallet",
+    "link": "/mobilelegends/Vampire_Mallet",
+    "img": "/commons/images/f/fb/Item_Vampire_Mallet_ML.png"
+  },
+  {
+    "name": "Javelin",
+    "link": "/mobilelegends/Javelin",
+    "img": "/commons/images/c/cf/Item_Javelin_ML.png"
+  },
+  {
+    "name": "Knife",
+    "link": "/mobilelegends/Knife",
+    "img": "/commons/images/1/10/Item_Knife_ML.png"
+  },
+  {
+    "name": "Dagger",
+    "link": "/mobilelegends/Dagger",
+    "img": "/commons/images/8/87/Item_Dagger_ML.png"
+  },
+  {
+    "name": "Power Potion",
+    "link": "/mobilelegends/Power_Potion",
+    "img": "/commons/images/9/9b/Item_Power_Potion_ML.png"
+  }
+]

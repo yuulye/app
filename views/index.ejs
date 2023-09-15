@@ -7,14 +7,38 @@
       content="width=device-width, initial-scale=1.0"
     >
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <style>
+      .cut-text { 
+        text-overflow: ellipsis;
+        overflow: hidden; 
+        width: 48px; 
+        height: 1.2em; 
+        white-space: nowrap;
+      }
+    </style>
   </head>
   <body>
+    <!--
     <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    -->
+    <% data.forEach(function(type){ %>
+      <div style="border: 1px solid black;margin: 16px 0px;">
+      <% type.items.forEach(function(item){ %>
+        <div style="display: inline-block;padding: 16px;">
+          <img
+            style='width: 48px'
+            src="/images/mlbb/equipment/<%- item.img %>"
+            title="<%- item.name %>"
+            tooltip="<%- item.name %>"
+          />
+          <div style="text-align: center;font-size: 10px;" class="cut-text">
+            <%- item.name %>
+          </div>
+        </div>
+      <% }); %>
+      </div>
+    <% }); %>
     <script src="//cdn.jsdelivr.net/npm/eruda"></script>
     <script>eruda.init();</script>
-    <script>
-      console.log('ok');
-    </script>
   </body>
 </html>

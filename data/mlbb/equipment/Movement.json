@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Demon Shoes",
+    "link": "/mobilelegends/Demon_Shoes",
+    "img": "/commons/images/1/16/Item_Demon_Shoes_ML.png"
+  },
+  {
+    "name": "Rapid Boots",
+    "link": "/mobilelegends/Rapid_Boots",
+    "img": "/commons/images/f/ff/Item_Rapid_Boots_ML.png"
+  },
+  {
+    "name": "Swift Boots",
+    "link": "/mobilelegends/Swift_Boots",
+    "img": "/commons/images/1/12/Item_Swift_Boots_ML.png"
+  },
+  {
+    "name": "Arcane Boots",
+    "link": "/mobilelegends/Arcane_Boots",
+    "img": "/commons/images/9/93/Item_Arcane_Boots_ML.png"
+  },
+  {
+    "name": "Magic Shoes",
+    "link": "/mobilelegends/Magic_Shoes",
+    "img": "/commons/images/8/88/Item_Magic_Shoes_ML.png"
+  },
+  {
+    "name": "Tough Boots",
+    "link": "/mobilelegends/Tough_Boots",
+    "img": "/commons/images/f/f3/Item_Tough_Boots_ML.png"
+  },
+  {
+    "name": "Warrior Boots",
+    "link": "/mobilelegends/Warrior_Boots",
+    "img": "/commons/images/f/fd/Item_Warrior_Boots_ML.png"
+  },
+  {
+    "name": "Boots",
+    "link": "/mobilelegends/Boots",
+    "img": "/commons/images/e/e4/Item_Boots_ML.png"
+  }
+]

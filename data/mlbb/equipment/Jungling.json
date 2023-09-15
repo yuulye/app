@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Flame Retribution",
+    "link": "/mobilelegends/Flame_Retribution",
+    "img": "/commons/images/6/63/Item_Flame_Retribution_ML.png"
+  },
+  {
+    "name": "Ice Retribution",
+    "link": "/mobilelegends/Ice_Retribution",
+    "img": "/commons/images/9/97/Item_Ice_Retribution_ML.png"
+  },
+  {
+    "name": "Bloody Retribution",
+    "link": "/mobilelegends/Bloody_Retribution",
+    "img": "/commons/images/d/d0/Item_Bloody_Retribution_ML.png"
+  }
+]
