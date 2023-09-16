@@ -1,30 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="icon" href="/images/logo.png">
     <title><%= title %></title>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     >
     <link rel='stylesheet' href='/stylesheets/style.css' />
-    <style>
-      .cut-text { 
-        text-overflow: ellipsis;
-        overflow: hidden; 
-        width: 48px; 
-        height: 1.2em; 
-        white-space: nowrap;
-      }
-    </style>
+    <style><%- include('css/main.css') %></style>
   </head>
   <body>
-    <!--
-    <h1><%= title %></h1>
-    -->
     <% data.forEach(function(type){ %>
       <div style="border: 1px solid black;margin: 16px 0px;">
       <% type.items.forEach(function(item){ %>
-        <div style="display: inline-block;padding: 16px;">
+        <div style="display: inline-block;padding: 16px;" onclick="item()">
           <img
             style='width: 48px'
             src="/images/mlbb/equipment/<%- item.img %>"
@@ -40,5 +30,6 @@
     <% }); %>
     <script src="//cdn.jsdelivr.net/npm/eruda"></script>
     <script>eruda.init();</script>
+    <script><%- include('js/main.js') %></script>
   </body>
 </html>
