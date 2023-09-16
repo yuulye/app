@@ -27,7 +27,9 @@ router.get('/', function(req, res, next) {
       }
     }
     res.render('index', {
-      title: 'Express', data: data
+      title: 'Express'
+      , data: data
+      , equipment: require('./../data/mlbb/equipment')
     });
   });
 });

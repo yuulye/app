@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Sea Halberd",
+    "price": "2050",
+    "attributes": [
+      {"Physical Attack": 80},
+      {"Attack Speed": "25%"},
+      {
+        "Unique Passive": [
+          {"Lifebane": "Dealing damage to a target will reduce the Shield and HP Regen effects on them to 50% of normal for 3s."},
+          {"Punish" : "Increase damage by 8% against enemy heroes with higher extra HP."}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rose Gold Meteor"
+  },
+  {
+    "name": "Bloodlust Axe"
+  },
+  {
+    "name": "Hunter Strike"
+  },
+  {
+    "name": "Blade of Despair"
+  },
+  {
+    "name": "Blade of the Heptaseas"
+  },
+  {
+    "name": "Great Dragon Spear"
+  },
+  {
+    "name": "Windtalker"
+  },
+  {
+    "name": "Endless Battle"
+  },
+  {
+    "name": "Berserker's Fury"
+  },
+  {
+    "name": "Haas's Claws"
+  },
+  {
+    "name": "Malefic Roar"
+  },
+  {
+    "name": "War Axe"
+  },
+  {
+    "name": "Wind of Nature"
+  },
+  {
+    "name": "Golden Staff"
+  },
+  {
+    "name": "Corrosion Scythe"
+  },
+  {
+    "name": "Demon Hunter Sword"
+  },
+  {
+    "name": "Swift Crossbow"
+  },
+  {
+    "name": "Magic Blade"
+  },
+  {
+    "name": "Fury Hammer"
+  },
+  {
+    "name": "Rogue Meteor"
+  },
+  {
+    "name": "Ogre Tomahawk"
+  },
+  {
+    "name": "Legion Sword"
+  },
+  {
+    "name": "Regular Spear"
+  },
+  {
+    "name": "Iron Hunting Bow"
+  },
+  {
+    "name": "Vampire Mallet"
+  },
+  {
+    "name": "Javelin"
+  },
+  {
+    "name": "Knife"
+  },
+  {
+    "name": "Dagger"
+  },
+  {
+    "name": "Power Potion"
+  }
+]

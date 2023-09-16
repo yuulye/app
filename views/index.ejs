@@ -11,10 +11,19 @@
     <style><%- include('css/main.css') %></style>
   </head>
   <body>
+    <% let itemCount = 0 %>
+    <% const items = [] %>
     <% data.forEach(function(type){ %>
       <div style="border: 1px solid black;margin: 16px 0px;">
       <% type.items.forEach(function(item){ %>
-        <div style="display: inline-block;padding: 16px;" onclick="item()">
+        <% item.id = itemCount %>
+        <% item.info = equipment[item.id] %>
+        <% items.push(item) %>
+        <div
+          style="display: inline-block;padding: 16px;"
+          onclick="item(<%- itemCount %>)"
+          id="itemID-<%- itemCount %>"
+        >
           <img
             style='width: 48px'
             src="/images/mlbb/equipment/<%- item.img %>"
@@ -25,11 +34,21 @@
             <%- item.name %>
           </div>
         </div>
+        <% itemCount++ %>
       <% }); %>
       </div>
     <% }); %>
-    <script src="//cdn.jsdelivr.net/npm/eruda"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/eruda/3.0.1/eruda.min.js"
+      integrity="sha512-KkkY/3auRhaXDFzFMpwtZ+BrS8EBQ+GfiBxdJ9jGMi6Gg74/sYbq/IZpY593pkNjTmbeRfBwjpZo+7gcpH45Ww=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script>eruda.init();</script>
+    <script>
+      const data = <%- JSON.stringify(data) %>;
+      const items = <%- JSON.stringify(items) %>;
+    </script>
     <script><%- include('js/main.js') %></script>
   </body>
 </html>

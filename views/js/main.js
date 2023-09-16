@@ -1,3 +1,3 @@
-function item() {
-  console.log('item clicked!');
+function item(i) {
+  console.log(items[i]);
 }
