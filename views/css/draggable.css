@@ -1,0 +1,27 @@
+.DraggableDiv {
+  position: fixed;
+  top: 32%;
+  left: 10%;
+  width: 80%;
+  height: 36%;
+  border: 1px solid #000000;
+  background: #beccf3;
+  box-shadow: 5px 5px 3px 0px rgba(97,97,97,0.5);
+}
+ 
+.DraggableDiv div {
+  padding: 5px;
+}
+ 
+.DraggableDiv .Header {
+  cursor: move;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  border-bottom: 1px solid #000000;
+  background-color: #566895;
+}
+
+.DraggableDiv .Content {
+  font-size: 10px;
+}

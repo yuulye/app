@@ -1,0 +1,23 @@
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+  integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script><%- include(`js/draggable.js`) %></script>
+<script> 
+    $('.DraggableDiv').draggableTouch();
+</script>
+
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/eruda/3.0.1/eruda.min.js"
+  integrity="sha512-KkkY/3auRhaXDFzFMpwtZ+BrS8EBQ+GfiBxdJ9jGMi6Gg74/sYbq/IZpY593pkNjTmbeRfBwjpZo+7gcpH45Ww=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script>eruda.init();</script>
+<script>
+  const data = <%- JSON.stringify(data) %>;
+  const items = <%- JSON.stringify(items) %>;
+</script>
+<script><%- include('js/main.js') %></script>

@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="icon" href="/images/logo.png">
-    <title><%= title %></title>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    >
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-    <style><%- include('css/main.css') %></style>
-  </head>
+  <%- include(`head`) %>
   <body>
     <% let itemCount = 0 %>
     <% const items = [] %>
@@ -19,36 +10,52 @@
         <% item.id = itemCount %>
         <% item.info = equipment[item.id] %>
         <% items.push(item) %>
-        <div
-          style="display: inline-block;padding: 16px;"
-          onclick="item(<%- itemCount %>)"
-          id="itemID-<%- itemCount %>"
-        >
-          <img
-            style='width: 48px'
-            src="/images/mlbb/equipment/<%- item.img %>"
-            title="<%- item.name %>"
-            tooltip="<%- item.name %>"
-          />
-          <div style="text-align: center;font-size: 10px;" class="cut-text">
-            <%- item.name %>
-          </div>
-        </div>
+        <%- include(`index/item`, {
+          item: item, itemCount: itemCount
+        }) %>
         <% itemCount++ %>
       <% }); %>
       </div>
     <% }); %>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/eruda/3.0.1/eruda.min.js"
-      integrity="sha512-KkkY/3auRhaXDFzFMpwtZ+BrS8EBQ+GfiBxdJ9jGMi6Gg74/sYbq/IZpY593pkNjTmbeRfBwjpZo+7gcpH45Ww=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script>eruda.init();</script>
-    <script>
-      const data = <%- JSON.stringify(data) %>;
-      const items = <%- JSON.stringify(items) %>;
-    </script>
-    <script><%- include('js/main.js') %></script>
+
+    <div class="DraggableDiv">
+      <div class="Header">
+        <%- items[0].name %>
+      </div>
+      <div class="Content" style="position: relative">
+        <img
+          style='width: 48px;position: absolute;right: 4px;'
+          src="/images/mlbb/equipment/<%- items[0].img %>"
+          title="<%- items[0].name %>"
+        />
+        <br/>
+        <span style="
+          border-radius: 15%;
+          color: yellow;
+          background: grey;
+          padding: 4px;
+        ">
+          $ <%- items[0].info.price %>
+        </span>
+        <br/><br/>
+        <table>
+        <% items[0].info.attributes.forEach(function(attr){ %>
+          <tr>
+            <td style="
+              width: 25%;
+              vertical-align: top;
+              font-size: 8px;
+              font-weight: bold;
+            "><%- Object.keys(attr)[0] %></td>
+            <td><%- JSON.stringify(
+              attr[Object.keys(attr)[0]]
+            )%></td>
+          </tr>
+        <% }); %>
+        </table>
+      </div>
+    </div>
+
+    <%- include(`script`, {items: items}) %>
   </body>
 </html>

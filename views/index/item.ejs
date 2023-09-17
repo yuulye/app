@@ -1,0 +1,18 @@
+<div
+  style="display: inline-block;padding: 16px;"
+  onclick="item(<%- itemCount %>)"
+  id="itemID-<%- itemCount %>"
+>
+  <img
+    style='width: 48px'
+    src="/images/mlbb/equipment/<%- item.img %>"
+    title="<%- item.name %>"
+    tooltip="<%- item.name %>"
+  />
+  <div
+    style="text-align: center;font-size: 10px;"
+    class="cut-text"
+  >
+    <%- item.name %>
+  </div>
+</div>
