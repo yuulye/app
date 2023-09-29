@@ -25,3 +25,32 @@
 .DraggableDiv .Content {
   font-size: 10px;
 }
+
+td.title {
+  width: 25%;
+  vertical-align: top;
+  font-weight: bold;
+}
+
+div.price {
+  border-radius: 15%;
+  color: yellow;
+  background: grey;
+  padding: 4px;
+  position: absolute;
+  display: inline-block;
+  right: 32px;
+  top: 4px;
+  font-size: 10px;
+  font-family: monospace;
+}
+
+button.close {
+  color: red;
+  position: absolute;
+  display: inline-block;
+  right: 4px;
+  top: 4px;
+  font-size: 10px;
+  font-family: monospace;
+}

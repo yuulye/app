@@ -1,0 +1,34 @@
+<table>
+<% if (item['attributes']){ %>
+<% item.attributes.forEach(function(attr){ %>
+  <tr>
+    <td class="title">
+      <% if (Object.keys(attr)[0] == 'Unique Passive') { %>
+        </br>
+      <% } %>
+      <%- Object.keys(attr)[0] %>
+    </td>
+    <% if (Array.isArray(attr[Object.keys(attr)[0]])) { %>
+      </tr>
+      <tr>
+      <%
+        let passives = attr[Object.keys(attr)[0]];
+      %>
+      <% passives.forEach(function(passive){ %>
+        <td class="title">
+          <%- Object.keys(passive)[0] %>
+        </td>
+        <td>
+          <%- passive[Object.keys(passive)[0]] %>
+        </td>
+        </tr>
+      <% }); %>
+    <% } else { %>
+      <td>
+        <%- attr[Object.keys(attr)[0]] %>
+      </td>
+    <% } %>
+  </tr>
+<% }); %>
+<% } %>
+</table>

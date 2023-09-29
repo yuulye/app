@@ -1,0 +1,39 @@
+<% items.forEach(function(item){ %>
+<div
+  class="DraggableDiv"
+  style="display: none"
+  id="draggable-<%- item.id %>"
+>
+  <div class="Header" style="position: relative">
+    <%- item.name %>
+    |
+    <% if (item.desc){ %>
+      <small><%- item.desc %></small>
+      <div class="price">
+        $ <%- item.price %>
+      </div>
+    <% } %>
+    <button class="close" onclick="closePopup(<%- item.id %>)">x</button>
+  </div>
+  <div class="Content" style="position: relative">
+    <img
+      style='width: 48px;position: absolute;right: 4px;'
+      src="/images/mlbb/equipment/<%- item.img %>"
+      title="<%- item.name %>"
+    />
+    <div style="position: absolute; right: 64px;">
+      <% if (item['tree']) { %>
+      <% item.tree.forEach(function(item) { %>
+        <img
+          style='width: 24px;'
+          src="/images/mlbb/equipment/<%- item.img %>"
+          title="<%- item.name %>"
+        />
+        &nbsp;
+      <% }); %>
+      <% } %>
+    </div>
+    <%- include('draggable/table', {item: item}) %>
+  </div>
+</div>
+<% }); %>

@@ -3,13 +3,10 @@
   <%- include(`head`) %>
   <body>
     <% let itemCount = 0 %>
-    <% const items = [] %>
     <% data.forEach(function(type){ %>
       <div style="border: 1px solid black;margin: 16px 0px;">
       <% type.items.forEach(function(item){ %>
         <% item.id = itemCount %>
-        <% item.info = equipment[item.id] %>
-        <% items.push(item) %>
         <%- include(`index/item`, {
           item: item, itemCount: itemCount
         }) %>
@@ -18,44 +15,8 @@
       </div>
     <% }); %>
 
-    <div class="DraggableDiv">
-      <div class="Header">
-        <%- items[0].name %>
-      </div>
-      <div class="Content" style="position: relative">
-        <img
-          style='width: 48px;position: absolute;right: 4px;'
-          src="/images/mlbb/equipment/<%- items[0].img %>"
-          title="<%- items[0].name %>"
-        />
-        <br/>
-        <span style="
-          border-radius: 15%;
-          color: yellow;
-          background: grey;
-          padding: 4px;
-        ">
-          $ <%- items[0].info.price %>
-        </span>
-        <br/><br/>
-        <table>
-        <% items[0].info.attributes.forEach(function(attr){ %>
-          <tr>
-            <td style="
-              width: 25%;
-              vertical-align: top;
-              font-size: 8px;
-              font-weight: bold;
-            "><%- Object.keys(attr)[0] %></td>
-            <td><%- JSON.stringify(
-              attr[Object.keys(attr)[0]]
-            )%></td>
-          </tr>
-        <% }); %>
-        </table>
-      </div>
-    </div>
+    <%- include(`index/draggable`, {items: equipment}) %>
 
-    <%- include(`script`, {items: items}) %>
+    <%- include(`script`, {items: equipment}) %>
   </body>
 </html>

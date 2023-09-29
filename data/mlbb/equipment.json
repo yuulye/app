@@ -1,7 +1,12 @@
 [
   {
     "name": "Sea Halberd",
+    "desc": "Healing Reduction",
     "price": "2050",
+    "tree": [
+      {"item": "Legion Sword"},
+      {"item": "Regular Spear"}
+    ],
     "attributes": [
       {"Physical Attack": 80},
       {"Attack Speed": "25%"},
