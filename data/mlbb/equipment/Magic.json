@@ -1,5 +1,9 @@
 [
   {
+    "name": "Flask of the Oasis",
+    "img": "Flask_of_the_Oasis.png"
+  },
+  {
     "name": "Genius Wand",
     "link": "/mobilelegends/Genius_Wand",
     "img": "/commons/images/c/c1/Item_Genius_Wand_ML.png"

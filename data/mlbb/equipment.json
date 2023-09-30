@@ -104,5 +104,236 @@
   },
   {
     "name": "Power Potion"
+  },
+  {
+    "name": "Radiant Armor"
+  },
+  {
+    "name": "Twilight Armor"
+  },
+  {
+    "name": "Brute Force Breastplate"
+  },
+  {
+    "name": "Immortality"
+  },
+  {
+    "name": "Dominance Ice",
+    "desc": "Healing & ATK Speed Reduction",
+    "price": "2010",
+    "tree": [
+      {"item": "Black Ice Shield"},
+      {"item": "Steel Legplates"}
+    ],
+    "attributes": [
+      {"Mana": 500},
+      {"Physical Defense": 70},
+      {"Movement Speed": "5%"},
+      {
+        "Unique Passive": [
+          {"Arctic Cold" : "Reduces the Attack Speed of nearby enemy heroes to 70% of normal."},
+          {"Lifebane": "Reduces the Shield and HP Regen effects of nearby enemy heroes to 50% of normal."}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Athena's Shield"
+  },
+  {
+    "name": "Oracle"
+  },
+  {
+    "name": "Antique Cuirass"
+  },
+  {
+    "name": "Guardian Helmet"
+  },
+  {
+    "name": "Cursed Helmet"
+  },
+  {
+    "name": "Thunder Belt"
+  },
+  {
+    "name": "Queen's Wings"
+  },
+  {
+    "name": "Blade Armor"
+  },
+  {
+    "name": "Steel Legplates"
+  },
+  {
+    "name": "Dreadnaught Armor"
+  },
+  {
+    "name": "Black Ice Shield"
+  },
+  {
+    "name": "Silence Robe"
+  },
+  {
+    "name": "Molten Essence"
+  },
+  {
+    "name": "Ares Belt"
+  },
+  {
+    "name": "Hero's Ring"
+  },
+  {
+    "name": "Healing Necklace"
+  },
+  {
+    "name": "Magic Resist Cloak"
+  },
+  {
+    "name": "Leather Jerkin"
+  },
+  {
+    "name": "Vitality Crystal"
+  },
+  {
+    "name": "Rock Potion"
+  },
+  {
+    "name": "Flame Retribution"
+  },
+  {
+    "name": "Ice Retribution"
+  },
+  {
+    "name": "Bloody Retribution"
+  },
+  {
+    "name": "Flask of the Oasis",
+    "desc": "Protect Teammates",
+    "price": "1850",
+    "tree": [
+      {"item": "Book of Sages"},
+      {"item": "Magic Wand"},
+      {"item": "Vitality Crystal"}
+    ],
+    "attributes": [
+      {"Magic Power": 60},
+      {"HP": 300},
+      {"Cooldown Reduction": "10%"},
+      {"Unique Attribute": "+12% Healing Effect"},
+      {
+        "Unique Passive": [
+          {"Blessing": "When casting a healing or shield skill, if the target's HP is below 35% or falls below 35% within 5s, they will get a 660-1500 shield that lasts 3s. When this effect triggers, it also reduces the cooldown of the caster's skill by 2s. This effect can only trigger once every 60s on the same target, and will not trigger on self-only healing and shield skills."}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Genius Wand"
+  },
+  {
+    "name": "Lightning Truncheon"
+  },
+  {
+    "name": "Fleeting Time"
+  },
+  {
+    "name": "Blood Wings"
+  },
+  {
+    "name": "Clock of Destiny"
+  },
+  {
+    "name": "Calamity Reaper"
+  },
+  {
+    "name": "Glowing Wand"
+  },
+  {
+    "name": "Ice Queen Wand"
+  },
+  {
+    "name": "Concentrated Energy"
+  },
+  {
+    "name": "Holy Crystal"
+  },
+  {
+    "name": "Divine Glaive"
+  },
+  {
+    "name": "Shadow Twinblades"
+  },
+  {
+    "name": "Necklace of Durance",
+    "desc": "Healing Reduction",
+    "price": "2010",
+    "tree": [
+      {"item": "Book of Sages"},
+      {"item": "Elegant Gem"},
+      {"item": "Mystery Codex"}
+    ],
+    "attributes": [
+      {"Magic Power": 60},
+      {"HP": 300},
+      {"Mana": 380},
+      {"Cooldown Reduction": "5%"},
+      {
+        "Unique Passive": [
+          {"Gift" : "Regenerates 20% Max HP and Mana over 2s after leveling up."},
+          {"Lifebane": "Dealing damage to a target will reduce the Shield and HP Regen effects on them to 50% of normal for 3s."}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Feather of Heaven"
+  },
+  {
+    "name": "Winter Truncheon"
+  },
+  {
+    "name": "Enchanted Talisman"
+  },
+  {
+    "name": "Elegant Gem"
+  },
+  {
+    "name": "Exotic Veil"
+  },
+  {
+    "name": "Azure Blade"
+  },
+  {
+    "name": "Tome of Evil"
+  },
+  {
+    "name": "Magic Wand"
+  },
+  {
+    "name": "Mystic Container"
+  },
+  {
+    "name": "Book of Sages"
+  },
+  {
+    "name": "Magic Necklace"
+  },
+  {
+    "name": "Power Crystal"
+  },
+  {
+    "name": "Mystery Codex"
+  },
+  {
+    "name": "Magic Potion"
+  },
+  {
+    "name": "Allow Throw"
+  },
+  {
+    "name": "Throw Forbidden"
+  },
+  {
+    "name": "Broken Heart"
   }
 ]

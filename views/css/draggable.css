@@ -1,9 +1,9 @@
 .DraggableDiv {
   position: fixed;
-  top: 32%;
+  top: 37%;
   left: 10%;
   width: 80%;
-  height: 36%;
+  height: 26%;
   border: 1px solid #000000;
   background: #beccf3;
   box-shadow: 5px 5px 3px 0px rgba(97,97,97,0.5);
@@ -15,7 +15,7 @@
  
 .DraggableDiv .Header {
   cursor: move;
-  font-size: 14px;
+  font-size: 10px;
   font-weight: bold;
   color: #ffffff;
   border-bottom: 1px solid #000000;
@@ -23,11 +23,11 @@
 }
 
 .DraggableDiv .Content {
-  font-size: 10px;
+  font-size: 7px;
 }
 
 td.title {
-  width: 25%;
+  width: 28%;
   vertical-align: top;
   font-weight: bold;
 }
@@ -40,8 +40,8 @@ div.price {
   position: absolute;
   display: inline-block;
   right: 32px;
-  top: 4px;
-  font-size: 10px;
+  top: 2px;
+  font-size: 8px;
   font-family: monospace;
 }
 
@@ -51,6 +51,6 @@ button.close {
   display: inline-block;
   right: 4px;
   top: 4px;
-  font-size: 10px;
+  font-size: 8px;
   font-family: monospace;
 }
