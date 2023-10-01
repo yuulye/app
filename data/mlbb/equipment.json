@@ -414,7 +414,22 @@
     "name": "Silence Robe"
   },
   {
-    "name": "Molten Essence"
+    "name": "Molten Essence",
+    "price": 800,
+    "builds": [
+      {"item": "Cursed Helmet"}
+    ],
+    "tree": [
+      {"item": "Vitality Crystal"}
+    ],
+    "attributes": [
+      {"HP": 540},
+      {
+        "Unique Passive": [
+          {"Burning Soul" : "Deals Magic Damage equal to 0.6% of the hero's Max HP per second to nearby enemies. This damage is increased by 140% to 350% against creeps and minions (scales with level)."}
+        ]
+      }
+    ]
   },
   {
     "name": "Ares Belt",

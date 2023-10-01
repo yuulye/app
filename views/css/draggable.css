@@ -9,7 +9,7 @@
   box-shadow: 5px 5px 3px 0px rgba(97,97,97,0.5);
 }
  
-.DraggableDiv div {
+.DraggableDiv > div {
   padding: 5px;
 }
  
@@ -53,4 +53,30 @@ button.close {
   top: 4px;
   font-size: 8px;
   font-family: monospace;
+}
+
+.DraggableDiv .Content div.images {
+  position: absolute;
+  padding: 0;
+  right: 2px;
+  top: 2px;
+  width: 50%;
+  text-align: center;
+}
+
+.DraggableDiv .Content div.images .tree {
+  position: absolute;
+  font-size: 5px;
+  bottom: 1px;
+  color: yellow;
+  background: grey;
+  width: 100%;
+  padding: .5px;
+}
+
+.DraggableDiv .Content div.images .itemWithPrice {
+  display: inline-block;
+  position: relative;
+  padding: 0;
+  text-align: center;
 }
