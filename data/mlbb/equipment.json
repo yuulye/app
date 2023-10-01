@@ -310,7 +310,20 @@
     "name": "Magic Wand"
   },
   {
-    "name": "Mystic Container"
+    "name": "Mystic Container",
+    "price": 500,
+    "builds": [
+      {"item": "Concentrated Energy"},
+      {"item": "Ice Queen Wand"},
+      {"item": "Starlium Scythe"}
+    ],
+    "tree": [
+      {"item": "Mystery Codex"}
+    ],
+    "attributes": [
+      {"Magic Power": 15},
+      {"Spell Vamp": "8%"}
+    ]
   },
   {
     "name": "Book of Sages"
@@ -322,7 +335,19 @@
     "name": "Power Crystal"
   },
   {
-    "name": "Mystery Codex"
+    "name": "Mystery Codex",
+    "price": 300,
+    "builds": [
+      {"item": "Mystic Container"},
+      {"item": "Magic Wand"},
+      {"item": "Tome of Evil"},
+      {"item": "Exotic Veil"},
+      {"item": "Glowing Wand"},
+      {"item": "Necklace of Durance"}
+    ],
+    "attributes": [
+      {"Magic Power": 15}
+    ]
   },
   {
     "name": "Magic Potion"
