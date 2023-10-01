@@ -252,7 +252,24 @@
     "name": "Ice Queen Wand"
   },
   {
-    "name": "Concentrated Energy"
+    "name": "Concentrated Energy",
+    "desc": "Continuous Damage Boost",
+    "price": 2020,
+    "tree": [
+      {"item": "Magic Wand"},
+      {"item": "Vitality Crystal"},
+      {"item": "Mystic Container"}
+    ],
+    "attributes": [
+      {"Magic Power": 70},
+      {"HP": 700},
+      {"Unique Attribute": "+20% Spell Vamp"},
+      {
+        "Unique Passive": [
+          {"Recharge": "Increases Magic Power by 5 after dealing Magic Damage (this effect stacks up to 6 times and can only gain 1 stack every 0.4s). When reaching full stacks, increases Magic Damage by 12% for 3s."}
+        ]
+      }
+    ]
   },
   {
     "name": "Holy Crystal"

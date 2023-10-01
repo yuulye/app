@@ -1,18 +1,50 @@
 <div
-  style="display: inline-block;padding: 16px;"
+  style="
+    float: left;
+    display: inline-block;
+    margin: 16px;
+    height: 96px;
+    box-sizing: border-box;
+    position: relative;
+  "
   onclick="item(<%- itemCount %>)"
   id="itemID-<%- itemCount %>"
 >
   <img
-    style='width: 48px'
+    style='width: 44px'
     src="/images/mlbb/equipment/<%- item.img %>"
     title="<%- item.name %>"
     tooltip="<%- item.name %>"
   />
   <div
-    style="text-align: center;font-size: 10px;"
-    class="cut-text"
+    style="
+      text-align: center;
+      font-size: 6px;
+      width: 44px;
+      height: 32px;
+      padding-top: 4px;
+    "
   >
     <%- item.name %>
+    <% if (equipment && equipment.desc) { %>
+      <hr/>
+      <small>
+        <%- equipment.desc %>
+      </small>
+    <% } %>
   </div>
+  <% if (equipment && equipment.price) { %>
+    <div style="
+      font-size: 8px;
+      text-align: center;
+      background: grey;
+      color: yellow;
+      display: inline-block;
+      position: absolute;
+      top: 42px;
+      width: 100%;
+    ">
+      $ <%- equipment.price %>
+    </div>
+  <% } %>
 </div>

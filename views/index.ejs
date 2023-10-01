@@ -4,11 +4,17 @@
   <body>
     <% let itemCount = 0 %>
     <% data.forEach(function(type){ %>
-      <div style="border: 1px solid black;margin: 16px 0px;">
+      <div style="
+        border: 1px solid rgba(0, 0, 0, .1);
+        margin: 64px 0px;
+        overflow: auto;
+      ">
       <% type.items.forEach(function(item){ %>
         <% item.id = itemCount %>
         <%- include(`index/item`, {
-          item: item, itemCount: itemCount
+          item: item
+          , itemCount: itemCount
+          , equipment: equipment[itemCount]
         }) %>
         <% itemCount++ %>
       <% }); %>
