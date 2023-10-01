@@ -99,7 +99,19 @@
     "name": "Javelin"
   },
   {
-    "name": "Knife"
+    "name": "Knife",
+    "price": 280,
+    "builds": [
+      {"item": "Regular Spear"},
+      {"item": "Swift Crossbow"},
+      {"item": "Rogue Meteor"},
+      {"item": "Demon Hunter Sword"},
+      {"item": "Swift Boots"},
+      {"item": "Windtalker"}
+    ],
+    "attributes": [
+      {"Attack Speed": "10%"}
+    ]
   },
   {
     "name": "Dagger"

@@ -37,6 +37,7 @@ router.get('/', function(req, res, next) {
 
     for (let k = 0; k < equipment.length; k++) {
       Object.assign(equipment[k], items[k]);
+      equipment[k].calculatedPrice = equipment[k].price;
       const clone = JSON.parse(JSON.stringify(equipment[k]));
       Object.assign(items[k], clone);
     }
