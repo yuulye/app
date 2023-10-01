@@ -16,41 +16,45 @@
     <button class="close" onclick="closePopup(<%- item.id %>)">x</button>
   </div>
   <div class="Content" style="position: relative">
-    <img
-      style='width: 32px;position: absolute;right: 4px;'
-      src="/images/mlbb/equipment/<%- item.img %>"
-      title="<%- item.name %>"
-    />
 
-    <% if (item['builds']) { %>
-      <div style="
-        position: absolute;
-        right: 48px;
-        width: 50%;
-      ">
-        <% item.builds.forEach(function(item) { %>
-          <img
-            style='width: 24px;'
-            src="/images/mlbb/equipment/<%- item.img %>"
-            title="<%- item.name %>"
-          />
-          &nbsp;
-        <% }); %>
-      </div>
-    <% } %>
+    <div style="
+      position: absolute;
+      padding: 0;
+      right: 2px;
+      top: 2px;
+      width: 50%;
+      text-align: center;
+    ">
+      <% if (item['builds']) { %>
+        <div>
+          <% item.builds.forEach(function(item) { %>
+            <img
+              style='width: 16px;'
+              src="/images/mlbb/equipment/<%- item.img %>"
+              title="<%- item.name %>"
+            />
+          <% }); %>
+        </div>
+      <% } %>
 
-    <% if (item['tree']) { %>
-      <div style="position: absolute; right: 48px;">
-        <% item.tree.forEach(function(item) { %>
-          <img
-            style='width: 24px;'
-            src="/images/mlbb/equipment/<%- item.img %>"
-            title="<%- item.name %>"
-          />
-          &nbsp;
-        <% }); %>
-      </div>
-    <% } %>
+      <img
+        style="width: 24px;"
+        src="/images/mlbb/equipment/<%- item.img %>"
+        title="<%- item.name %>"
+      />
+
+      <% if (item['tree']) { %>
+        <div>
+          <% item.tree.forEach(function(item) { %>
+            <img
+              style='width: 16px;'
+              src="/images/mlbb/equipment/<%- item.img %>"
+              title="<%- item.name %>"
+            />
+          <% }); %>
+        </div>
+      <% } %>
+    </div>
 
     <%- include('draggable/table', {item: item}) %>
   </div>

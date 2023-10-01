@@ -403,19 +403,81 @@
     "name": "Molten Essence"
   },
   {
-    "name": "Ares Belt"
+    "name": "Ares Belt",
+    "price": 900,
+    "tree": [
+      {"item": "Vitality Crystal"}
+    ],
+    "builds": [
+      {"item": "Guardian Helmet"},
+      {"item": "Antique Cuirass"},
+      {"item": "Immortality"},
+      {"item": "Twilight Armor"},
+      {"item": "Thunder Belt"},
+      {"item": "Queen's Wings"},
+      {"item": "Radiant Armor"}
+    ],
+    "attributes": [
+      {"HP": 770}
+    ]
   },
   {
-    "name": "Hero's Ring"
+    "name": "Hero's Ring",
+    "price": 450,
+    "builds": [
+      {"item": "Oracle"},
+      {"item": "War Axe"},
+      {"item": "Queen's Wings"},
+      {"item": "Brute Force Breastplate"},
+      {"item": "Fleeting Time"}
+    ],
+    "attributes": [
+      {"HP": 150},
+      {"Cooldown Reduction": "5%"}
+    ]
   },
   {
-    "name": "Healing Necklace"
+    "name": "Healing Necklace",
+    "price": 140,
+    "builds": [
+      {"item": "Guardian Helmet"},
+      {"item": "Radiant Armor"}
+    ],
+    "attributes": [
+      {"HP Regen": 4}
+    ]
   },
   {
-    "name": "Magic Resist Cloak"
+    "name": "Magic Resist Cloak",
+    "price": 220,
+    "builds": [
+      {"item": "Magic Blade"},
+      {"item": "Silence Robe"},
+      {"item": "Tough Boots"},
+      {"item": "Cursed Helmet"},
+      {"item": "Radiant Armor"}
+    ],
+    "attributes": [
+      {"Magic Defense": 18}
+    ]
   },
   {
-    "name": "Leather Jerkin"
+    "name": "Leather Jerkin",
+    "price": 220,
+    "builds": [
+      {"item": "Black Ice Shield"},
+      {"item": "Dreadnaught Armor"},
+      {"item": "Steel Legplates"},
+      {"item": "Blade Armor"},
+      {"item": "Immortality"},
+      {"item": "Warrior Boots"},
+      {"item": "Thunder Belt"},
+      {"item": "Brute Force Breastplate"},
+      {"item": "Twilight Armor"}
+    ],
+    "attributes": [
+      {"Physical Defense": 18}
+    ]
   },
   {
     "name": "Vitality Crystal",
