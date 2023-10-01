@@ -267,7 +267,26 @@
     "name": "Exotic Veil"
   },
   {
-    "name": "Azure Blade"
+    "name": "Azure Blade",
+    "price": 600,
+    "builds": [
+      {"item": "Endless Battle"},
+      {"item": "Starlium Scythe"},
+      {"item": "Thunder Belt"}
+    ],
+    "tree": [
+      {"item": "Magic Necklace"},
+      {"item": "Magic Necklace"}
+    ],
+    "attributes": [
+      {"Mana Regen": 5},
+      {"Cooldown Reduction": "5%"},
+      {
+        "Unique Passive": [
+          {"Judgement" : "After casting a skill, the next Basic Attack within 3s deals 50 extra True Damage (1.5s cooldown)."}
+        ]
+      }
+    ]
   },
   {
     "name": "Tome of Evil"
@@ -387,31 +406,169 @@
     "name": "Antique Cuirass"
   },
   {
-    "name": "Guardian Helmet"
+    "name": "Guardian Helmet",
+    "desc": "Constant HP Regen",
+    "price": 2200,
+    "tree": [
+      {"item": "Ares Belt"},
+      {"item": "Healing Necklace"},
+      {"item": "Ares Belt"}
+    ],
+    "attributes": [
+      {"HP": 1550},
+      {"HP Regen": 20},
+      {
+        "Unique Passive": [
+          {"Recovery" : "Regenerates 2.5% Max HP per second (reduced to 0.5% Max HP per second over 5s after taking damage)."}
+        ]
+      }
+    ]
   },
   {
-    "name": "Cursed Helmet"
+    "name": "Cursed Helmet",
+    "desc": "Survivability & Lane Clearing",
+    "price": 1760,
+    "tree": [
+      {"item": "Molten Essence"},
+      {"item": "Magic Resist Cloak"}
+    ],
+    "attributes": [
+      {"HP": 1200},
+      {"Magic Defense": 25},
+      {
+        "Unique Passive": [
+          {"Burning Soul" : "Deals Magic Damage equal to 1.2% of the hero's Max HP per second to nearby enemies. This damage is increased by 140% to 350% against creeps and minions (scales with level)."}
+        ]
+      }
+    ]
   },
   {
-    "name": "Thunder Belt"
+    "name": "Thunder Belt",
+    "desc": "AOE Slow on Hit",
+    "price": 1990,
+    "tree": [
+      {"item": "Ares Belt"},
+      {"item": "Leather Jerkin"},
+      {"item": "Azure Blade"}
+    ],
+    "attributes": [
+      {"HP": 800},
+      {"Physical Defense": 40},
+      {"Cooldown Reduction": "10%"},
+      {"Mana Regen": 10},
+      {
+        "Unique Passive": [
+          {"Thunderbolt" : "After casting a skill, the next Basic Attack within 3s deals 50 plus 5% of the hero's extra HP as extra True Damage to the target and enemies around them and slows them by 40-80% (scales with the hero's extra HP) for 1s (1.5s cooldown)."}
+        ]
+      }
+    ]
   },
   {
-    "name": "Queen's Wings"
+    "name": "Queen's Wings",
+    "desc": "Damage Reduction",
+    "price": 2250,
+    "tree": [
+      {"item": "Ares Belt"},
+      {"item": "Hero's Ring"}
+    ],
+    "attributes": [
+      {"HP": 1000},
+      {"Cooldown Reduction": "10%"},
+      {"Spell Vamp": "5%"},
+      {
+        "Unique Passive": [
+          {"Demonize" : "When HP drops below 40%, gains 20% Damage Reduction and 35% extra Spell Vamp for 5s (60s cooldown)."}
+        ]
+      }
+    ]
   },
   {
-    "name": "Blade Armor"
+    "name": "Blade Armor",
+    "desc": "Damage Reflection",
+    "price": 1910,
+    "tree": [
+      {"item": "Leather Jerkin"},
+      {"item": "Steel Legplates"},
+      {"item": "Leather Jerkin"}
+    ],
+    "attributes": [
+      {"Physical Defense": 90},
+      {"Unique Attribute": "+20% Crit Damage Reduction"},
+      {
+        "Unique Passive": [
+          {"Bladed Armor" : "When struck by a Basic Attack, deals Physical Damage equal to 30% of the incoming damage (calculated before Damage Reduction) plus 20% of the hero's Physical Defense to the attacker and slows them by 15% for 1s."}
+        ]
+      }
+    ]
   },
   {
-    "name": "Steel Legplates"
+    "name": "Steel Legplates",
+    "price": 630,
+    "builds": [
+      {"item": "Blade Armor"},
+      {"item": "Dominance Ice"}
+    ],
+    "tree": [
+      {"item": "Leather Jerkin"}
+    ],
+    "attributes": [
+      {"Physical Defense": 45}
+    ]
   },
   {
-    "name": "Dreadnaught Armor"
+    "name": "Dreadnaught Armor",
+    "price": 730,
+    "builds": [
+      {"item": "Antique Cuirass"}
+    ],
+    "tree": [
+      {"item": "Leather Jerkin"},
+      {"item": "Leather Jerkin"}
+    ],
+    "attributes": [
+      {"Physical Defense": 40},
+      {
+        "Unique Passive": [
+          {"Deter" : "When hit by a skill, reduces the attacker's Physical Damage by 4% for 2s (this effect stacks up to 3 times)."}
+        ]
+      }
+    ]
   },
   {
-    "name": "Black Ice Shield"
+    "name": "Black Ice Shield",
+    "price": 880,
+    "builds": [
+      {"item": "Dominance Ice"}
+    ],
+    "tree": [
+      {"item": "Leather Jerkin"},
+      {"item": "Power Crystal"}
+    ],
+    "attributes": [
+      {"Mana": 400},
+      {"Physical Defense": 22},
+      {
+        "Unique Passive": [
+          {"Arctic Cold" : "Reduces the Attack Speed of nearby enemy heroes to 85% of normal."}
+        ]
+      }
+    ]
   },
   {
-    "name": "Silence Robe"
+    "name": "Silence Robe",
+    "price": 1020,
+    "builds": [
+      {"item": "Oracle"},
+      {"item": "Athena's Shield"}
+    ],
+    "tree": [
+      {"item": "Vitality Crystal"},
+      {"item": "Magic Resist Cloak"}
+    ],
+    "attributes": [
+      {"HP": 540},
+      {"Magic Defense": 30}
+    ]
   },
   {
     "name": "Molten Essence",
