@@ -37,7 +37,13 @@ router.get('/', function(req, res, next) {
 
     for (let k = 0; k < equipment.length; k++) {
       Object.assign(equipment[k], items[k]);
+      const clone = JSON.parse(JSON.stringify(equipment[k]));
+      Object.assign(items[k], clone);
+    }
+
+    for (let k = 0; k < equipment.length; k++) {
       if (!equipment[k].tree) continue;
+      equipment[k].totalPrice = 0;
       for (let l = 0; l < equipment[k].tree.length; l++) {
         for (let i = 0; i < data.length; i++) {
           for (let j = 0; j < data[i].items.length; j++) {
@@ -45,15 +51,18 @@ router.get('/', function(req, res, next) {
               data[i].items[j].name == equipment[k].tree[l].item
             ) {
               equipment[k].tree[l] = data[i].items[j];
+              if (data[i].items[j].price)
+                equipment[k].totalPrice += data[i].items[j].price;
               break;
             }
           }
         }
       }
+      equipment[k].calculatedPrice =
+        equipment[k].price - equipment[k].totalPrice;
     }
 
     for (let k = 0; k < equipment.length; k++) {
-      Object.assign(equipment[k], items[k]);
       if (!equipment[k].builds) continue;
       for (let l = 0; l < equipment[k].builds.length; l++) {
         for (let i = 0; i < data.length; i++) {

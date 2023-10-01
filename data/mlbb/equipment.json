@@ -82,10 +82,12 @@
     "name": "Ogre Tomahawk"
   },
   {
-    "name": "Legion Sword"
+    "name": "Legion Sword",
+    "price": 1000
   },
   {
-    "name": "Regular Spear"
+    "name": "Regular Spear",
+    "price": 500
   },
   {
     "name": "Iron Hunting Bow"

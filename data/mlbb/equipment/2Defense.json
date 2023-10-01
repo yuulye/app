@@ -111,11 +111,13 @@
   },
   {
     "name": "Leather Jerkin",
+    "price": 220,
     "link": "/mobilelegends/Leather_Jerkin",
     "img": "/commons/images/2/20/Item_Leather_Jerkin_ML.png"
   },
   {
     "name": "Vitality Crystal",
+    "price": 300,
     "link": "/mobilelegends/Vitality_Crystal",
     "img": "/commons/images/2/2f/Item_Vitality_Crystal_ML.png"
   },

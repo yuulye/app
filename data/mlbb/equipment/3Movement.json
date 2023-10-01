@@ -36,6 +36,7 @@
   },
   {
     "name": "Boots",
+    "price": 250,
     "link": "/mobilelegends/Boots",
     "img": "/commons/images/e/e4/Item_Boots_ML.png"
   }
