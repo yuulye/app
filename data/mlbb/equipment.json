@@ -106,126 +106,6 @@
     "name": "Power Potion"
   },
   {
-    "name": "Radiant Armor"
-  },
-  {
-    "name": "Twilight Armor"
-  },
-  {
-    "name": "Brute Force Breastplate"
-  },
-  {
-    "name": "Immortality"
-  },
-  {
-    "name": "Dominance Ice",
-    "desc": "Healing & ATK Speed Reduction",
-    "price": "2010",
-    "tree": [
-      {"item": "Black Ice Shield"},
-      {"item": "Steel Legplates"}
-    ],
-    "attributes": [
-      {"Mana": 500},
-      {"Physical Defense": 70},
-      {"Movement Speed": "5%"},
-      {
-        "Unique Passive": [
-          {"Arctic Cold" : "Reduces the Attack Speed of nearby enemy heroes to 70% of normal."},
-          {"Lifebane": "Reduces the Shield and HP Regen effects of nearby enemy heroes to 50% of normal."}
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Athena's Shield"
-  },
-  {
-    "name": "Oracle"
-  },
-  {
-    "name": "Antique Cuirass"
-  },
-  {
-    "name": "Guardian Helmet"
-  },
-  {
-    "name": "Cursed Helmet"
-  },
-  {
-    "name": "Thunder Belt"
-  },
-  {
-    "name": "Queen's Wings"
-  },
-  {
-    "name": "Blade Armor"
-  },
-  {
-    "name": "Steel Legplates"
-  },
-  {
-    "name": "Dreadnaught Armor"
-  },
-  {
-    "name": "Black Ice Shield"
-  },
-  {
-    "name": "Silence Robe"
-  },
-  {
-    "name": "Molten Essence"
-  },
-  {
-    "name": "Ares Belt"
-  },
-  {
-    "name": "Hero's Ring"
-  },
-  {
-    "name": "Healing Necklace"
-  },
-  {
-    "name": "Magic Resist Cloak"
-  },
-  {
-    "name": "Leather Jerkin"
-  },
-  {
-    "name": "Vitality Crystal",
-    "price": 300,
-    "builds": [
-      {"item": "Ogre Tomahawk"},
-      {"item": "Elegant Gem"},
-      {"item": "Winter Truncheon"},
-      {"item": "Ares Belt"},
-      {"item": "Molten Essence"},
-      {"item": "Silence Robe"},
-      {"item": "Blade of the Heptaseas"},
-      {"item": "Concentrated Energy"},
-      {"item": "Glowing Wand"},
-      {"item": "Flask of the Oasis"},
-      {"item": "Athena's Shield"},
-      {"item": "Twilight Armor"},
-      {"item": "Brute Force Breastplate"}
-    ],
-    "attributes": [
-      {"HP": 230}
-    ]
-  },
-  {
-    "name": "Rock Potion"
-  },
-  {
-    "name": "Flame Retribution"
-  },
-  {
-    "name": "Ice Retribution"
-  },
-  {
-    "name": "Bloody Retribution"
-  },
-  {
     "name": "Flask of the Oasis",
     "desc": "Protect Teammates",
     "price": "1850",
@@ -452,6 +332,117 @@
     "name": "Broken Heart"
   },
   {
+    "name": "Radiant Armor"
+  },
+  {
+    "name": "Twilight Armor"
+  },
+  {
+    "name": "Brute Force Breastplate"
+  },
+  {
+    "name": "Immortality"
+  },
+  {
+    "name": "Dominance Ice",
+    "desc": "Healing & ATK Speed Reduction",
+    "price": "2010",
+    "tree": [
+      {"item": "Black Ice Shield"},
+      {"item": "Steel Legplates"}
+    ],
+    "attributes": [
+      {"Mana": 500},
+      {"Physical Defense": 70},
+      {"Movement Speed": "5%"},
+      {
+        "Unique Passive": [
+          {"Arctic Cold" : "Reduces the Attack Speed of nearby enemy heroes to 70% of normal."},
+          {"Lifebane": "Reduces the Shield and HP Regen effects of nearby enemy heroes to 50% of normal."}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Athena's Shield"
+  },
+  {
+    "name": "Oracle"
+  },
+  {
+    "name": "Antique Cuirass"
+  },
+  {
+    "name": "Guardian Helmet"
+  },
+  {
+    "name": "Cursed Helmet"
+  },
+  {
+    "name": "Thunder Belt"
+  },
+  {
+    "name": "Queen's Wings"
+  },
+  {
+    "name": "Blade Armor"
+  },
+  {
+    "name": "Steel Legplates"
+  },
+  {
+    "name": "Dreadnaught Armor"
+  },
+  {
+    "name": "Black Ice Shield"
+  },
+  {
+    "name": "Silence Robe"
+  },
+  {
+    "name": "Molten Essence"
+  },
+  {
+    "name": "Ares Belt"
+  },
+  {
+    "name": "Hero's Ring"
+  },
+  {
+    "name": "Healing Necklace"
+  },
+  {
+    "name": "Magic Resist Cloak"
+  },
+  {
+    "name": "Leather Jerkin"
+  },
+  {
+    "name": "Vitality Crystal",
+    "price": 300,
+    "builds": [
+      {"item": "Ogre Tomahawk"},
+      {"item": "Elegant Gem"},
+      {"item": "Winter Truncheon"},
+      {"item": "Ares Belt"},
+      {"item": "Molten Essence"},
+      {"item": "Silence Robe"},
+      {"item": "Blade of the Heptaseas"},
+      {"item": "Concentrated Energy"},
+      {"item": "Glowing Wand"},
+      {"item": "Flask of the Oasis"},
+      {"item": "Athena's Shield"},
+      {"item": "Twilight Armor"},
+      {"item": "Brute Force Breastplate"}
+    ],
+    "attributes": [
+      {"HP": 230}
+    ]
+  },
+  {
+    "name": "Rock Potion"
+  },
+  {
     "name": "Demon Shoes",
     "desc": "Quick Mana Regen",
     "price": 720,
@@ -570,5 +561,14 @@
     "attributes": [
       {"Movement Speed": 20}
     ]
+  },
+  {
+    "name": "Flame Retribution"
+  },
+  {
+    "name": "Ice Retribution"
+  },
+  {
+    "name": "Bloody Retribution"
   }
 ]
