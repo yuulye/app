@@ -243,7 +243,25 @@
     "name": "Clock of Destiny"
   },
   {
-    "name": "Calamity Reaper"
+    "name": "Starlium Scythe",
+    "desc": "Enhanced Basic Attacks",
+    "price": 2220,
+    "tree": [
+      {"item": "Magic Wand"},
+      {"item": "Mystic Container"},
+      {"item": "Azure Blade"}
+    ],
+    "attributes": [
+      {"Magic Power": 70},
+      {"Cooldown Reduction": "10%"},
+      {"Hybrid Lifesteal": "8%"},
+      {"Mana Regen": "6%"},
+      {
+        "Unique Passive": [
+          {"Crisis": "Within 3s after casting a skill, the caster's next Basic Attack will deal additional True Damage equal to 100 plus 100% Magic Power and briefly grant 10% Movement Speed. This effect has a 1.5s cooldown."}
+        ]
+      }
+    ]
   },
   {
     "name": "Glowing Wand"
@@ -303,7 +321,25 @@
     ]
   },
   {
-    "name": "Feather of Heaven"
+    "name": "Feather of Heaven",
+    "desc": "Magic Basic Attacks",
+    "price": 2030,
+    "tree": [
+      {"item": "Swift Crossbow"},
+      {"item": "Book of Sages"}
+    ],
+    "attributes": [
+      {"Magic Power": 55},
+      {"Attack Speed": "20%"},
+      {"Lifesteal": "10%"},
+      {"Cooldown Reduction": "5%"},
+      {
+        "Unique Passive": [
+          {"Affliction" : "Basic Attacks deal extra Magic Damage equal to 50 plus 30% of the hero's Magic Power."},
+          {"Impulse": "Basic Attacks grant 6% extra Attack Speed for 3s, capped at 5 stacks."}
+        ]
+      }
+    ]
   },
   {
     "name": "Winter Truncheon"
@@ -346,10 +382,28 @@
     "name": "Book of Sages"
   },
   {
-    "name": "Magic Necklace"
+    "name": "Magic Necklace",
+    "price": 120,
+    "builds": [
+      {"item": "Azure Blade"},
+      {"item": "Enchanted Talisman"},
+      {"item": "Demon Shoes"}
+    ],
+    "attributes": [
+      {"Mana": 280}
+    ]
   },
   {
-    "name": "Power Crystal"
+    "name": "Power Crystal",
+    "price": 220,
+    "builds": [
+      {"item": "Elegant Gem"},
+      {"item": "Black Ice Shield"},
+      {"item": "Lightning Truncheon"}
+    ],
+    "attributes": [
+      {"Mana": 280}
+    ]
   },
   {
     "name": "Mystery Codex",
@@ -377,5 +431,125 @@
   },
   {
     "name": "Broken Heart"
+  },
+  {
+    "name": "Demon Shoes",
+    "desc": "Quick Mana Regen",
+    "price": 720,
+    "tree": [
+      {"item": "Magic Necklace"},
+      {"item": "Boots"},
+      {"item": "Magic Necklace"}
+    ],
+    "attributes": [
+      {"Movement Speed": 40},
+      {"Mana Regen": 10}
+    ]
+  },
+  {
+    "name": "Rapid Boots",
+    "desc": "Movement Speed",
+    "price": 750,
+    "tree": [
+      {"item": "Boots"}
+    ],
+    "attributes": [
+      {"Movement Speed": 65},
+      {"Slow Reduction": "35%"},
+      {
+        "Unique Passive": [
+          {"Side Effect" : "Loses 25 Movement Speed for 5s upon dealing or taking damage."}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Swift Boots",
+    "desc": "Attack Speed",
+    "price": 710,
+    "tree": [
+      {"item": "Boots"},
+      {"item": "Knife"}
+    ],
+    "attributes": [
+      {"Movement Speed": 40},
+      {"Attack Speed": "15%"}
+    ]
+  },
+  {
+    "name": "Arcane Boots",
+    "desc": "Magic Penetration",
+    "price": 690,
+    "tree": [
+      {"item": "Boots"}
+    ],
+    "attributes": [
+      {"Movement Speed": 40},
+      {"Magic Penetration": "10"}
+    ]
+  },
+  {
+    "name": "Magic Shoes",
+    "desc": "CD Reduction",
+    "price": 710,
+    "tree": [
+      {"item": "Boots"}
+    ],
+    "attributes": [
+      {"Movement Speed": 40},
+      {"Cooldown Reduction": "10%"}
+    ]
+  },
+  {
+    "name": "Tough Boots",
+    "desc": "Resilience",
+    "price": 700,
+    "tree": [
+      {"item": "Boots"},
+      {"item": "Magic Resist Cloak"}
+    ],
+    "attributes": [
+      {"Movement Speed": 40},
+      {"Magic Defense": 22},
+      {
+        "Unique Passive": [
+          {"Fortitude" : "CC and Slow Duration reduced by 30%"}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Warrior Boots",
+    "desc": "Stackable Physical Defense",
+    "price": 720,
+    "tree": [
+      {"item": "Boots"},
+      {"item": "Leather Jerkin"}
+    ],
+    "attributes": [
+      {"Movement Speed": 40},
+      {"Physical Defense": 22},
+      {
+        "Unique Passive": [
+          {"Valor" : "Gains 4 extra Physical Defense for 3s when taking Physical Damage, up to 20."}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Boots",
+    "price": 250,
+    "builds": [
+      {"item": "Warrior Boots"},
+      {"item": "Tough Boots"},
+      {"item": "Magic Shoes"},
+      {"item": "Arcane Boots"},
+      {"item": "Swift Boots"},
+      {"item": "Rapid Boots"},
+      {"item": "Demon Shoes"}
+    ],
+    "attributes": [
+      {"Movement Speed": 20}
+    ]
   }
 ]
