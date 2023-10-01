@@ -52,6 +52,23 @@ router.get('/', function(req, res, next) {
       }
     }
 
+    for (let k = 0; k < equipment.length; k++) {
+      Object.assign(equipment[k], items[k]);
+      if (!equipment[k].builds) continue;
+      for (let l = 0; l < equipment[k].builds.length; l++) {
+        for (let i = 0; i < data.length; i++) {
+          for (let j = 0; j < data[i].items.length; j++) {
+            if (
+              data[i].items[j].name == equipment[k].builds[l].item
+            ) {
+              equipment[k].builds[l] = data[i].items[j];
+              break;
+            }
+          }
+        }
+      }
+    }
+
     res.render('index', {
       title: 'Express'
       , data: data

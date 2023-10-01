@@ -21,18 +21,37 @@
       src="/images/mlbb/equipment/<%- item.img %>"
       title="<%- item.name %>"
     />
-    <div style="position: absolute; right: 64px;">
-      <% if (item['tree']) { %>
-      <% item.tree.forEach(function(item) { %>
-        <img
-          style='width: 24px;'
-          src="/images/mlbb/equipment/<%- item.img %>"
-          title="<%- item.name %>"
-        />
-        &nbsp;
-      <% }); %>
-      <% } %>
-    </div>
+
+    <% if (item['builds']) { %>
+      <div style="
+        position: absolute;
+        right: 48px;
+        width: 50%;
+      ">
+        <% item.builds.forEach(function(item) { %>
+          <img
+            style='width: 24px;'
+            src="/images/mlbb/equipment/<%- item.img %>"
+            title="<%- item.name %>"
+          />
+          &nbsp;
+        <% }); %>
+      </div>
+    <% } %>
+
+    <% if (item['tree']) { %>
+      <div style="position: absolute; right: 48px;">
+        <% item.tree.forEach(function(item) { %>
+          <img
+            style='width: 24px;'
+            src="/images/mlbb/equipment/<%- item.img %>"
+            title="<%- item.name %>"
+          />
+          &nbsp;
+        <% }); %>
+      </div>
+    <% } %>
+
     <%- include('draggable/table', {item: item}) %>
   </div>
 </div>

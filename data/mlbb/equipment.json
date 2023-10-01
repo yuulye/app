@@ -192,7 +192,26 @@
     "name": "Leather Jerkin"
   },
   {
-    "name": "Vitality Crystal"
+    "name": "Vitality Crystal",
+    "price": 300,
+    "builds": [
+      {"item": "Ogre Tomahawk"},
+      {"item": "Elegant Gem"},
+      {"item": "Winter Truncheon"},
+      {"item": "Ares Belt"},
+      {"item": "Molten Essence"},
+      {"item": "Silence Robe"},
+      {"item": "Blade of the Heptaseas"},
+      {"item": "Concentrated Energy"},
+      {"item": "Glowing Wand"},
+      {"item": "Flask of the Oasis"},
+      {"item": "Athena's Shield"},
+      {"item": "Twilight Armor"},
+      {"item": "Brute Force Breastplate"}
+    ],
+    "attributes": [
+      {"HP": 230}
+    ]
   },
   {
     "name": "Rock Potion"
