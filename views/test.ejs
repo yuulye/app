@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML to Image with JavaScript</title>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+  </head>
+  <body>
+    <div id="my-element">
+      <h1>Hello, world!</h1>
+      <p>This is some sample text that will be converted to an image.</p>
+      <ul>
+        <li>softcodeon 1</li>
+        <li>softcodeon 2</li>
+        <li>softcodeon 3</li>
+      </ul>
+      <img src="https://picsum.photos/200/300" alt="Random Image">
+    </div>
+
+    <canvas id="my-canvas"></canvas>
+    <button onclick="saveImage()">Save Image</button>
+
+    <script>
+      function saveImage() {
+        const element = document.getElementById("my-element");
+        const canvas = document.getElementById("my-canvas");
+
+        html2canvas(element).then(function(canvas) {
+          const dataURL = canvas.toDataURL();
+          const link = document.createElement("a");
+          link.download = "image.png";
+          link.href = dataURL;
+          link.click();
+        });
+      }
+    </script>
+  </body>
+</html>

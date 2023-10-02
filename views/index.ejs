@@ -2,6 +2,20 @@
 <html>
   <%- include(`head`) %>
   <body>
+    <canvas style="position: absolute;" id="my-canvas"></canvas>
+    <button
+      style="
+        background: green;
+        color: white;
+        font-size: 2em;
+        position: fixed;
+        z-index: 1000;
+        bottom: 2px;
+        left: 2px;
+      "
+      onclick="saveImage()"
+    >&#8659;</button>
+
     <% let itemCount = 0 %>
     <% data.forEach(function(type){ %>
       <div style="
@@ -24,5 +38,9 @@
     <%- include(`index/draggable`, {items: equipment}) %>
 
     <%- include(`script`, {items: equipment}) %>
+    <script
+      src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"
+    ></script>
+
   </body>
 </html>
