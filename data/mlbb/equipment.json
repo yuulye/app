@@ -351,10 +351,39 @@
     "name": "Broken Heart"
   },
   {
-    "name": "Radiant Armor"
+    "name": "Radiant Armor",
+    "desc": "Magic Damage  Reduction",
+    "price": 1880,
+    "tree": [
+      {"item": "Magic Resist Cloak"},
+      {"item": "Ares Belt"},
+      {"item": "Healing Necklace"}
+    ],
+    "attributes": [
+      {"HP": 950},
+      {"Magic Defense": 52},
+      {"HP Regen": 12}
+    ],
+    "uniquePassive": [
+      {"Holy Blessing" : "Taking Magic Damage grants 5-8 Magic Damage Reduction (scales with level) for 3s, capped at 6 stacks."}
+    ]
   },
   {
-    "name": "Twilight Armor"
+    "name": "Twilight Armor",
+    "desc": "Reduce Single Burst",
+    "price": 2100,
+    "tree": [
+      {"item": "Vitality Crystal"},
+      {"item": "Ares Belt"},
+      {"item": "Leather Jerkin"}
+    ],
+    "attributes": [
+      {"HP": 1200},
+      {"Physical Defense": 20}
+    ],
+    "uniquePassive": [
+      {"Twilight" : "Upon taking more  than 600 damage in a single instance, the excess damage beyond that amount is reduced by 150 + 15% of Max HP. This effect has a 5s cooldown."}
+    ]
   },
   {
     "name": "Brute Force Breastplate",
