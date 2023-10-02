@@ -1,38 +1,53 @@
 .DraggableDiv {
   position: fixed;
-  top: 37%;
+  top: 38%;
+  height: 24%;
   left: 10%;
   width: 80%;
-  height: 26%;
   border: 1px solid #000000;
   background: #beccf3;
   box-shadow: 5px 5px 3px 0px rgba(97,97,97,0.5);
 }
- 
-.DraggableDiv > div {
-  padding: 5px;
+
+@media only screen and (min-width: 512px) {
+  .DraggableDiv {
+    top: 30%;
+    height: 40%;
+  }
+   
+  .DraggableDiv .Header {
+    font-size: 1.025em;
+  }
+
+  .DraggableDiv div.price, button.close {
+    font-size: .525em;
+  }
+
+  .DraggableDiv .Content {
+    font-size: .825em;
+  }
 }
  
 .DraggableDiv .Header {
+  font-size: 1.325em;
+  padding: 4px;;
   cursor: move;
-  font-size: 10px;
   font-weight: bold;
   color: #ffffff;
   border-bottom: 1px solid #000000;
   background-color: #566895;
 }
 
-.DraggableDiv .Content {
-  font-size: 7px;
+.DraggableDiv div.price, button.close {
+  font-size: .725em;
 }
 
 td.title {
-  width: 28%;
   vertical-align: top;
   font-weight: bold;
 }
 
-div.price {
+.DraggableDiv div.price {
   border-radius: 15%;
   color: yellow;
   background: grey;
@@ -41,7 +56,6 @@ div.price {
   display: inline-block;
   right: 32px;
   top: 2px;
-  font-size: 8px;
   font-family: monospace;
 }
 
@@ -49,9 +63,8 @@ button.close {
   color: red;
   position: absolute;
   display: inline-block;
-  right: 4px;
-  top: 4px;
-  font-size: 8px;
+  right: 2px;
+  top: 2px;
   font-family: monospace;
 }
 
@@ -65,13 +78,13 @@ button.close {
 }
 
 .DraggableDiv .Content div.images .tree {
+  font-size: .725em;
   position: absolute;
-  font-size: 5px;
-  bottom: 1px;
+  bottom: -2px;
   color: yellow;
   background: grey;
   width: 100%;
-  padding: .5px;
+  padding: .75px;
 }
 
 .DraggableDiv .Content div.images .itemWithPrice {
@@ -79,4 +92,8 @@ button.close {
   position: relative;
   padding: 0;
   text-align: center;
+}
+
+.DraggableDiv .Content .uniquePassive {
+  padding: 16px;
 }

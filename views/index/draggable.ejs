@@ -4,6 +4,7 @@
   style="display: none"
   id="draggable-<%- item.id %>"
 >
+
   <div class="Header" style="position: relative">
     <%- item.name %>
     <% if (item.desc){ %>
@@ -11,13 +12,12 @@
       <small><%- item.desc %></small>
     <% } %>
     <% if (item.price){ %>
-      <div class="price">
-        $ <%- item.price %>
-      </div>
+      <div class="price"><%- item.price %></div>
     <% } %>
     <button class="close" onclick="closePopup(<%- item.id %>)"
     >x</button>
   </div>
+
   <div class="Content" style="position: relative">
 
     <div class="images">

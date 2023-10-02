@@ -1,37 +1,29 @@
-<table>
+<table style="width: 100%">
 <% if (item['attributes']){ %>
 <% item.attributes.forEach(function(attr){ %>
   <tr>
-    <td class="title">
-      <% if (Object.keys(attr)[0] == 'Unique Passive') { %>
-        </br>
-        </br>
-        </br>
-        </br>
-      <% } %>
+    <td class="title" style="width: 30%">
       <%- Object.keys(attr)[0] %>
     </td>
-    <% if (Array.isArray(attr[Object.keys(attr)[0]])) { %>
-      </tr>
-      <tr>
-      <%
-        let passives = attr[Object.keys(attr)[0]];
-      %>
-      <% passives.forEach(function(passive){ %>
-        <td class="title">
-          <%- Object.keys(passive)[0] %>
-        </td>
-        <td>
-          <%- passive[Object.keys(passive)[0]] %>
-        </td>
-        </tr>
-      <% }); %>
-    <% } else { %>
-      <td>
-        <%- attr[Object.keys(attr)[0]] %>
-      </td>
-    <% } %>
+    <td>
+      <%- attr[Object.keys(attr)[0]] %>
+    </td>
   </tr>
 <% }); %>
 <% } %>
 </table>
+
+<% if (item['uniquePassive']){ %>
+<table style="width: 100%;position: absolute;top: 72px;">
+<% item.uniquePassive.forEach(function(attr){ %>
+  <tr>
+    <td class="title" style="width: 30%">
+      <%- Object.keys(attr)[0] %>
+    </td>
+    <td>
+      <%- attr[Object.keys(attr)[0]] %>
+    </td>
+  </tr>
+<% }); %>
+</table>
+<% } %>

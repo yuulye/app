@@ -9,13 +9,11 @@
     ],
     "attributes": [
       {"Physical Attack": 80},
-      {"Attack Speed": "25%"},
-      {
-        "Unique Passive": [
-          {"Lifebane": "Dealing damage to a target will reduce the Shield and HP Regen effects on them to 50% of normal for 3s."},
-          {"Punish" : "Increase damage by 8% against enemy heroes with higher extra HP."}
-        ]
-      }
+      {"Attack Speed": "25%"}
+    ],
+    "uniquePassive": [
+      {"Lifebane": "Dealing damage to a target will reduce the Shield and HP Regen effects on them to 50% of normal for 3s."},
+      {"Punish" : "Increase damage by 8% against enemy heroes with higher extra HP."}
     ]
   },
   {
@@ -132,12 +130,10 @@
       {"Magic Power": 60},
       {"HP": 300},
       {"Cooldown Reduction": "10%"},
-      {"Unique Attribute": "+12% Healing Effect"},
-      {
-        "Unique Passive": [
-          {"Blessing": "When casting a healing or shield skill, if the target's HP is below 35% or falls below 35% within 5s, they will get a 660-1500 shield that lasts 3s. When this effect triggers, it also reduces the cooldown of the caster's skill by 2s. This effect can only trigger once every 60s on the same target, and will not trigger on self-only healing and shield skills."}
-        ]
-      }
+      {"Unique Attribute": "+12% Healing Effect"}
+    ],
+    "uniquePassive": [
+      {"Blessing": "When casting a healing or shield skill, if the target's HP is below 35% or falls below 35% within 5s, they will get a 660-1500 shield that lasts 3s. When this effect triggers, it also reduces the cooldown of the caster's skill by 2s. This effect can only trigger once every 60s on the same target, and will not trigger on self-only healing and shield skills."}
     ]
   },
   {
@@ -371,15 +367,47 @@
     "name": "Twilight Armor"
   },
   {
-    "name": "Brute Force Breastplate"
+    "name": "Brute Force Breastplate",
+    "desc": "Stackable Defense",
+    "price": 1870,
+    "tree": [
+      {"item": "Hero's Ring"},
+      {"item": "Vitality Crystal"},
+      {"item": "Leather Jerkin"}
+    ],
+    "attributes": [
+      {"HP": 600},
+      {"Physical Defense": 30},
+      {"Cooldown Reduction": "10%"},
+      {
+        "Unique Passive": [
+          {"Brute Force" : "Casting skills and Basic Attacks grants 2% Movement Speed and 4 Physical & Magic Defense for 4s, capped at 5 stacks."}
+        ]
+      }
+    ]
   },
   {
-    "name": "Immortality"
+    "name": "Immortality",
+    "desc": "Self-Ressurrection",
+    "price": 2120,
+    "tree": [
+      {"item": "Ares Belt"},
+      {"item": "Leather Jerkin"}
+    ],
+    "attributes": [
+      {"HP": 800},
+      {"Physical Defense": 20},
+      {
+        "Unique Passive": [
+          {"Immortal" : "Revives 2.5s after death, gaining 16% Max HP and a 220-1200 shield (scales with level) that lasts 3s (210s cooldown)."}
+        ]
+      }
+    ]
   },
   {
     "name": "Dominance Ice",
     "desc": "Healing & ATK Speed Reduction",
-    "price": "2010",
+    "price": 2010,
     "tree": [
       {"item": "Black Ice Shield"},
       {"item": "Steel Legplates"}
@@ -397,13 +425,61 @@
     ]
   },
   {
-    "name": "Athena's Shield"
+    "name": "Athena's Shield",
+    "desc": "Resist Burst Magic Damage",
+    "price": 2150,
+    "tree": [
+      {"item": "Silence Robe"},
+      {"item": "Vitality Crystal"}
+    ],
+    "attributes": [
+      {"HP": 900},
+      {"Magic Defense": 62},
+      {"HP Regen": "2"},
+      {
+        "Unique Passive": [
+          {"Shield" : "Upon taking Magic Damage, gains 25% Magic Damage Reduction for 3s (applied before taking damage). Regains this effect 5s after leaving combat."}
+        ]
+      }
+    ]
   },
   {
-    "name": "Oracle"
+    "name": "Oracle",
+    "desc": "Enhanced Regen",
+    "price": 2060,
+    "tree": [
+      {"item": "Silence Robe"},
+      {"item": "Hero's Ring"}
+    ],
+    "attributes": [
+      {"HP": 850},
+      {"Magic Defense": 42},
+      {"Cooldown Reduction": "10%"},
+      {
+        "Unique Passive": [
+          {"Bless" : "Received Shield and HP Regen effects are increased by 30%."}
+        ]
+      }
+    ]
   },
   {
-    "name": "Antique Cuirass"
+    "name": "Antique Cuirass",
+    "desc": "Physical Attack Reduction",
+    "price": 2170,
+    "tree": [
+      {"item": "Ares Belt"},
+      {"item": "Dreadnaught Armor"}
+    ],
+    "attributes": [
+      {"HP": 920},
+      {"Physical Defense": 54},
+      {"HP Regen": 4},
+      {
+        "Unique Passive": [
+          {"Deter" : "When hit by a skill, reduces the attacker's Physical Damage by 6% for 2s (this effect stacks up to 3 times)."}
+        ]
+      }
+    ]
   },
   {
     "name": "Guardian Helmet",
@@ -580,12 +656,10 @@
       {"item": "Vitality Crystal"}
     ],
     "attributes": [
-      {"HP": 540},
-      {
-        "Unique Passive": [
-          {"Burning Soul" : "Deals Magic Damage equal to 0.6% of the hero's Max HP per second to nearby enemies. This damage is increased by 140% to 350% against creeps and minions (scales with level)."}
-        ]
-      }
+      {"HP": 540}
+    ],
+    "uniquePassive": [
+      {"Burning Soul" : "Deals Magic Damage equal to 0.6% of the hero's Max HP per second to nearby enemies. This damage is increased by 140% to 350% against creeps and minions (scales with level)."}
     ]
   },
   {

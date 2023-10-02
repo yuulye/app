@@ -5,3 +5,53 @@
   height: 1.2em; 
   white-space: nowrap;
 }
+
+.equipment {
+  float: left;
+  display: inline-block;
+  margin: 16px;
+  height: 96px;
+  position: relative;
+}
+
+.equipment > img {
+  width: 44px;
+}
+
+.equipment .text {
+  text-align: center;
+  font-size: .7em;
+  width: 44px;
+  height: 32px;
+  padding-top: 8px;
+}
+
+.equipment .price {
+  padding: 2px;
+  text-align: center;
+  background: grey;
+  color: yellow;
+  display: inline-block;
+  position: absolute;
+  top: 36px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 512px) {
+  .equipment {
+    height: 128px;
+  }
+
+  .equipment > img {
+    width: 64px;
+  }
+
+  .equipment .text {
+    width: 64px;
+  }
+
+  .equipment .price {
+    top: 60px;
+    font-size: .75em;
+  }
+}
