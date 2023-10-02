@@ -164,12 +164,10 @@
       {"Magic Power": 70},
       {"Cooldown Reduction": "10%"},
       {"Hybrid Lifesteal": "8%"},
-      {"Mana Regen": "6%"},
-      {
-        "Unique Passive": [
-          {"Crisis": "Within 3s after casting a skill, the caster's next Basic Attack will deal additional True Damage equal to 100 plus 100% Magic Power and briefly grant 10% Movement Speed. This effect has a 1.5s cooldown."}
-        ]
-      }
+      {"Mana Regen": "6%"}
+    ],
+    "uniquePassive": [
+      {"Crisis": "Within 3s after casting a skill, the caster's next Basic Attack will deal additional True Damage equal to 100 plus 100% Magic Power and briefly grant 10% Movement Speed. This effect has a 1.5s cooldown."}
     ]
   },
   {
@@ -190,12 +188,10 @@
     "attributes": [
       {"Magic Power": 70},
       {"HP": 700},
-      {"Unique Attribute": "+20% Spell Vamp"},
-      {
-        "Unique Passive": [
-          {"Recharge": "Increases Magic Power by 5 after dealing Magic Damage (this effect stacks up to 6 times and can only gain 1 stack every 0.4s). When reaching full stacks, increases Magic Damage by 12% for 3s."}
-        ]
-      }
+      {"Unique Attribute": "+20% Spell Vamp"}
+    ],
+    "uniquePassive": [
+      {"Recharge": "Increases Magic Power by 5 after dealing Magic Damage (this effect stacks up to 6 times and can only gain 1 stack every 0.4s). When reaching full stacks, increases Magic Damage by 12% for 3s."}
     ]
   },
   {
@@ -220,13 +216,11 @@
       {"Magic Power": 60},
       {"HP": 300},
       {"Mana": 380},
-      {"Cooldown Reduction": "5%"},
-      {
-        "Unique Passive": [
-          {"Gift" : "Regenerates 20% Max HP and Mana over 2s after leveling up."},
-          {"Lifebane": "Dealing damage to a target will reduce the Shield and HP Regen effects on them to 50% of normal for 3s."}
-        ]
-      }
+      {"Cooldown Reduction": "5%"}
+    ],
+    "uniquePassive": [
+      {"Gift" : "Regenerates 20% Max HP and Mana over 2s after leveling up."},
+      {"Lifebane": "Dealing damage to a target will reduce the Shield and HP Regen effects on them to 50% of normal for 3s."}
     ]
   },
   {
@@ -241,13 +235,11 @@
       {"Magic Power": 55},
       {"Attack Speed": "20%"},
       {"Lifesteal": "10%"},
-      {"Cooldown Reduction": "5%"},
-      {
-        "Unique Passive": [
-          {"Affliction" : "Basic Attacks deal extra Magic Damage equal to 50 plus 30% of the hero's Magic Power."},
-          {"Impulse": "Basic Attacks grant 6% extra Attack Speed for 3s, capped at 5 stacks."}
-        ]
-      }
+      {"Cooldown Reduction": "5%"}
+    ],
+    "uniquePassive": [
+      {"Affliction" : "Basic Attacks deal extra Magic Damage equal to 50 plus 30% of the hero's Magic Power."},
+      {"Impulse": "Basic Attacks grant 6% extra Attack Speed for 3s, capped at 5 stacks."}
     ]
   },
   {
@@ -276,12 +268,10 @@
     ],
     "attributes": [
       {"Mana Regen": 5},
-      {"Cooldown Reduction": "5%"},
-      {
-        "Unique Passive": [
-          {"Judgement" : "After casting a skill, the next Basic Attack within 3s deals 50 extra True Damage (1.5s cooldown)."}
-        ]
-      }
+      {"Cooldown Reduction": "5%"}
+    ],
+    "uniquePassive": [
+      {"Judgement" : "After casting a skill, the next Basic Attack within 3s deals 50 extra True Damage (1.5s cooldown)."}
     ]
   },
   {
@@ -378,12 +368,10 @@
     "attributes": [
       {"HP": 600},
       {"Physical Defense": 30},
-      {"Cooldown Reduction": "10%"},
-      {
-        "Unique Passive": [
-          {"Brute Force" : "Casting skills and Basic Attacks grants 2% Movement Speed and 4 Physical & Magic Defense for 4s, capped at 5 stacks."}
-        ]
-      }
+      {"Cooldown Reduction": "10%"}
+    ],
+    "uniquePassive": [
+      {"Brute Force" : "Casting skills and Basic Attacks grants 2% Movement Speed and 4 Physical & Magic Defense for 4s, capped at 5 stacks."}
     ]
   },
   {
@@ -396,12 +384,10 @@
     ],
     "attributes": [
       {"HP": 800},
-      {"Physical Defense": 20},
-      {
-        "Unique Passive": [
-          {"Immortal" : "Revives 2.5s after death, gaining 16% Max HP and a 220-1200 shield (scales with level) that lasts 3s (210s cooldown)."}
-        ]
-      }
+      {"Physical Defense": 20}
+    ],
+    "uniquePassive": [
+      {"Immortal" : "Revives 2.5s after death, gaining 16% Max HP and a 220-1200 shield (scales with level) that lasts 3s (210s cooldown)."}
     ]
   },
   {
@@ -415,13 +401,11 @@
     "attributes": [
       {"Mana": 500},
       {"Physical Defense": 70},
-      {"Movement Speed": "5%"},
-      {
-        "Unique Passive": [
-          {"Arctic Cold" : "Reduces the Attack Speed of nearby enemy heroes to 70% of normal."},
-          {"Lifebane": "Reduces the Shield and HP Regen effects of nearby enemy heroes to 50% of normal."}
-        ]
-      }
+      {"Movement Speed": "5%"}
+    ],
+    "uniquePassive": [
+      {"Arctic Cold" : "Reduces the Attack Speed of nearby enemy heroes to 70% of normal."},
+      {"Lifebane": "Reduces the Shield and HP Regen effects of nearby enemy heroes to 50% of normal."}
     ]
   },
   {
@@ -435,12 +419,10 @@
     "attributes": [
       {"HP": 900},
       {"Magic Defense": 62},
-      {"HP Regen": "2"},
-      {
-        "Unique Passive": [
-          {"Shield" : "Upon taking Magic Damage, gains 25% Magic Damage Reduction for 3s (applied before taking damage). Regains this effect 5s after leaving combat."}
-        ]
-      }
+      {"HP Regen": "2"}
+    ],
+    "uniquePassive": [
+      {"Shield" : "Upon taking Magic Damage, gains 25% Magic Damage Reduction for 3s (applied before taking damage). Regains this effect 5s after leaving combat."}
     ]
   },
   {
@@ -454,12 +436,10 @@
     "attributes": [
       {"HP": 850},
       {"Magic Defense": 42},
-      {"Cooldown Reduction": "10%"},
-      {
-        "Unique Passive": [
-          {"Bless" : "Received Shield and HP Regen effects are increased by 30%."}
-        ]
-      }
+      {"Cooldown Reduction": "10%"}
+    ],
+    "uniquePassive": [
+      {"Bless" : "Received Shield and HP Regen effects are increased by 30%."}
     ]
   },
   {
@@ -473,12 +453,10 @@
     "attributes": [
       {"HP": 920},
       {"Physical Defense": 54},
-      {"HP Regen": 4},
-      {
-        "Unique Passive": [
-          {"Deter" : "When hit by a skill, reduces the attacker's Physical Damage by 6% for 2s (this effect stacks up to 3 times)."}
-        ]
-      }
+      {"HP Regen": 4}
+    ],
+    "uniquePassive": [
+      {"Deter" : "When hit by a skill, reduces the attacker's Physical Damage by 6% for 2s (this effect stacks up to 3 times)."}
     ]
   },
   {
@@ -492,12 +470,10 @@
     ],
     "attributes": [
       {"HP": 1550},
-      {"HP Regen": 20},
-      {
-        "Unique Passive": [
-          {"Recovery" : "Regenerates 2.5% Max HP per second (reduced to 0.5% Max HP per second over 5s after taking damage)."}
-        ]
-      }
+      {"HP Regen": 20}
+    ],
+    "uniquePassive": [
+      {"Recovery" : "Regenerates 2.5% Max HP per second (reduced to 0.5% Max HP per second over 5s after taking damage)."}
     ]
   },
   {
@@ -510,12 +486,10 @@
     ],
     "attributes": [
       {"HP": 1200},
-      {"Magic Defense": 25},
-      {
-        "Unique Passive": [
-          {"Burning Soul" : "Deals Magic Damage equal to 1.2% of the hero's Max HP per second to nearby enemies. This damage is increased by 140% to 350% against creeps and minions (scales with level)."}
-        ]
-      }
+      {"Magic Defense": 25}
+    ],
+    "uniquePassive": [
+      {"Burning Soul" : "Deals Magic Damage equal to 1.2% of the hero's Max HP per second to nearby enemies. This damage is increased by 140% to 350% against creeps and minions (scales with level)."}
     ]
   },
   {
@@ -531,12 +505,10 @@
       {"HP": 800},
       {"Physical Defense": 40},
       {"Cooldown Reduction": "10%"},
-      {"Mana Regen": 10},
-      {
-        "Unique Passive": [
-          {"Thunderbolt" : "After casting a skill, the next Basic Attack within 3s deals 50 plus 5% of the hero's extra HP as extra True Damage to the target and enemies around them and slows them by 40-80% (scales with the hero's extra HP) for 1s (1.5s cooldown)."}
-        ]
-      }
+      {"Mana Regen": 10}
+    ],
+    "uniquePassive": [
+      {"Thunderbolt" : "After casting a skill, the next Basic Attack within 3s deals 50 plus 5% of the hero's extra HP as extra True Damage to the target and enemies around them and slows them by 40-80% (scales with the hero's extra HP) for 1s (1.5s cooldown)."}
     ]
   },
   {
@@ -550,12 +522,10 @@
     "attributes": [
       {"HP": 1000},
       {"Cooldown Reduction": "10%"},
-      {"Spell Vamp": "5%"},
-      {
-        "Unique Passive": [
-          {"Demonize" : "When HP drops below 40%, gains 20% Damage Reduction and 35% extra Spell Vamp for 5s (60s cooldown)."}
-        ]
-      }
+      {"Spell Vamp": "5%"}
+    ],
+    "uniquePassive": [
+      {"Demonize" : "When HP drops below 40%, gains 20% Damage Reduction and 35% extra Spell Vamp for 5s (60s cooldown)."}
     ]
   },
   {
@@ -569,12 +539,10 @@
     ],
     "attributes": [
       {"Physical Defense": 90},
-      {"Unique Attribute": "+20% Crit Damage Reduction"},
-      {
-        "Unique Passive": [
-          {"Bladed Armor" : "When struck by a Basic Attack, deals Physical Damage equal to 30% of the incoming damage (calculated before Damage Reduction) plus 20% of the hero's Physical Defense to the attacker and slows them by 15% for 1s."}
-        ]
-      }
+      {"Unique Attribute": "+20% Crit Damage Reduction"}
+    ],
+    "uniquePassive": [
+      {"Bladed Armor" : "When struck by a Basic Attack, deals Physical Damage equal to 30% of the incoming damage (calculated before Damage Reduction) plus 20% of the hero's Physical Defense to the attacker and slows them by 15% for 1s."}
     ]
   },
   {
@@ -602,12 +570,10 @@
       {"item": "Leather Jerkin"}
     ],
     "attributes": [
-      {"Physical Defense": 40},
-      {
-        "Unique Passive": [
-          {"Deter" : "When hit by a skill, reduces the attacker's Physical Damage by 4% for 2s (this effect stacks up to 3 times)."}
-        ]
-      }
+      {"Physical Defense": 40}
+    ],
+    "uniquePassive": [
+      {"Deter" : "When hit by a skill, reduces the attacker's Physical Damage by 4% for 2s (this effect stacks up to 3 times)."}
     ]
   },
   {
@@ -622,12 +588,10 @@
     ],
     "attributes": [
       {"Mana": 400},
-      {"Physical Defense": 22},
-      {
-        "Unique Passive": [
-          {"Arctic Cold" : "Reduces the Attack Speed of nearby enemy heroes to 85% of normal."}
-        ]
-      }
+      {"Physical Defense": 22}
+    ],
+    "uniquePassive": [
+      {"Arctic Cold" : "Reduces the Attack Speed of nearby enemy heroes to 85% of normal."}
     ]
   },
   {
@@ -787,12 +751,10 @@
     ],
     "attributes": [
       {"Movement Speed": 65},
-      {"Slow Reduction": "35%"},
-      {
-        "Unique Passive": [
-          {"Side Effect" : "Loses 25 Movement Speed for 5s upon dealing or taking damage."}
-        ]
-      }
+      {"Slow Reduction": "35%"}
+    ],
+    "uniquePassive": [
+      {"Side Effect" : "Loses 25 Movement Speed for 5s upon dealing or taking damage."}
     ]
   },
   {
@@ -842,12 +804,10 @@
     ],
     "attributes": [
       {"Movement Speed": 40},
-      {"Magic Defense": 22},
-      {
-        "Unique Passive": [
-          {"Fortitude" : "CC and Slow Duration reduced by 30%"}
-        ]
-      }
+      {"Magic Defense": 22}
+    ],
+    "uniquePassive": [
+      {"Fortitude" : "CC and Slow Duration reduced by 30%"}
     ]
   },
   {
@@ -860,12 +820,10 @@
     ],
     "attributes": [
       {"Movement Speed": 40},
-      {"Physical Defense": 22},
-      {
-        "Unique Passive": [
-          {"Valor" : "Gains 4 extra Physical Defense for 3s when taking Physical Damage, up to 20."}
-        ]
-      }
+      {"Physical Defense": 22}
+    ],
+    "uniquePassive": [
+      {"Valor" : "Gains 4 extra Physical Defense for 3s when taking Physical Damage, up to 20."}
     ]
   },
   {
