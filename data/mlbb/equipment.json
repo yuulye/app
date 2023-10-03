@@ -2,7 +2,7 @@
   {
     "name": "Sea Halberd",
     "desc": "Healing Reduction",
-    "price": "2050",
+    "price": 2050,
     "tree": [
       {"item": "Legion Sword"},
       {"item": "Regular Spear"}
@@ -17,52 +17,287 @@
     ]
   },
   {
-    "name": "Rose Gold Meteor"
+    "name": "Rose Gold Meteor",
+    "desc": "Low-HP Shield",
+    "price": 2120,
+    "tree": [
+      {"item": "Magic Blade"},
+      {"item": "Vampire Mallet"}
+    ],
+    "attributes": [
+      {"Physical Attack": 60},
+      {"Magic Defense": 30},
+      {"Lifesteal": "10%"}
+    ],
+    "uniquePassive": [
+      {"Lifeline" : "When taking damage that reduces HP below 30%, gain a 840-1820 shield (increases with level) and 50% Movement Speed that rapidly decays over 3s. This effect has a 60s cooldown."}
+    ]
   },
   {
-    "name": "Bloodlust Axe"
+    "name": "Bloodlust Axe",
+    "desc": "Spell Vamp",
+    "price": 1970,
+    "tree": [
+      {"item": "Iron Hunting Bow"},
+      {"item": "Dagger"},
+      {"item": "Iron Hunting Bow"}
+    ],
+    "attributes": [
+      {"Physical Attack": 70},
+      {"Cooldown Reduction": "10%"},
+      {"Unique Attribute": "20% Spell Vamp"}
+    ]
   },
   {
-    "name": "Hunter Strike"
+    "name": "Hunter Strike",
+    "desc": "Brief Speed-Up",
+    "price": 2010,
+    "tree": [
+      {"item": "Iron Hunting Bow"},
+      {"item": "Fury Hammer"},
+      {"item": "Dagger"}
+    ],
+    "attributes": [
+      {"Physical Attack": 80},
+      {"Cooldown Reduction": "10%"},
+      {"Unique Attribute": "15 Physical Penetration"}
+    ],
+    "uniquePassive": [
+      {"Retribution" : "Dealing damage to the same enemy hero or creep 5 times in a row grants 50% extra Movement Speed that decays over 3s (8s cooldown)."}
+    ]
   },
   {
-    "name": "Blade of Despair"
+    "name": "Blade of Despair",
+    "desc": "Highest Physical Attack",
+    "price": 3010,
+    "tree": [
+      {"item": "Legion Sword"},
+      {"item": "Legion Sword"}
+    ],
+    "attributes": [
+      {"Physical Attack": 160},
+      {"Movement Speed": "5%"}
+    ],
+    "uniquePassive": [
+      {"Despair" : "Dealing damage to non-Minion enemies below 50% HP increases Physical Attack by 25% for 2s (takes effect before the damage is dealt)."}
+    ]
   },
   {
-    "name": "Blade of the Heptaseas"
+    "name": "Blade of the Heptaseas",
+    "desc": "Best for Assassins",
+    "price": 1950,
+    "tree": [
+      {"item": "Vitality Crystal"},
+      {"item": "Fury Hammer"},
+      {"item": "Dagger"}
+    ],
+    "attributes": [
+      {"Physical Attack": 70},
+      {"HP": 250},
+      {"Unique Attribute": "15 Physical Penetration"}
+    ],
+    "uniquePassive": [
+      {"Ambush" : "If no damage is taken or dealt within 5s (excluding from Minions or Creeps), the next Basic Attack will deal an additional 160 (+40% total Physical Attack) Physical Damage and slow the target by 40% for 1.5s."}
+    ]
   },
   {
-    "name": "Great Dragon Spear"
+    "name": "Great Dragon Spear",
+    "desc": "CD Reduction & Crit",
+    "price": 2140,
+    "tree": [
+      {"item": "Iron Hunting Bow"},
+      {"item": "Legion Sword"},
+      {"item": "Javelin"}
+    ],
+    "attributes": [
+      {"Physical Attack": 70},
+      {"Cooldown Reduction": "10%"},
+      {"Crit Chance": "20%"}
+    ],
+    "uniquePassive": [
+      {"Supreme Warrior" : "After casting an Ultimate, increase Movement Speed by 15% for 7.5s. This effect has a 15s cooldown."}
+    ]
   },
   {
-    "name": "Windtalker"
+    "name": "Windtalker",
+    "desc": "Splash Damage",
+    "price": 1820,
+    "tree": [
+      {"item": "Rogue Meteor"},
+      {"item": "Knife"}
+    ],
+    "attributes": [
+      {"Attack Speed": "40%"},
+      {"Movement Speed": 20},
+      {"Crit Chance": "10%"}
+    ],
+    "uniquePassive": [
+      {"Typhoon" : "Every 5-2s (reduced by 0.2s for each Basic Attack), the next Basic Attack will hit up to 3 enemy units for 150-362 Magic Damage. (This attack can critically strike and the damage increases to 200% against Minions.)"},
+      {"Activate" : "Each time Typhoon is cast, one's movement speed will be increased 5% for a short time."}
+    ]
   },
   {
-    "name": "Endless Battle"
+    "name": "Endless Battle",
+    "desc": "Enhanced Basic Attacks",
+    "price": 2470,
+    "tree": [
+      {"item": "Ogre Tomahawk"},
+      {"item": "Vampire Mallet"},
+      {"item": "Azure Blade"}
+    ],
+    "attributes": [
+      {"Physical Attack": 65},
+      {"HP": 250},
+      {"Cooldown Reduction": "10%"},
+      {"Hybrid Lifesteal": "8%"},
+      {"Movement Speed": "5%"},
+      {"Mana Regen": 5}
+    ],
+    "uniquePassive": [
+      {"Divine Justice" : "After casting a skill, the next Basic Attack within 3s deals 60% Physical Attack as extra True Damage (1.5s cooldown)."},
+      {"Chase Fate" : "Triggering Divine Justice grants 10% extra Movement Speed."}
+    ]
   },
   {
-    "name": "Berserker's Fury"
+    "name": "Berserker's Fury",
+    "desc": "Crit Chance & Damage",
+    "price": 2250,
+    "tree": [
+      {"item": "Javelin"},
+      {"item": "Legion Sword"},
+      {"item": "Javelin"}
+    ],
+    "attributes": [
+      {"Physical Attack": 65},
+      {"Crit Chance": "25%"},
+      {"Unique Attribute": "40% Crit Damage"}
+    ],
+    "uniquePassive": [
+      {"Doom" : "Critical strikes grant 5% extra Physical Attack for 2s"}
+    ]
   },
   {
-    "name": "Haas' Claws"
+    "name": "Haas' Claws",
+    "desc": "Lifesteal",
+    "price": 2020,
+    "tree": [
+      {"item": "Vampire Mallet"},
+      {"item": "Rogue Meteor"},
+      {"item": "Dagger"}
+    ],
+    "attributes": [
+      {"Physical Attack": 30},
+      {"Attack Speed": "20%"},
+      {"Crit Chance": "20%"},
+      {"Unique Attribute": "25% Lifesteal"}
+    ],
+    "uniquePassive": [
+      {"Frenzy" : "Critical strikes grant 20% Attack Speed for 2s."}
+    ]
   },
   {
-    "name": "Malefic Roar"
+    "name": "Malefic Roar",
+    "desc": "High Physical Penetration",
+    "price": 2060,
+    "tree": [
+      {"item": "Legion Sword"}
+    ],
+    "attributes": [
+      {"Physical Attack": 60},
+      {"Unique Attribute": "20% Physical Penetration"}
+    ],
+    "uniquePassive": [
+      {"Armor Buster" : "When Attacking an enemy, gains 0.125% extra Physical Penetration for each point of the enemy's Physical Defense, capped at 40%."}
+    ]
   },
   {
-    "name": "War Axe"
+    "name": "War Axe",
+    "desc": "On-Hit Damage Increase",
+    "price": 2100,
+    "tree": [
+      {"item": "Iron Hunting Bow"},
+      {"item": "Dagger"},
+      {"item": "Hero's Ring"}
+    ],
+    "attributes": [
+      {"Physical Attack": 40},
+      {"HP": 550},
+      {"Cooldown Reduction": "10%"}
+    ],
+    "uniquePassive": [
+      {"Fighting Spirit" : "After dealing damage, gain 10 Physical Attack and 2 Physical Penetration every second for 3s (Marksman/Mage/Support Heroes only gain 50% of the Physical Attack and Physical Penetration). Stacks up to 8 times. Also gain 15% Movement Speed at full stacks."}
+    ]
   },
   {
-    "name": "Wind of Nature"
+    "name": "Wind of Nature",
+    "desc": "Physical Damage Immunity",
+    "price": 1910,
+    "tree": [
+      {"item": "Regular Spear"},
+      {"item": "Vampire Mallet"}
+    ],
+    "attributes": [
+      {"Physical Attack": 30},
+      {"Attack Speed": "20%"},
+      {"Lifesteal": "10%"}
+    ],
+    "uniquePassive": [
+      {"Wind Chant" : "Become immune to all Physical Damage for 2s (duration is halved for non-Marksmen; 70s cooldown)."}
+    ]
   },
   {
-    "name": "Golden Staff"
+    "name": "Golden Staff",
+    "desc": "Enhanced Attack Effects",
+    "price": 2000,
+    "tree": [
+      {"item": "Dagger"},
+      {"item": "Regular Spear"},
+      {"item": "Dagger"}
+    ],
+    "attributes": [
+      {"Physical Attack": 55},
+      {"Attack Speed": "15%"}
+    ],
+    "uniquePassive": [
+      {"Swift" : "Every 1% extra Crit Chance gained is converted into 1% extra Attack Speed."},
+      {"Endless Strike" : "After every 2 non-Crit Basic Attacks, the Attack Speed of the next Basic Attack is increased by 100% (and Attack Speed cap is increased to 500%) and triggers Attack Effects an additional 2 time(s)."}
+    ]
   },
   {
-    "name": "Corrosion Scythe"
+    "name": "Corrosion Scythe",
+    "desc": "On-Hit Slow",
+    "price": 2050,
+    "tree": [
+      {"item": "Swift Crossbow"},
+      {"item": "Regular Spear"}
+    ],
+    "attributes": [
+      {"Physical Attack": 30},
+      {"Movement Speed": "5%"},
+      {"Attack Speed": "35%"}
+    ],
+    "uniquePassive": [
+      {"Corrosion" : "Basic Attacks gain 80 extra Physical Damage and slow the target by 8% (halved for ranged Basic Attacks) for 1.5s. Stacks up to 5 times."},
+      {"Impulse" : "Basic Attacks grant 6% extra Attack Speed for 3s, capped at 5 stacks."}
+    ]
   },
   {
-    "name": "Demon Hunter Sword"
+    "name": "Demon Hunter Sword",
+    "desc": "Tank Killer",
+    "price": 2180,
+    "tree": [
+      {"item": "Vampire Mallet"},
+      {"item": "Regular Spear"},
+      {"item": "Knife"}
+    ],
+    "attributes": [
+      {"Physical Attack": 35},
+      {"Attack Speed": "25%"}
+    ],
+    "uniquePassive": [
+      {"Devour" : "Basic Attacks deal 8% of the target's current HP as extra Physical Damage (capped at 60 against minions)."},
+      {"Devour" : "Basic Attacks grant 3% Lifesteal for 3s (stacks up to 5 times)."}
+    ]
   },
   {
     "name": "Magic Blade",
