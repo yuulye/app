@@ -249,10 +249,38 @@
     "name": "Enchanted Talisman"
   },
   {
-    "name": "Elegant Gem"
+    "name": "Elegant Gem",
+    "price": 700,
+    "builds": [
+      {"item": "Clock of Destiny"},
+      {"item": "Necklace of Durance"}
+    ],
+    "tree": [
+      {"item": "Vitality Crystal"},
+      {"item": "Power Crystal"}
+    ],
+    "attributes": [
+      {"HP": 300},
+      {"Mana": 380}
+    ],
+    "uniquePassive": [
+      {"Gift" : "Regenerates 20% Max HP and Mana over 2s after leveling up."}
+    ]
   },
   {
-    "name": "Exotic Veil"
+    "name": "Exotic Veil",
+    "price": 600,
+    "builds": [
+      {"item": "Glowing Wand"},
+      {"item": "Genius Wand"}
+    ],
+    "tree": [
+      {"item": "Mystery Codex"}
+    ],
+    "attributes": [
+      {"Magic Power": 30},
+      {"Movement Speed": "5%"}
+    ]
   },
   {
     "name": "Azure Blade",
@@ -275,10 +303,44 @@
     ]
   },
   {
-    "name": "Tome of Evil"
+    "name": "Tome of Evil",
+    "price": 950,
+    "builds": [
+      {"item": "Enchanted Talisman"}
+    ],
+    "tree": [
+      {"item": "Book of Sages"},
+      {"item": "Mystery Codex"}
+    ],
+    "attributes": [
+      {"Magic Power": 35},
+      {"Mana Regen": 4},
+      {"Cooldown Reduction": "8%"}
+    ]
   },
   {
-    "name": "Magic Wand"
+    "name": "Magic Wand",
+    "price": 820,
+    "builds": [
+      {"item": "Divine Glaive"},
+      {"item": "Holy Crystal"},
+      {"item": "Concentrated Energy"},
+      {"item": "Ice Queen Wand"},
+      {"item": "Starlium Scythe"},
+      {"item": "Clock of Destiny"},
+      {"item": "Blood Wings"},
+      {"item": "Fleeting Time"},
+      {"item": "Winter Truncheon"},
+      {"item": "Lightning Truncheon"},
+      {"item": "Genius Wand"},
+      {"item": "Flask of the Oasis"}
+    ],
+    "tree": [
+      {"item": "Mystery Codex"}
+    ],
+    "attributes": [
+      {"Magic Power": 45}
+    ]
   },
   {
     "name": "Mystic Container",
@@ -297,7 +359,21 @@
     ]
   },
   {
-    "name": "Book of Sages"
+    "name": "Book of Sages",
+    "price": 450,
+    "builds": [
+      {"item": "Tome of Evil"},
+      {"item": "Enchanted Talisman"},
+      {"item": "Feather of Heaven"},
+      {"item": "Fleeting Time"},
+      {"item": "Necklace of Durance"},
+      {"item": "Lightning Truncheon"},
+      {"item": "Flask of the Oasis"}
+    ],
+    "attributes": [
+      {"Magic Power": 8},
+      {"Cooldown Reduction": "5%"}
+    ]
   },
   {
     "name": "Magic Necklace",
