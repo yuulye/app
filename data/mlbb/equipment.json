@@ -44,7 +44,7 @@
     "name": "Berserker's Fury"
   },
   {
-    "name": "Haas's Claws"
+    "name": "Haas' Claws"
   },
   {
     "name": "Malefic Roar"
@@ -65,36 +65,168 @@
     "name": "Demon Hunter Sword"
   },
   {
-    "name": "Swift Crossbow"
+    "name": "Magic Blade",
+    "price": 1150,
+    "builds": [
+      {"item": "Rose Gold Meteor"}
+    ],
+    "tree": [
+      {"item": "Dagger"},
+      {"item": "Magic Resist Cloak"}
+    ],
+    "attributes": [
+      {"Physical Attack": 40},
+      {"Magic Defense": 24}
+    ],
+    "uniquePassive": [
+      {"Lifeline": "When taking damage that reduces HP below 30%, gain a 420-910 shield (increases with level) and 50% Movement Speed that rapidly decays over 3s. This effect has a 60s cooldown."}
+    ]
   },
   {
-    "name": "Magic Blade"
+    "name": "Fury Hammer",
+    "price": 830,
+    "builds": [
+      {"item": "Blade of the Heptaseas"},
+      {"item": "Hunter Strike"}
+    ],
+    "tree": [
+      {"item": "Dagger"}
+    ],
+    "attributes": [
+      {"Physical Attack": 35},
+      {"Unique Attribute": "+12 Physical Penetration"}
+    ]
   },
   {
-    "name": "Fury Hammer"
+    "name": "Rogue Meteor",
+    "price": 900,
+    "builds": [
+      {"item": "Windtalker"},
+      {"item": "Haas' Claws"}
+    ],
+    "tree": [
+      {"item": "Javelin"},
+      {"item": "Knife"}
+    ],
+    "attributes": [
+      {"Attack Speed": "15%"},
+      {"Crit Chance": "10%"}
+    ]
   },
   {
-    "name": "Rogue Meteor"
-  },
-  {
-    "name": "Ogre Tomahawk"
+    "name": "Ogre Tomahawk",
+    "price": 790,
+    "builds": [
+      {"item": "Endless Battle"}
+    ],
+    "tree": [
+      {"item": "Vitality Crystal"},
+      {"item": "Dagger"}
+    ],
+    "attributes": [
+      {"Physical Attack": 30},
+      {"HP": 230}
+    ],
+    "uniquePassive": [
+      {"Angry": "Basic Attacks grant 10% Movement Speed for 1s."}
+    ]
   },
   {
     "name": "Legion Sword",
-    "price": 1000
+    "price": 910,
+    "builds": [
+      {"item": "Malefic Roar"},
+      {"item": "Berserker's Fury"},
+      {"item": "Great Dragon Spear"},
+      {"item": "Blade of Despair"},
+      {"item": "Sea Halberd"}
+    ],
+    "tree": [
+      {"item": "Dagger"},
+      {"item": "Dagger"}
+    ],
+    "attributes": [
+      {"Physical Attack": 60}
+    ]
+  },
+  {
+    "name": "Swift Crossbow",
+    "price": 1000,
+    "builds": [
+      {"item": "Corrosion Scythe"},
+      {"item": "Feather of Heaven"}
+    ],
+    "tree": [
+      {"item": "Knife"},
+      {"item": "Knife"}
+    ],
+    "attributes": [
+      {"Attack Speed": "20%"}
+    ],
+    "uniquePassive": [
+      {"Crossbow": "Each Basic Attack deals 40 extra Adaptive Damage."},
+      {"Impulse": "Basic Attacks grant 3% extra Attack Speed for 3s, capped at 5 stacks."}
+    ]
   },
   {
     "name": "Regular Spear",
-    "price": 500
+    "price": 600,
+    "builds": [
+      {"item": "Demon Hunter Sword"},
+      {"item": "Corrosion Scythe"},
+      {"item": "Golden Staff"},
+      {"item": "Wind of Nature"},
+      {"item": "Sea Halberd"}
+    ],
+    "tree": [
+      {"item": "Knife"},
+      {"item": "Dagger"}
+    ],
+    "attributes": [
+      {"Physical Attack": 20},
+      {"Attack Speed": "10%"}
+    ]
   },
   {
-    "name": "Iron Hunting Bow"
+    "name": "Iron Hunting Bow",
+    "price": 450,
+    "builds": [
+      {"item": "Hunter Strike"},
+      {"item": "Bloodlust Axe"},
+      {"item": "War Axe"},
+      {"item": "Great Dragon Spear"}
+    ],
+    "attributes": [
+      {"Physical Attack": 10},
+      {"Cooldown Reduction": "5%"}
+    ]
   },
   {
-    "name": "Vampire Mallet"
+    "name": "Vampire Mallet",
+    "price": 400,
+    "builds": [
+      {"item": "Haas' Claws"},
+      {"item": "Endless Battle"},
+      {"item": "Demon Hunter Sword"},
+      {"item": "Wind of Nature"},
+      {"item": "Rose Gold Meteor"}
+    ],
+    "attributes": [
+      {"Physical Attack": 8},
+      {"Lifesteal": "8%"}
+    ]
   },
   {
-    "name": "Javelin"
+    "name": "Javelin",
+    "price": 320,
+    "builds": [
+      {"item": "Rogue Meteor"},
+      {"item": "Berserker's Fury"},
+      {"item": "Great Dragon Spear"}
+    ],
+    "attributes": [
+      {"Crit Chance": "8%"}
+    ]
   },
   {
     "name": "Knife",
@@ -112,7 +244,24 @@
     ]
   },
   {
-    "name": "Dagger"
+    "name": "Dagger",
+    "price": 250,
+    "builds": [
+      {"item": "Regular Spear"},
+      {"item": "Legion Sword"},
+      {"item": "Ogre Tomahawk"},
+      {"item": "Fury Hammer"},
+      {"item": "Magic Blade"},
+      {"item": "Hunter Strike"},
+      {"item": "Bloodlust Axe"},
+      {"item": "Blade of the Heptaseas"},
+      {"item": "Golden Staff"},
+      {"item": "War Axe"},
+      {"item": "Haas' Claws"}
+    ],
+    "attributes": [
+      {"Physical Attack": 15}
+    ]
   },
   {
     "name": "Power Potion"
@@ -120,7 +269,7 @@
   {
     "name": "Flask of the Oasis",
     "desc": "Protect Teammates",
-    "price": "1850",
+    "price": 1850,
     "tree": [
       {"item": "Book of Sages"},
       {"item": "Magic Wand"},

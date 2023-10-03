@@ -50,7 +50,7 @@
     "img": "/commons/images/9/99/Item_Berserker%27s_Fury_ML.png"
   },
   {
-    "name": "Haas's Claws",
+    "name": "Haas' Claws",
     "link": "/mobilelegends/Haas%27s_Claws",
     "img": "/commons/images/f/fa/Item_Haas%27s_Claws_ML.png"
   },
@@ -85,11 +85,6 @@
     "img": "/commons/images/0/08/Item_Demon_Hunter_Sword_ML.png"
   },
   {
-    "name": "Swift Crossbow",
-    "link": "/mobilelegends/Swift_Crossbow",
-    "img": "/commons/images/6/63/Item_Swift_Crossbow_ML.png"
-  },
-  {
     "name": "Magic Blade",
     "link": "/mobilelegends/Magic_Blade",
     "img": "/commons/images/e/e9/Item_Magic_Blade_ML.png"
@@ -113,6 +108,11 @@
     "name": "Legion Sword",
     "link": "/mobilelegends/Legion_Sword",
     "img": "/commons/images/b/be/Item_Legion_Sword_ML.png"
+  },
+  {
+    "name": "Swift Crossbow",
+    "link": "/mobilelegends/Swift_Crossbow",
+    "img": "/commons/images/6/63/Item_Swift_Crossbow_ML.png"
   },
   {
     "name": "Regular Spear",
