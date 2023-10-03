@@ -9,23 +9,10 @@
   box-shadow: 5px 5px 3px 0px rgba(97,97,97,0.5);
 }
 
-@media only screen and (min-width: 512px) {
-  .DraggableDiv {
-    top: 30%;
-    height: 40%;
-  }
-   
-  .DraggableDiv .Header {
-    font-size: 1.025em;
-  }
-
-  .DraggableDiv div.price, button.close {
-    font-size: .525em;
-  }
-
-  .DraggableDiv .Content {
-    font-size: .825em;
-  }
+.DraggableDiv table.uniquePassive {
+  width: 100%;
+  position: absolute;
+  top: 72px;
 }
  
 .DraggableDiv .Header {
@@ -94,6 +81,25 @@ button.close {
   text-align: center;
 }
 
-.DraggableDiv .Content .uniquePassive {
-  padding: 16px;
+@media only screen and (min-width: 512px) {
+  .DraggableDiv {
+    top: 30%;
+    height: 40%;
+  }
+   
+  .DraggableDiv .Header {
+    font-size: 1.025em;
+  }
+
+  .DraggableDiv div.price, button.close {
+    font-size: .525em;
+  }
+
+  .DraggableDiv .Content {
+    font-size: .825em;
+  }
+
+  .DraggableDiv table.uniquePassive {
+    top: 96px;
+  }
 }

@@ -2,11 +2,11 @@
 <% if (item['attributes']){ %>
 <% item.attributes.forEach(function(attr){ %>
   <tr>
-    <td class="title" style="width: 30%">
-      <%- Object.keys(attr)[0] %>
+    <td style="width: 20%;text-align: right;">
+      +<%- attr[Object.keys(attr)[0]] %>&nbsp;
     </td>
-    <td>
-      <%- attr[Object.keys(attr)[0]] %>
+    <td class="title">
+      <%- Object.keys(attr)[0] %>
     </td>
   </tr>
 <% }); %>
@@ -14,11 +14,11 @@
 </table>
 
 <% if (item['uniquePassive']){ %>
-<table style="width: 100%;position: absolute;top: 72px;">
+<table class="uniquePassive">
 <% item.uniquePassive.forEach(function(attr){ %>
   <tr>
-    <td class="title" style="width: 30%">
-      <%- Object.keys(attr)[0] %>
+    <td class="title" style="width: 20%;text-align: right;">
+      <%- Object.keys(attr)[0] %>&nbsp;
     </td>
     <td>
       <%- attr[Object.keys(attr)[0]] %>

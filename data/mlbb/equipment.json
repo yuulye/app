@@ -94,7 +94,7 @@
     ],
     "attributes": [
       {"Physical Attack": 35},
-      {"Unique Attribute": "+12 Physical Penetration"}
+      {"Unique Attribute": "12 Physical Penetration"}
     ]
   },
   {
@@ -279,26 +279,98 @@
       {"Magic Power": 60},
       {"HP": 300},
       {"Cooldown Reduction": "10%"},
-      {"Unique Attribute": "+12% Healing Effect"}
+      {"Unique Attribute": "12% Healing Effect"}
     ],
     "uniquePassive": [
       {"Blessing": "When casting a healing or shield skill, if the target's HP is below 35% or falls below 35% within 5s, they will get a 660-1500 shield that lasts 3s. When this effect triggers, it also reduces the cooldown of the caster's skill by 2s. This effect can only trigger once every 60s on the same target, and will not trigger on self-only healing and shield skills."}
     ]
   },
   {
-    "name": "Genius Wand"
+    "name": "Genius Wand",
+    "desc": "Magic Defense Reduction",
+    "price": 2000,
+    "tree": [
+      {"item": "Magic Wand"},
+      {"item": "Exotic Veil"}
+    ],
+    "attributes": [
+      {"Magic Power": 75},
+      {"Movement Speed": "5%"},
+      {"Unique Attribute": "10% Magic Penetration"}
+    ],
+    "uniquePassive": [
+      {"Magic": "Dealing Magic Damage to enemy heroes will reduce their Magic Defense by 3-7 (scales with level) for 2s. Stacks up to 3 times."}
+    ]
   },
   {
-    "name": "Lightning Truncheon"
+    "name": "Lightning Truncheon",
+    "desc": "Splash Damage",
+    "price": 2250,
+    "tree": [
+      {"item": "Book of Sages"},
+      {"item": "Magic Wand"},
+      {"item": "Power Crystal"}
+    ],
+    "attributes": [
+      {"Magic Power": 75},
+      {"Mana": 400},
+      {"Cooldown Reduction": "10%"}
+    ],
+    "uniquePassive": [
+      {"Resonate": "Every 6s, the next skill that deals damage will deal 50-1000 extra Magic Damage (scales with Max Mana) to up to 3 enemies."}
+    ]
   },
   {
-    "name": "Fleeting Time"
+    "name": "Fleeting Time",
+    "desc": "Ultimate CD Reduction",
+    "price": 2050,
+    "tree": [
+      {"item": "Book of Sages"},
+      {"item": "Magic Wand"},
+      {"item": "Hero's Ring"}
+    ],
+    "attributes": [
+      {"Magic Power": 70},
+      {"HP": 300},
+      {"Cooldown Reduction": "15%"}
+    ],
+    "uniquePassive": [
+      {"Timestream": "Hero kills or assists reduce the Ultimate's current cooldown by 30%."}
+    ]
   },
   {
-    "name": "Blood Wings"
+    "name": "Blood Wings",
+    "desc": "Highest Magic Power",
+    "price": 3000,
+    "tree": [
+      {"item": "Magic Wand"},
+      {"item": "Magic Wand"}
+    ],
+    "attributes": [
+      {"Magic Power": 175},
+      {"HP": 500}
+    ],
+    "uniquePassive": [
+      {"Guard": "Gains a shield equal to 200% of Magic Power. The shield will regenerate 20s after being damaged, and grants 30 Movement Speed while it lasts."}
+    ]
   },
   {
-    "name": "Clock of Destiny"
+    "name": "Clock of Destiny",
+    "desc": "Scalable Attributes",
+    "price": 1950,
+    "tree": [
+      {"item": "Magic Wand"},
+      {"item": "Elegant Gem"}
+    ],
+    "attributes": [
+      {"Magic Power": 60},
+      {"HP": 500},
+      {"Mana": "600"}
+    ],
+    "uniquePassive": [
+      {"Time": "Gains 20 extra Max HP and 4 extra Magic Power every 20s, capped at 15 stacks."},
+      {"Reincarnate": "Gains 5% extra Magic Power and 600 extra Max Mana at max Time stacks."}
+    ]
   },
   {
     "name": "Starlium Scythe",
@@ -313,17 +385,47 @@
       {"Magic Power": 70},
       {"Cooldown Reduction": "10%"},
       {"Hybrid Lifesteal": "8%"},
-      {"Mana Regen": "6%"}
+      {"Mana Regen": "6"}
     ],
     "uniquePassive": [
       {"Crisis": "Within 3s after casting a skill, the caster's next Basic Attack will deal additional True Damage equal to 100 plus 100% Magic Power and briefly grant 10% Movement Speed. This effect has a 1.5s cooldown."}
     ]
   },
   {
-    "name": "Glowing Wand"
+    "name": "Glowing Wand",
+    "desc": "Damage Over Time",
+    "price": 2200,
+    "tree": [
+      {"item": "Mystery Codex"},
+      {"item": "Exotic Veil"},
+      {"item": "Vitality Crystal"}
+    ],
+    "attributes": [
+      {"Magic Power": 75},
+      {"HP": 400},
+      {"Movement Speed": "5%"}
+    ],
+    "uniquePassive": [
+      {"Scroch": "Magic Damage will burn targets for 3s, dealing Magic Damage equal to 1.5% of the target's Max HP per second, and increasing their Magic Damage taken by 2-4 (scales with level). Stacks up to 6 times."}
+    ]
   },
   {
-    "name": "Ice Queen Wand"
+    "name": "Ice Queen Wand",
+    "desc": "Slow on Skill Hit",
+    "price": 2040,
+    "tree": [
+      {"item": "Magic Wand"},
+      {"item": "Mystic Container"}
+    ],
+    "attributes": [
+      {"Magic Power": 75},
+      {"Spell Vamp": "10%"},
+      {"HP": 300},
+      {"Movement Speed": "7%"}
+    ],
+    "uniquePassive": [
+      {"Ice Bound": "When a skill deals damage to an enemy hero, it will also slow them by 10% for 2s (stacks up to 3 times). This effect has a 1s cooldown."}
+    ]
   },
   {
     "name": "Concentrated Energy",
@@ -337,25 +439,46 @@
     "attributes": [
       {"Magic Power": 70},
       {"HP": 700},
-      {"Unique Attribute": "+20% Spell Vamp"}
+      {"Unique Attribute": "20% Spell Vamp"}
     ],
     "uniquePassive": [
       {"Recharge": "Increases Magic Power by 5 after dealing Magic Damage (this effect stacks up to 6 times and can only gain 1 stack every 0.4s). When reaching full stacks, increases Magic Damage by 12% for 3s."}
     ]
   },
   {
-    "name": "Holy Crystal"
+    "name": "Holy Crystal",
+    "desc": "Magic Power Bonus",
+    "price": 2180,
+    "tree": [
+      {"item": "Magic Wand"},
+      {"item": "Magic Wand"}
+    ],
+    "attributes": [
+      {"Magic Power": 100}
+    ],
+    "uniquePassive": [
+      {"Mystery": "Gains 21-35% extra Magic Power (scales with level)."}
+    ]
   },
   {
-    "name": "Divine Glaive"
-  },
-  {
-    "name": "Shadow Twinblades"
+    "name": "Divine Glaive",
+    "desc": "Magic Penetration",
+    "price": 1970,
+    "tree": [
+      {"item": "Magic Wand"}
+    ],
+    "attributes": [
+      {"Magic Power": 60},
+      {"Unique Attribute": "40% Magic Penetration"}
+    ],
+    "uniquePassive": [
+      {"Spellbreaker": "When attacking an enemy, gains 0.1% extra Magic Penetration for each point of the enemy's Magic Defense capped at 20%."}
+    ]
   },
   {
     "name": "Necklace of Durance",
     "desc": "Healing Reduction",
-    "price": "2010",
+    "price": 2010,
     "tree": [
       {"item": "Book of Sages"},
       {"item": "Elegant Gem"},
@@ -392,10 +515,38 @@
     ]
   },
   {
-    "name": "Winter Truncheon"
+    "name": "Winter Truncheon",
+    "price": 1910,
+    "tree": [
+      {"item": "Magic Wand"},
+      {"item": "Vitality Crystal"}
+    ],
+    "attributes": [
+      {"Magic Power": 60},
+      {"Physical Defense": 25},
+      {"HP": 400}
+    ],
+    "uniquePassive": [
+      {"Frozen" : "Become unable to move or attack but immune to damage and control effects for 2s (100s cooldown)."}
+    ]
   },
   {
-    "name": "Enchanted Talisman"
+    "name": "Enchanted Talisman",
+    "price": 1870,
+    "tree": [
+      {"item": "Book of Sages"},
+      {"item": "Tome of Evil"},
+      {"item": "Magic Necklace"}
+    ],
+    "attributes": [
+      {"Magic Power": 50},
+      {"HP": 250},
+      {"Cooldown Reduction": "20%"}
+    ],
+    "uniquePassive": [
+      {"Mana Spring" : "Regenerates 15% Max Mana every 10s."},
+      {"Magic Mastery" : "Max Cooldown Reduction is increased by 5%."}
+    ]
   },
   {
     "name": "Elegant Gem",
@@ -793,7 +944,7 @@
     ],
     "attributes": [
       {"Physical Defense": 90},
-      {"Unique Attribute": "+20% Crit Damage Reduction"}
+      {"Unique Attribute": "20% Crit Damage Reduction"}
     ],
     "uniquePassive": [
       {"Bladed Armor" : "When struck by a Basic Attack, deals Physical Damage equal to 30% of the incoming damage (calculated before Damage Reduction) plus 20% of the hero's Physical Defense to the attacker and slows them by 15% for 1s."}
