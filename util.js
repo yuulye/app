@@ -29,6 +29,7 @@ exports.config = () => {
     console.log(`Using config.json...`);
     data = require(`./${localConfigPath}`);
   }
+  console.log(data);
   return  data;
 };
 
