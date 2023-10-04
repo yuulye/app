@@ -21,7 +21,7 @@ exports.config = () => {
     console.log(`Checking process.env.config...`);
     if (process.env.config) {
       console.log(`Using process.env.config...`);
-      data = process.env.config;
+      data = JSON.parse(process.env.config);
     } else {
       console.log(`couldn't find any config!`);
     }
