@@ -1,4 +1,4 @@
-console.log('initializing discord bot...', process.env.config);
+console.log('initializing discord bot...');
 
 const u = require('./../util');
 const fs = require('node:fs');
