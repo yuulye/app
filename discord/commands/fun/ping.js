@@ -89,19 +89,54 @@ module.exports = {
 		.setDescription('Replies with Pong!'),
 	async execute(interaction) {
     process((data, equipment) => {
-      console.log(data, equipment);
+      //console.log(data, equipment);
     });
     const emojis = [
+      /*
+      */
+      `a:star:751817179053424704`,
+      `a:one:764910636974604328`,
+      `a:cross:751443454244159519`,
+      `a:checkmark1:751806451474890752`,
+      /*
+      `a:trophy:751819076757749860`,
+      `a:switchArrows:751815223635214416`,
+      `a:sbc:751850029358121000`,
+      `a:processing:751443517678813245`,
+      `a:pingPong:751821635199172638`,
+      `a:pepeMaskJam:751443538532892783`,
+      `a:peepoJam:751428076285722665`,
+      `a:market:752814593159725106`,
+      `a:loading:751443495104938014`,
+      `a:hero:752812855358783560`,
+      `a:game:752811402866982952`,
+      `a:football:751811132834054255`,
+      `a:crabDance:751080988250996736`,
+      `a:coin:751813392989290546`,
+      `a:chess1:751820693959868517`,
+      `a:chess:751820618890084412`,
+      `a:checkmark:751443477417426964`,
+      `a:announcement:751806445254606928`,
+      `a:8ball:751810566661734460`,
+      `a:diamond:1159623409169350748`,
+      */
+      `:nanaWow:1159633715333435392`,
+      `:lolitaWle:1159633686740877403`,
+      `:chou:1159633645145964695`,
+      `:aluCool:1159633608542257153`,
       `:laylalaugh:1159356821878870216`,
       `:laylacry:1159358890358607904`,
       `:laylalove:1159358858427383898`,
       `:laylawle:1159358828496814081`,
+      /*
+      */
     ];
     const emoji = emojis[
       (Math.floor(Math.random() * emojis.length))
     ];
 		return interaction.reply(
-      `<${emoji}> | Pong!`
+      `> ## [__***Pong !***__](https://eruditio.onrender.com/)`
+      + `   <${emoji}>`
     );
 	},
 };
