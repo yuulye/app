@@ -11,6 +11,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var testRouter = require('./routes/test');
 var coverRouter = require('./routes/cover');
+var uangRouter = require('./routes/uang');
 
 var app = express();
 
@@ -24,6 +25,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.use('/uang', uangRouter);
 app.use('/equipment', indexRouter);
 app.use('/users', usersRouter);
 app.use('/test', testRouter);
