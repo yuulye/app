@@ -1,0 +1,37 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+#bgTop {
+  width: 480px;
+  height: 128px;
+  background: url(images/rpg/bg1/part1.png);
+  background-size: 480px;
+  -webkit-animation: slide 180s linear infinite;
+}
+@-webkit-keyframes slide {
+  from { background-position: 0px 0px; }
+  to { background-position: 480px 0px; }
+}
+#bg {
+  width: 480px;
+  height: 128px;
+  background: url(images/rpg/bg1/part2.png) repeat;
+  background-size: 480px;
+  position: relative;
+  -webkit-animation: up 60s linear infinite;
+}
+@-webkit-keyframes up {
+  from { background-position: 0px 0px; }
+  to { background-position: 0px -256px; }
+}
+
+#char {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: url(images/rpg/worldmap_chars.png) -4px -4px;
+  background-size: 888px;
+  right: 54px;
+  top: -14px;
+}
