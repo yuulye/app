@@ -2,10 +2,30 @@ body {
   margin: 0px;
   padding: 0px;
 }
+
+#nav {
+  position: fixed;
+  bottom: 16px;
+  width: 100%;
+  text-align: center;
+  margin: 4px;
+}
+#nav img {
+  width: 48px;
+  padding: 4px 8px;
+}
+#subNavLocation img {
+  width: 64px;
+}
+#subNav > div {
+  display: none;
+}
+
 #bgTop {
   width: 480px;
   height: 128px;
-  background: url(images/rpg/bg1/part1.png);
+  background-image: url(images/rpg/bg1/part1.png);
+  background-repeat: repeat;
   background-size: 480px;
   -webkit-animation: slide 180s linear infinite;
 }
@@ -16,7 +36,8 @@ body {
 #bg {
   width: 480px;
   height: 128px;
-  background: url(images/rpg/bg1/part2.png) repeat;
+  background-image: url(images/rpg/bg1/part2.png);
+  background-repeat: repeat;
   background-size: 480px;
   position: relative;
   -webkit-animation: up 60s linear infinite;
@@ -26,7 +47,7 @@ body {
   to { background-position: 0px -256px; }
 }
 
-#char {
+#playerEl {
   position: absolute;
   width: 40px;
   height: 40px;
@@ -34,4 +55,20 @@ body {
   background-size: 888px;
   right: 54px;
   top: -14px;
+}
+#playerIcon {
+  position: absolute;
+  width: 32px;
+  height: 20px;
+  background: none 320px 42px;
+  background-size: 704px;
+  right: 24px;
+  top: -10px;
+
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
 }

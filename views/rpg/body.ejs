@@ -1,23 +1,30 @@
 <div id="bgTop"></div>
 <div id="bg">
-  <div id="char"></div>
+  <div id="playerEl">
+    <div id="playerIcon"></div>
+  </div>
 </div>
-<!--
-<button onclick="changeBG()">
-  <h3>Background</h3>
-</button>
--->
-&nbsp;
-<button onclick="changePlayer()">
-  <h3>Player</h3>
-</button>
-&nbsp;
-<button onclick="changePose()">
-  <h3>Pose</h3>
-</button>
-&nbsp;
-<button onclick="walk(this)">
-  <h3>Walk</h3>
-</button>
+
+<div id="nav">
+  <div id="subNav">
+    <div id="subNavLocation">
+      <img onclick="changeBg(1)" src="/images/rpg/bg1/bg1.png"/>
+      <img onclick="changeBg(6)" src="/images/rpg/bg6/bg6.png"/>
+      <img onclick="changeBg(31)" src="/images/rpg/bg31/bg31.png"/>
+    </div>
+    <div id="subNavUser">
+      <img
+        onclick="changePlayer()"
+        src="/images/icons/user-change.png"
+      />
+      <img
+        onclick="walk(this)"
+        src="/images/icons/footprint.png"
+      />
+    </div>
+  </div>
+  <img src="/images/icons/map.png" onclick="locationNav()"/>
+  <img src="/images/icons/user.png" onclick="userNav()"/>
+</div>
 
 <script><%- include('js/main.js') %></script>
