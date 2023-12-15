@@ -13,12 +13,19 @@ function locationNav() {
   }
 }
 
+const roads = [
+  'cornelia_road', 'cornelia',
+];
 function changeBg(value) {
-  bgTop.style.backgroundImage
-    = `url(/images/rpg/bg${value}/part1.png)`
-  ;
+  [].forEach.call(
+    document.getElementsByClassName('treeWrapper')
+    , function(el) {
+    el.style.display = 'none';
+  });
+  const map = document.getElementById(`map${value}`);
+  map.style.display = 'block';
   bg.style.backgroundImage
-    = `url(/images/rpg/bg${value}/part2.png)`
+    = `url(/images/rpg/road/${roads[value]}.png)`
   ;
 }
 

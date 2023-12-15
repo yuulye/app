@@ -49,11 +49,23 @@ body {
   top: 0px;
   overflow: hidden;
 }
+.bush {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  background-image: url(images/rpg/bush.png);
+}
 .tree {
   height: 80px;
   width: 45px;
   position: absolute;
   background-image: url(images/rpg/tree.png);
+}
+.house {
+  height: 99px;
+  width: 96px;
+  position: absolute;
+  background-image: url(images/rpg/house.png);
 }
 .mountain {
   height: 32px;
@@ -61,11 +73,17 @@ body {
   position: absolute;
   background-image: url(images/rpg/green-mountain.png);
 }
+.wall {
+  height: 42px;
+  width: 480px;
+  position: absolute;
+  background-image: url(images/rpg/wall.png);
+}
 
 #bg {
   width: 480px;
   height: 128px;
-  background-image: url(images/rpg/bg1/part2.png);
+  background-image: url(images/rpg/road/cornelia_road.png);
   background-repeat: repeat;
   background-size: 480px;
   position: relative;
