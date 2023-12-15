@@ -13,6 +13,7 @@ var testRouter = require('./routes/test');
 var coverRouter = require('./routes/cover');
 var uangRouter = require('./routes/uang');
 var rpgRouter = require('./routes/rpg');
+var pwaRouter = require('./routes/pwa');
 
 var app = express();
 
@@ -26,6 +27,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.use('/pwa', pwaRouter);
 app.use('/rpg', rpgRouter);
 app.use('/uang', uangRouter);
 app.use('/equipment', indexRouter);
