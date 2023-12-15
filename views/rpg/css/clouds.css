@@ -1,0 +1,15 @@
+<%
+const cloudTypes = [
+  [64, 32], [80, 36], [86, 38], [90, 42], [92, 42], [142, 54],
+];
+%>
+
+<% for (let i = 0; i < cloudTypes.length; i++) { %>
+.cloud<%- i %> {
+  <% const type = cloudTypes[i]; %>
+  width: <%- type[0] %>px;
+  height: <%- type[1] %>px;
+  background-image:
+    url(images/rpg/clouds/<%- type[0] %>x<%- type[1] %>.png);
+}
+<% } %>

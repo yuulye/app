@@ -24,15 +24,35 @@ body {
 #bgTop {
   width: 480px;
   height: 128px;
+  background-color: skyBlue;
+  position: relative;
+  overflow: hidden;
+  /*
   background-image: url(images/rpg/bg1/part1.png);
   background-repeat: repeat;
   background-size: 480px;
   -webkit-animation: slide 180s linear infinite;
+  */
 }
+/*
 @-webkit-keyframes slide {
   from { background-position: 0px 0px; }
   to { background-position: 480px 0px; }
 }
+*/
+
+.cloudWrapper {
+  width: 480px;
+  height 128px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.cloud {
+  position: absolute;
+}
+<%- include('clouds.css') %>
+
 #bg {
   width: 480px;
   height: 128px;
@@ -53,7 +73,7 @@ body {
   height: 40px;
   background: url(images/rpg/worldmap_chars.png) -4px -4px;
   background-size: 888px;
-  right: 54px;
+  right: 64px;
   top: -14px;
 }
 #playerIcon {
