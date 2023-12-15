@@ -27,23 +27,11 @@ body {
   background-color: skyBlue;
   position: relative;
   overflow: hidden;
-  /*
-  background-image: url(images/rpg/bg1/part1.png);
-  background-repeat: repeat;
-  background-size: 480px;
-  -webkit-animation: slide 180s linear infinite;
-  */
 }
-/*
-@-webkit-keyframes slide {
-  from { background-position: 0px 0px; }
-  to { background-position: 480px 0px; }
-}
-*/
 
 .cloudWrapper {
   width: 480px;
-  height 128px;
+  height: 128px;
   position: absolute;
   left: 0px;
   top: 0px;
@@ -52,6 +40,27 @@ body {
   position: absolute;
 }
 <%- include('clouds.css') %>
+
+.treeWrapper {
+  width: 480px;
+  height: 144px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.tree {
+  height: 80px;
+  width: 45px;
+  position: absolute;
+  background-image: url(images/rpg/tree.png);
+}
+.mountain {
+  height: 32px;
+  width: 356px;
+  position: absolute;
+  background-image: url(images/rpg/green-mountain.png);
+}
 
 #bg {
   width: 480px;
@@ -74,7 +83,7 @@ body {
   background: url(images/rpg/worldmap_chars.png) -4px -4px;
   background-size: 888px;
   right: 64px;
-  top: -14px;
+  top: 16px;
 }
 #playerIcon {
   position: absolute;
