@@ -76,6 +76,13 @@ body {
   to { background-position: 0px -256px; }
 }
 
+#playerWrapper {
+  width: 480px;
+  height: 128px;
+  background-image: none;
+  position: absolute;
+  top: 128px;
+}
 #playerEl {
   position: absolute;
   width: 40px;
@@ -83,7 +90,7 @@ body {
   background: url(images/rpg/worldmap_chars.png) -4px -4px;
   background-size: 888px;
   right: 64px;
-  top: 16px;
+  top: -16px;
 }
 #playerIcon {
   position: absolute;
