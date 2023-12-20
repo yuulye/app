@@ -1,0 +1,30 @@
+<%
+iconList = [
+  'wallet', 'square-rounded-plus', 'list-details', 'home',
+];
+iconSize = 64;
+%>
+
+.icon {
+  width: <%-iconSize%>px;
+  height: <%-iconSize%>px;
+}
+
+<% for (let i = 0; i < iconList.length; i++) { %>
+<%
+const icon = iconList[i];
+%>
+.icon.<%-icon%> {
+  background-size: <%-iconSize%>px;
+  background-color: grey;
+
+  mask: url(<%-icons%><%-icon%>.svg) no-repeat center;
+  mask-size: <%-iconSize*(2/3)%>px;
+  -webkit-mask: url(<%-icons%><%-icon%>.svg) no-repeat center;
+  -webkit-mask-size: <%-iconSize*(2/3)%>px;
+}
+<% } %>
+
+.icon.active {
+  background-color: black;
+}

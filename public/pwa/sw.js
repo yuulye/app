@@ -1,10 +1,11 @@
-const CACHE_NAME = `AivoxoviA-v0.0.0`;
+const CACHE_NAME = `AivoxoviA-v0.0.1`;
 
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE_NAME);
     cache.addAll([
       '/pwa/',
+      '/tabler-icons-2.36.0/',
     ]);
   })());
 });
