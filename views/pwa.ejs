@@ -4,15 +4,26 @@
     <meta charset="UTF-8" />
     <meta
       name="viewport"
-      content="width=device-width,initial-scale=1"
+      content="width=device-width,initial-scale=1,user-scalable=1"
     />
     <link
       rel="shortcut icon"
       href="/images/logo.png"
     />
     <link rel="manifest" href="/pwa/manifest.json"/>
-    <link rel="stylesheet" href="/pwa/converter.css"/>
+<style>
+<%- include('pwa/css/main.css') %>
+<%- include('pwa/css/nav.css') %>
+</style>
     <title><%- title %></title>
   </head>
-  <body><%- include('pwa/body') %></body>
+  <body>
+    <%- include('pwa/nav') %>
+    <%- include('pwa/body') %>
+    <script>
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/pwa/sw.js', { scope: '/pwa/' });
+      }
+    </script>
+  </body>
 </html>
