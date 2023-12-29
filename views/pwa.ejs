@@ -19,8 +19,8 @@
     <title><%- title %></title>
   </head>
   <body>
-    <%- include('pwa/nav') %>
     <%- include('pwa/body') %>
+    <%- include('pwa/nav') %>
     <script>
       if('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/pwa/sw.js', { scope: '/pwa/' });
