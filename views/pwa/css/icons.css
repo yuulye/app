@@ -1,8 +1,8 @@
 <%
 iconList = [
-  'wallet', 'square-rounded-plus', 'list-details', 'home',
+  'wallet', 'square-rounded-plus', 'list-details', 'home', 'help',
 ];
-iconSize = 64;
+iconSize = 48;
 %>
 
 .icon {
@@ -26,5 +26,5 @@ const icon = iconList[i];
 <% } %>
 
 .icon.active {
-  background-color: black;
+  background-color: white;
 }

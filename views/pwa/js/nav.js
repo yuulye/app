@@ -9,12 +9,12 @@ navs.forEach((nav, i) => {
     navs.forEach((nav) => { nav.classList.remove('active');});
     mains.forEach((main, j) => {
       if (j !== active) main.style.display = 'none';
-      else main.style.display = 'block';
+      else main.style.display = 'flex';
     });
     const el = event.target;
     el.classList.add('active');
   };
 });
 
-navs[active===-1?1:active].click();
+navs[active===-1?3:active].click();
 

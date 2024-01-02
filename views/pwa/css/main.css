@@ -11,4 +11,19 @@ body {
 
 nav, main {
   padding: 2px;
+  width: 100%;
+}
+
+html {
+  height: calc(100% - 64px);
+}
+
+body, main {
+  height: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

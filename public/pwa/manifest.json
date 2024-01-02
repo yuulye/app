@@ -1,11 +1,11 @@
 {
   "lang": "en-us",
-  "name": "AivoxoviA app",
+  "name": "AivoxoviA",
   "short_name": "oxo",
   "description": "A basic application from AivoxoviA",
   "start_url": "/pwa",
-  "background_color": "#ff92ff",
-  "theme_color": "#ff92ff",
+  "background_color": "#8e008e",
+  "theme_color": "#8e008e",
   "orientation": "portrait",
   "display": "standalone",
   "icons": [
