@@ -21,10 +21,6 @@
   <body>
     <%- include('pwa/body') %>
     <%- include('pwa/nav') %>
-    <script>
-      if('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/pwa/sw.js', { scope: '/pwa/' });
-      }
-    </script>
+    <script><%- include('pwa/js/main.js') %></script>
   </body>
 </html>
