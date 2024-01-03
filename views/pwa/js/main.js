@@ -1,3 +1,28 @@
+if (Notification.permission === "granted") {
+  notificationIndicator
+    .classList.remove('brand-x-filled', 'danger');
+  notificationIndicator
+    .classList.add('check', 'success');
+} else {
+  notificationIndicator
+    .classList.remove('check', 'success');
+  notificationIndicator
+    .classList.add('brand-x-filled', 'danger');
+}
+
+function randomNotification() {
+  const randomItem = Math.floor(Math.random() * games.length);
+  const notifTitle = games[randomItem].name;
+  const notifBody = `Created by ${games[randomItem].author}.`;
+  const notifImg = `data/img/${games[randomItem].slug}.jpg`;
+  const options = {
+    body: notifBody,
+    icon: notifImg,
+  };
+  new Notification(notifTitle, options);
+  setTimeout(randomNotification, 30000);
+}
+
 let installPrompt = null;
 const installButton = document.querySelector("#install");
 

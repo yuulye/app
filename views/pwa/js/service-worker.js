@@ -36,6 +36,18 @@ if ('serviceWorker' in navigator) {
       register.textContent
         = 'failed: ' + error;
     });
+
+  navigator.serviceWorker.addEventListener("message", (event) => {
+    console.log(
+      `The service worker sent me a message:`, event.data
+    );
+    appVersion.textContent = event.data.version
+      ? event.data.version : 'unknown';
+  });
+
+  navigator.serviceWorker.ready.then((registration) => {
+    registration.active.postMessage("Hi service worker");
+  });
 } else {
   availability.textContent = 'are not';
 }

@@ -1,20 +1,26 @@
 const APP_NAME = `AivoxoviA`;
-const VERSION= `0.0.1`;
+const VERSION= `0.0.2`;
 const CACHE_NAME = `${APP_NAME}-v${VERSION}`;
+const LIST = [
+  '/pwa/',
+  '/tabler-icons-2.36.0/svg/home.svg',
+  '/tabler-icons-2.36.0/svg/wallet.svg',
+  '/tabler-icons-2.36.0/svg/list-details.svg',
+  '/tabler-icons-2.36.0/svg/help.svg',
+  '/tabler-icons-2.36.0/svg/circle-filled.svg',
+  '/tabler-icons-2.36.0/svg/brand-x-filled.svg',
+  '/tabler-icons-2.36.0/svg/check.svg',
+];
+
+self.onmessage = (event) => {
+  console.log(`The client sent me a message: ${event.data}`);
+  event.source.postMessage({version: VERSION});
+};
 
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE_NAME);
-    cache.addAll([
-      '/pwa/',
-      '/tabler-icons-2.36.0/svg/home.svg',
-      '/tabler-icons-2.36.0/svg/wallet.svg',
-      '/tabler-icons-2.36.0/svg/list-details.svg',
-      '/tabler-icons-2.36.0/svg/help.svg',
-      '/tabler-icons-2.36.0/svg/circle-filled.svg',
-      '/tabler-icons-2.36.0/svg/brand-x-filled.svg',
-      '/tabler-icons-2.36.0/svg/check.svg',
-    ]);
+    cache.addAll(LIST);
   })());
 });
 
