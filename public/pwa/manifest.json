@@ -10,8 +10,20 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "/images/logo.png",
-      "sizes": "512x512"
+      "src": "/images/favicons/logo-light-194x194.png",
+      "sizes": "194x194 512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicons/logo-light-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicons/logo-light-144x144-maskable.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
