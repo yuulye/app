@@ -17,47 +17,21 @@ installButton.addEventListener("click", async () => {
   installButton.setAttribute("hidden", "");
 });
 
-function logState(state) {
-  var liElement = document.createElement('li');
-  liElement.textContent = state;
-  document.querySelector('#states').appendChild(liElement);
-}
-
-if ('serviceWorker' in navigator) {
-  document.querySelector('#availability').textContent = 'are';
-
-  document.querySelector('#controlled').textContent
-    = navigator.serviceWorker.controller ? 'is' : 'is not';
-
-  navigator.serviceWorker.register('sw.js', {scope: './'}).then(
-    function(registration) {
-      document.querySelector('#register').textContent = 'succeeded';
-
-      var serviceWorker;
-      if (registration.installing) {
-        serviceWorker = registration.installing;
-        document.querySelector('#kind').textContent = 'installing';
-      } else if (registration.waiting) {
-        serviceWorker = registration.waiting;
-        document.querySelector('#kind').textContent = 'waiting';
-      } else if (registration.active) {
-        serviceWorker = registration.active;
-        document.querySelector('#kind').textContent = 'active';
-      }
-
-      if (serviceWorker) {
-        logState(serviceWorker.state);
-        serviceWorker.addEventListener('statechange', function(e) {
-          logState(e.target.state);
-        });
-      }
-    }).catch(function(error) {
-      document.querySelector('#register').textContent
-        = 'failed: ' + error;
-    });
+if (navigator.onLine) {
+  onlineIndicator.classList.remove('danger');
+  onlineIndicator.classList.add('success');
 } else {
-  document.querySelector('#availability').textContent = 'are not';
+  onlineIndicator.classList.remove('success');
+  onlineIndicator.classList.add('danger');
 }
+window.addEventListener("online", () => {
+  onlineIndicator.classList.remove('danger');
+  onlineIndicator.classList.add('success');
+});
+window.addEventListener("offline", () => {
+  onlineIndicator.classList.remove('success');
+  onlineIndicator.classList.add('danger');
+});
 
 if (navigator.setAppBadge) {
   console.log("The App Badging API is supported!");
@@ -70,3 +44,5 @@ if (navigator.setAppBadge) {
 if ("Notification" in window) {
   console.log("The Notifications API is supported");
 }
+
+<%- include('service-worker.js') %>

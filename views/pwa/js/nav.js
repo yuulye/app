@@ -9,7 +9,7 @@ navs.forEach((nav, i) => {
     navs.forEach((nav) => { nav.classList.remove('active');});
     mains.forEach((main, j) => {
       if (j !== active) main.style.display = 'none';
-      else main.style.display = 'flex';
+      else main.style.display = 'block';
     });
     const el = event.target;
     el.classList.add('active');

@@ -18,36 +18,54 @@
           "/>
           App
         </b>
+        <div
+          id="onlineIndicator"
+          class="icon circle-filled inline success"
+        ></div>
       </div>
       <hr/>
 
       <div class="output">
-        <h2>Service Worker Availability</h2>
+        <h3>Service Worker Availability</h3>
         <p>
-          Service Workers <strong id="availability"></strong> available in your browser.
-          <em>(Whether <code>'serviceWorker' in navigator</code>.)</em>
+          Service Workers <strong id="availability"></strong>
+          available in your browser.
+          <em>
+            (Whether <code>'serviceWorker' in navigator</code>.)
+          </em>
         </p>
 
-        <h2>Is This Page Controlled by a Service Worker?</h2>
+        <h3>Is This Page Controlled by a Service Worker?</h3>
         <p>
-          This page <strong id="controlled"></strong> currently controlled.
-          <em>(Whether <code>navigator.serviceWorker.controller</code> is set.)</em>
+          This page <strong id="controlled"></strong> currently
+          controlled.
+          <em>
+            (Whether
+              <code>navigator.serviceWorker.controller</code>
+            is set.)
+          </em>
         </p>
 
-        <h2>Info about the Current Registration</h2>
+        <h3>Info about the Current Registration</h3>
         <p>
-          The <code>navigator.serviceWorker.register()</code> call <strong id="register"></strong>.
+          The <code>navigator.serviceWorker.register()</code>
+          call <strong id="register"></strong>.
         </p>
         <p>
-          The current registration represents the <strong id="kind"></strong> service worker.
+          The current registration represents the
+          <strong id="kind"></strong> service worker.
         </p>
         <p>
-          <em>Tip:</em> With a newly registered service worker in the <code>activated</code> state,
+          <em>Tip:</em> With a newly registered service worker
+          in the <code>activated</code> state,
           refresh the page to have the service worker take control.
           You can also refresh with the Shift key held down to load
           the page without the service worker controlling it.
         </p>
-        <p>State transitions of the service worker associated with the current registration:</p>
+        <p>
+          State transitions of the service worker associated with
+          the current registration:
+        </p>
         <ol id="states"></ol>
       </div>
 

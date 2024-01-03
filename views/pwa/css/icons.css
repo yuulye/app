@@ -1,6 +1,7 @@
 <%
 iconList = [
   'wallet', 'square-rounded-plus', 'list-details', 'home', 'help',
+  'circle-filled', 'brand-x-filled', 'check',
 ];
 iconSize = 48;
 %>
@@ -25,6 +26,31 @@ const icon = iconList[i];
 }
 <% } %>
 
+.icon.inline {
+  position: relative;
+  top: 3px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-size: 16px;
+
+  mask-size: 16px;
+  -webkit-mask-size: 16px;
+}
+
 .icon.active {
   background-color: white;
+}
+
+.icon.danger {
+  background-color: #cc0000;
+}
+.icon.success {
+  background-color: #007e33;
+}
+.icon.warn {
+  background-color: #ff8800;
+}
+.icon.info {
+  background-color: #0099cc;
 }

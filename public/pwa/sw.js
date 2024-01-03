@@ -1,5 +1,5 @@
 const APP_NAME = `AivoxoviA`;
-const VERSION = `0.0.0`;
+const VERSION= `0.0.0`;
 const CACHE_NAME = `${APP_NAME}-v${VERSION}`;
 
 self.addEventListener('install', event => {
@@ -11,6 +11,9 @@ self.addEventListener('install', event => {
       '/tabler-icons-2.36.0/svg/wallet.svg',
       '/tabler-icons-2.36.0/svg/list-details.svg',
       '/tabler-icons-2.36.0/svg/help.svg',
+      '/tabler-icons-2.36.0/svg/circle-filled.svg',
+      '/tabler-icons-2.36.0/svg/brand-x-filled.svg',
+      '/tabler-icons-2.36.0/svg/check.svg',
     ]);
   })());
 });
