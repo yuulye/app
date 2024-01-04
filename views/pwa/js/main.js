@@ -71,3 +71,4 @@ if ("Notification" in window) {
 }
 
 <%- include('service-worker.js') %>
+<%- include('about.js') %>

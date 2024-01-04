@@ -1,5 +1,5 @@
 const APP_NAME = `AivoxoviA`;
-const VERSION= `0.0.3`;
+const VERSION= `0.0.4`;
 const CACHE_NAME = `${APP_NAME}-v${VERSION}`;
 const LIST = [
   '/pwa/',
@@ -10,6 +10,8 @@ const LIST = [
   '/tabler-icons-2.36.0/svg/circle-filled.svg',
   '/tabler-icons-2.36.0/svg/brand-x-filled.svg',
   '/tabler-icons-2.36.0/svg/check.svg',
+  '/tabler-icons-2.36.0/svg/square-arrow-down-filled.svg',
+  '/tabler-icons-2.36.0/svg/square-arrow-up-filled.svg',
 ];
 
 self.onmessage = (event) => {

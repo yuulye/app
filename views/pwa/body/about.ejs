@@ -1,0 +1,43 @@
+<div>
+  <div style="
+    margin: 0px;
+    padding: 16px;
+    background: #eee;
+  ">
+    <div style="text-align: center">
+      <b>
+        AivoxoviA
+        <img src="/images/logo.png" style="
+          width: 24px;
+          position: relative;
+          top: 4px;
+        "/>
+        App
+      </b>
+      <div
+        id="onlineIndicator"
+        class="icon circle-filled inline success"
+      ></div>
+    </div>
+    <hr/>
+
+    <div class="output">
+      <h3>
+        Notification
+        <span
+          id="notificationIndicator"
+          class="icon inline brand-x-filled danger"
+        ></span>
+      </h3>
+
+      <%- include('about/service-worker') %>
+    </div>
+
+    <br/>
+    <hr/>
+    <div style="text-align: center">
+      <button id="install" hidden>Install</button>
+      Software Version - <b id="appVersion">unknown</b>
+    </div>
+  </div>
+</div>

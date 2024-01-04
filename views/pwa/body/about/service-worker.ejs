@@ -1,0 +1,49 @@
+<h3 id="toggleShowServiceWorker">
+  Service Worker
+  <span
+    id="indicatorShowServiceWorker"
+    class="icon inline square-arrow-down-filled info"
+  ></span>
+</h3>
+<div id="serviceWorkerContent" hidden>
+  <p>
+    Service Workers <strong id="availability"></strong>
+    available in your browser.
+    <em>
+      (Whether <code>'serviceWorker' in navigator</code>.)
+    </em>
+  </p>
+
+  <h3>Is This Page Controlled by a Service Worker?</h3>
+  <p>
+    This page <strong id="controlled"></strong> currently
+    controlled.
+    <em>
+      (Whether
+        <code>navigator.serviceWorker.controller</code>
+      is set.)
+    </em>
+  </p>
+
+  <h3>Info about the Current Registration</h3>
+  <p>
+    The <code>navigator.serviceWorker.register()</code>
+    call <strong id="register"></strong>.
+  </p>
+  <p>
+    The current registration represents the
+    <strong id="kind"></strong> service worker.
+  </p>
+  <p>
+    <em>Tip:</em> With a newly registered service worker
+    in the <code>activated</code> state,
+    refresh the page to have the service worker take control.
+    You can also refresh with the Shift key held down to load
+    the page without the service worker controlling it.
+  </p>
+  <p>
+    State transitions of the service worker associated with
+    the current registration:
+  </p>
+  <ol id="states"></ol>
+</div>
