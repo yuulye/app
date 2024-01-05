@@ -1,14 +1,13 @@
 const navs = document.querySelectorAll("nav > div div");
 const mains = document.querySelectorAll("main > div");
-let active = -1;
 
 navs.forEach((nav, i) => {
   nav.onclick = (event) => {
-    if (active === i) return;
-    active = i;
+    if (nav.classList.contains('active')) return;
+    setActiveNav(i);
     navs.forEach((nav) => { nav.classList.remove('active');});
     mains.forEach((main, j) => {
-      if (j !== active) main.style.display = 'none';
+      if (j !== getActiveNav()) main.style.display = 'none';
       else main.style.display = 'block';
     });
     const el = event.target;
@@ -16,5 +15,5 @@ navs.forEach((nav, i) => {
   };
 });
 
-navs[active===-1?3:active].click();
+navs[getActiveNav()].click();
 

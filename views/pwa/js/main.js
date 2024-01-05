@@ -1,3 +1,6 @@
+<%- include('localStorage.js') %>
+<%- include('nav.js') %>
+
 if (Notification.permission === "granted") {
   notificationIndicator
     .classList.remove('brand-x-filled', 'danger');
