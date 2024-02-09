@@ -21,8 +21,11 @@
   <body>
     <%- include('pwa/body') %>
     <%- include('pwa/nav') %>
-    <script><%- include('pwa/js/main.js') %></script>
     <script src="//cdn.jsdelivr.net/npm/eruda"></script>
     <script>eruda.init();</script>
+    <script
+      src="/pwa/dist/about_service_worker.bundle.js"
+    ></script>
+    <script src="/pwa/dist/index.bundle.js"></script>
   </body>
 </html>

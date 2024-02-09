@@ -1,21 +1,12 @@
-const APP_NAME = `AivoxoviA`;
-const VERSION= `0.0.5`;
+self.importScripts('data.js');
+
+const APP_NAME = data.appName;
+const VERSION= data.version;
 const CACHE_NAME = `${APP_NAME}-v${VERSION}`;
-const LIST = [
-  '/pwa/',
-  '/tabler-icons-2.36.0/svg/home.svg',
-  '/tabler-icons-2.36.0/svg/wallet.svg',
-  '/tabler-icons-2.36.0/svg/list-details.svg',
-  '/tabler-icons-2.36.0/svg/help.svg',
-  '/tabler-icons-2.36.0/svg/circle-filled.svg',
-  '/tabler-icons-2.36.0/svg/brand-x-filled.svg',
-  '/tabler-icons-2.36.0/svg/check.svg',
-  '/tabler-icons-2.36.0/svg/square-arrow-down-filled.svg',
-  '/tabler-icons-2.36.0/svg/square-arrow-up-filled.svg',
-];
+const LIST = cacheList;
 
 self.onmessage = (event) => {
-  console.log(`The client sent me a message: ${event.data}`);
+  console.log(`[main-thread] -> [sw.js]: ${event.data}`);
   event.source.postMessage({version: VERSION});
 };
 
