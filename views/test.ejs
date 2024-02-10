@@ -6,33 +6,51 @@
     <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
   </head>
   <body>
-    <div id="my-element">
-      <h1>Hello, world!</h1>
-      <p>This is some sample text that will be converted to an image.</p>
-      <ul>
-        <li>softcodeon 1</li>
-        <li>softcodeon 2</li>
-        <li>softcodeon 3</li>
-      </ul>
-      <img src="https://picsum.photos/200/300" alt="Random Image">
+
+    <div style="text-align: center;position: relative;">
+      <div style="position: absolute;top: 140px;width: 100%;">
+        <img src="/images/mlbb/squad/threat-enemy.jpg" style="width: 480px;"/>
+      </div>
+      <div style="position: relative;width: 100%;">
+        <img src="/images/mlbb/squad/logo.png" style="width: 192px;"/>
+      </div>
+      <div style="position: relative;width: 100%;bottom: -128px;">
+        <img src="/images/mlbb/text.png" style="width: 480px;"/>
+      </div>
     </div>
 
-    <canvas id="my-canvas"></canvas>
-    <button onclick="saveImage()">Save Image</button>
 
-    <script>
-      function saveImage() {
-        const element = document.getElementById("my-element");
-        const canvas = document.getElementById("my-canvas");
+    <div hidden>
+      <div id="my-element">
+        <h1>Hello, world!</h1>
+        <p>This is some sample text that will be converted to an image.</p>
+        <ul>
+          <li>softcodeon 1</li>
+          <li>softcodeon 2</li>
+          <li>softcodeon 3</li>
+        </ul>
+        <img src="https://picsum.photos/200/300" alt="Random Image">
+      </div>
 
-        html2canvas(element).then(function(canvas) {
-          const dataURL = canvas.toDataURL();
-          const link = document.createElement("a");
-          link.download = "image.png";
-          link.href = dataURL;
-          link.click();
-        });
-      }
-    </script>
+      <canvas id="my-canvas"></canvas>
+      <button onclick="saveImage()">Save Image</button>
+
+      <img src="data:image/png;base64,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">
+
+      <script>
+        function saveImage() {
+          const element = document.getElementById("my-element");
+          const canvas = document.getElementById("my-canvas");
+
+          html2canvas(element).then(function(canvas) {
+            const dataURL = canvas.toDataURL();
+            const link = document.createElement("a");
+            link.download = "image.png";
+            link.href = dataURL;
+            link.click();
+          });
+        }
+      </script>
+    </div>
   </body>
 </html>
