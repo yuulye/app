@@ -11,6 +11,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var testRouter = require('./routes/test');
 var tmpRouter = require('./routes/tmp');
+var dwijprRouter = require('./routes/dwijpr');
 var coverRouter = require('./routes/cover');
 var uangRouter = require('./routes/uang');
 var rpgRouter = require('./routes/rpg');
@@ -35,6 +36,7 @@ app.use('/equipment', indexRouter);
 app.use('/users', usersRouter);
 app.use('/test', testRouter);
 app.use('/tmp', tmpRouter);
+app.use('/dwijpr', dwijprRouter);
 app.use('/', coverRouter);
 
 app.use(function(req, res, next) {
