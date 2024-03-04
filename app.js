@@ -11,6 +11,9 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var testRouter = require('./routes/test');
 var tmpRouter = require('./routes/tmp');
+var developerRouter = require('./routes/developer');
+var developerDwiRouter = require('./routes/developerDwi');
+
 var dwijprRouter = require('./routes/dwijpr');
 var coverRouter = require('./routes/cover');
 var uangRouter = require('./routes/uang');
@@ -36,6 +39,9 @@ app.use('/equipment', indexRouter);
 app.use('/users', usersRouter);
 app.use('/test', testRouter);
 app.use('/tmp', tmpRouter);
+app.use('/developer', developerRouter);
+app.use('/developer/dwi', developerDwiRouter);
+
 app.use('/dwijpr', dwijprRouter);
 app.use('/', coverRouter);
 
