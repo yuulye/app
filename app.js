@@ -13,6 +13,7 @@ var testRouter = require('./routes/test');
 var tmpRouter = require('./routes/tmp');
 var developerRouter = require('./routes/developer');
 var developerDwiRouter = require('./routes/developerDwi');
+var githubPagesRouter = require('./routes/githubPages');
 
 var dwijprRouter = require('./routes/dwijpr');
 var coverRouter = require('./routes/cover');
@@ -41,6 +42,7 @@ app.use('/test', testRouter);
 app.use('/tmp', tmpRouter);
 app.use('/developer', developerRouter);
 app.use('/developer/dwi', developerDwiRouter);
+app.use('/github-pages', githubPagesRouter);
 
 app.use('/dwijpr', dwijprRouter);
 app.use('/', coverRouter);
