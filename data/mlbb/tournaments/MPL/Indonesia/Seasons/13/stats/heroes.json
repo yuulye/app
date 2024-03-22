@@ -1,0 +1,394 @@
+[
+  {
+    "name": " Karrie ",
+    "pick": 26,
+    "ban": 6,
+    "win": 13,
+    "winRate": 50
+  },
+  {
+    "name": " Baxia ",
+    "pick": 19,
+    "ban": 6,
+    "win": 10,
+    "winRate": 53
+  },
+  {
+    "name": " Vexana ",
+    "pick": 19,
+    "ban": 14,
+    "win": 11,
+    "winRate": 58
+  },
+  {
+    "name": " Bruno ",
+    "pick": 18,
+    "ban": 4,
+    "win": 10,
+    "winRate": 56
+  },
+  {
+    "name": " Arlott ",
+    "pick": 17,
+    "ban": 16,
+    "win": 11,
+    "winRate": 65
+  },
+  {
+    "name": " Fredrinn ",
+    "pick": 17,
+    "ban": 5,
+    "win": 12,
+    "winRate": 71
+  },
+  {
+    "name": " Barats ",
+    "pick": 16,
+    "ban": 3,
+    "win": 4,
+    "winRate": 25
+  },
+  {
+    "name": " Ruby ",
+    "pick": 14,
+    "ban": 19,
+    "win": 5,
+    "winRate": 36
+  },
+  {
+    "name": " Valentina ",
+    "pick": 14,
+    "ban": 4,
+    "win": 5,
+    "winRate": 36
+  },
+  {
+    "name": " Claude ",
+    "pick": 13,
+    "ban": 10,
+    "win": 9,
+    "winRate": 69
+  },
+  {
+    "name": " Minotaur ",
+    "pick": 13,
+    "ban": 9,
+    "win": 5,
+    "winRate": 38
+  },
+  {
+    "name": " Novaria ",
+    "pick": 13,
+    "ban": 19,
+    "win": 7,
+    "winRate": 54
+  },
+  {
+    "name": " Grock ",
+    "pick": 10,
+    "ban": 10,
+    "win": 6,
+    "winRate": 60
+  },
+  {
+    "name": " Angela ",
+    "pick": 9,
+    "ban": 6,
+    "win": 3,
+    "winRate": 33
+  },
+  {
+    "name": " Paquito ",
+    "pick": 9,
+    "ban": 9,
+    "win": 6,
+    "winRate": 67
+  },
+  {
+    "name": " Terizla ",
+    "pick": 9,
+    "ban": 4,
+    "win": 4,
+    "winRate": 44
+  },
+  {
+    "name": " X.Borg ",
+    "pick": 9,
+    "ban": 19,
+    "win": 5,
+    "winRate": 56
+  },
+  {
+    "name": " Cici ",
+    "pick": 8,
+    "ban": 18,
+    "win": 2,
+    "winRate": 25
+  },
+  {
+    "name": " Yu Zhong ",
+    "pick": 8,
+    "ban": 4,
+    "win": 3,
+    "winRate": 38
+  },
+  {
+    "name": " Lapu-lapu ",
+    "pick": 7,
+    "ban": 2,
+    "win": 5,
+    "winRate": 71
+  },
+  {
+    "name": " Tigreal ",
+    "pick": 7,
+    "ban": 8,
+    "win": 4,
+    "winRate": 57
+  },
+  {
+    "name": " Benedetta ",
+    "pick": 6,
+    "ban": 4,
+    "win": 4,
+    "winRate": 67
+  },
+  {
+    "name": " Faramis ",
+    "pick": 6,
+    "ban": 12,
+    "win": 3,
+    "winRate": 50
+  },
+  {
+    "name": " Guinevere ",
+    "pick": 6,
+    "ban": 9,
+    "win": 5,
+    "winRate": 83
+  },
+  {
+    "name": " Lylia ",
+    "pick": 6,
+    "ban": 6,
+    "win": 2,
+    "winRate": 33
+  },
+  {
+    "name": " Mathilda ",
+    "pick": 6,
+    "ban": 31,
+    "win": 1,
+    "winRate": 17
+  },
+  {
+    "name": " Martis ",
+    "pick": 5,
+    "ban": 1,
+    "win": 0,
+    "winRate": 0
+  },
+  {
+    "name": " Nana ",
+    "pick": 5,
+    "ban": 2,
+    "win": 1,
+    "winRate": 20
+  },
+  {
+    "name": " Brody ",
+    "pick": 4,
+    "ban": 2,
+    "win": 3,
+    "winRate": 75
+  },
+  {
+    "name": " Chou ",
+    "pick": 3,
+    "ban": 1,
+    "win": 2,
+    "winRate": 67
+  },
+  {
+    "name": " Fanny ",
+    "pick": 3,
+    "ban": 17,
+    "win": 2,
+    "winRate": 67
+  },
+  {
+    "name": " Gord ",
+    "pick": 3,
+    "ban": 1,
+    "win": 3,
+    "winRate": 100
+  },
+  {
+    "name": " Harith ",
+    "pick": 3,
+    "ban": 3,
+    "win": 1,
+    "winRate": 33
+  },
+  {
+    "name": " Natan ",
+    "pick": 3,
+    "ban": 5,
+    "win": 1,
+    "winRate": 33
+  },
+  {
+    "name": " Nolan ",
+    "pick": 3,
+    "ban": 34,
+    "win": 1,
+    "winRate": 33
+  },
+  {
+    "name": " Akai ",
+    "pick": 2,
+    "ban": 0,
+    "win": 2,
+    "winRate": 100
+  },
+  {
+    "name": " Clint ",
+    "pick": 2,
+    "ban": 0,
+    "win": 0,
+    "winRate": 0
+  },
+  {
+    "name": " Diggie ",
+    "pick": 2,
+    "ban": 3,
+    "win": 1,
+    "winRate": 50
+  },
+  {
+    "name": " Dyrroth ",
+    "pick": 2,
+    "ban": 1,
+    "win": 1,
+    "winRate": 50
+  },
+  {
+    "name": " Gloo ",
+    "pick": 2,
+    "ban": 0,
+    "win": 2,
+    "winRate": 100
+  },
+  {
+    "name": " Hanzo ",
+    "pick": 2,
+    "ban": 1,
+    "win": 0,
+    "winRate": 0
+  },
+  {
+    "name": " Ixia ",
+    "pick": 2,
+    "ban": 1,
+    "win": 0,
+    "winRate": 0
+  },
+  {
+    "name": " Joy ",
+    "pick": 2,
+    "ban": 31,
+    "win": 1,
+    "winRate": 50
+  },
+  {
+    "name": " Kaja ",
+    "pick": 2,
+    "ban": 4,
+    "win": 1,
+    "winRate": 50
+  },
+  {
+    "name": " Phoveus ",
+    "pick": 2,
+    "ban": 1,
+    "win": 1,
+    "winRate": 50
+  },
+  {
+    "name": " Selena ",
+    "pick": 2,
+    "ban": 1,
+    "win": 2,
+    "winRate": 100
+  },
+  {
+    "name": " Thamuz ",
+    "pick": 2,
+    "ban": 1,
+    "win": 1,
+    "winRate": 50
+  },
+  {
+    "name": " Xavier ",
+    "pick": 2,
+    "ban": 0,
+    "win": 1,
+    "winRate": 50
+  },
+  {
+    "name": " Beatrix ",
+    "pick": 1,
+    "ban": 0,
+    "win": 0,
+    "winRate": 0
+  },
+  {
+    "name": " Irithel ",
+    "pick": 1,
+    "ban": 0,
+    "win": 0,
+    "winRate": 0
+  },
+  {
+    "name": " Kadita ",
+    "pick": 1,
+    "ban": 0,
+    "win": 1,
+    "winRate": 100
+  },
+  {
+    "name": " Lancelot ",
+    "pick": 1,
+    "ban": 1,
+    "win": 0,
+    "winRate": 0
+  },
+  {
+    "name": " Odette ",
+    "pick": 1,
+    "ban": 1,
+    "win": 1,
+    "winRate": 100
+  },
+  {
+    "name": " Pharsa ",
+    "pick": 1,
+    "ban": 0,
+    "win": 1,
+    "winRate": 100
+  },
+  {
+    "name": " Rafaela ",
+    "pick": 1,
+    "ban": 0,
+    "win": 0,
+    "winRate": 0
+  },
+  {
+    "name": " Uranus ",
+    "pick": 0,
+    "ban": 1,
+    "win": 0,
+    "winRate": 0
+  }
+]

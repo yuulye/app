@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,user-scalable=1"
+    />
+    <link
+      rel="shortcut icon"
+      href="/images/logo.png"
+    />
+    <title><%- title %></title>
+<style>
+  html {
+    font-size: 8px;
+  }
+  div {
+    display: inline-block;
+  }
+  .right {
+    text-align: right;
+  }
+</style>
+  </head>
+  <body>
+    <h1><%- title %></h1>
+    <h3>Hero - Pick - Ban - Win - Rate</h3>
+    <div>
+    <% for (let i = 0; i < data.length; i++) { %>
+    <%
+      hero = data[i];
+    %>
+      <div style="
+        inline-block;
+        width: 128px;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        padding-bottom: 4px;
+      ">
+        <div style="width: 45%">
+          <img
+            style="width: 16px;position: relative;top: 4px;"
+            src="/images/mlbb/heroes/<%-
+              (hero.name).replace(/^\s+/g, '').replace(/\s+$/g, '');
+            %>.png"
+          />
+          <%- hero.name %>
+        </div>
+        <div class="right" style="width: 8%">
+          <%- hero.pick %>
+        </div>
+        <div class="right" style="width: 8%">
+          <%- hero.ban %>
+        </div>
+        <div class="right" style="width: 8%">
+          <%- hero.win %>
+        </div>
+        <div class="right" style="width: 18%">
+          <%- hero.winRate %>%
+        </div>
+      </div>
+    <% } %>
+    </div>
+    <script>
+      const data = <%- JSON.stringify(data) %>;
+      console.log(data);
+    </script>
+  </body>
+</html>

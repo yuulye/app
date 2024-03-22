@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,user-scalable=1"
+    />
+    <link
+      rel="shortcut icon"
+      href="/images/logo.png"
+    />
+    <title><%- title %></title>
+  </head>
+  <body>
+    <h2><%- title %></h2>
+    <%
+      pickBansCounter = 0;
+    %>
+    <% for (let i = 0; i < data.length; i++) { %>
+    <%
+      matches = data[i];
+    %>
+    <div>
+      <h3>Week <%- i + 1 %></h3>
+      <!--
+      <%- JSON.stringify(matches.pickBans) %>
+      -->
+      <table>
+        <% for (let j = 0; j < matches.scores.length; j++) { %>
+        <%
+          match = matches.scores[j];
+        %>
+        <tr>
+          <td><%- match.team %></td>
+          <td><%- match.score1 %></td>
+          <td><%- match.score2 %></td>
+          <td style="text-align: right;">
+            <%- match.opponent %>
+          </td>
+        </tr>
+        <% for (
+          let k = 0;
+          k < parseInt(match.score1) + parseInt(match.score2);
+          k++
+        ) { %>
+        <tr>
+          <td colspan="2" style="font-size:8px">
+            <%- JSON.stringify(
+              matches.pickBans.picks[pickBansCounter++]
+            ) %>
+          </td>
+          <td colspan="2" style="font-size:8px">
+            <%- JSON.stringify(
+              matches.pickBans.picks[pickBansCounter++]
+            ) %>
+          </td>
+        </tr>
+        <% } %>
+        <% } %>
+      </table>
+    </div>
+    <% } %>
+    <script>
+      const data = <%- JSON.stringify(data) %>;
+      const teams = <%- JSON.stringify(teams) %>;
+      console.log(data, teams);
+    </script>
+  </body>
+</html>

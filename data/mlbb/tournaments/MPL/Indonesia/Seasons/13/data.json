@@ -1,0 +1,54 @@
+{
+  "regular": [
+    [
+      {
+        "team": "AE",
+        "score1": "2",
+        "score2": "0",
+        "opponent": "EVOS"
+      },
+      {
+        "team": "DEWA",
+        "score1": "2",
+        "score2": "0",
+        "opponent": "RBG"
+      },
+      {
+        "team": "GEEK",
+        "score1": "0",
+        "score2": "2",
+        "opponent": "BTR"
+      },
+      {
+        "team": "RBG",
+        "score1": "1",
+        "score2": "2",
+        "opponent": "AE"
+      },
+      {
+        "team": "AURA",
+        "score1": "0",
+        "score2": "2",
+        "opponent": "DEWA"
+      },
+      {
+        "team": "ONIC",
+        "score1": "2",
+        "score2": "0",
+        "opponent": "GEEK"
+      },
+      {
+        "team": "RRQ",
+        "score1": "2",
+        "score2": "1",
+        "opponent": "AURA"
+      },
+      {
+        "team": "BTR",
+        "score1": "2",
+        "score2": "0",
+        "opponent": "EVOS"
+      }
+    ]
+  ]
+}

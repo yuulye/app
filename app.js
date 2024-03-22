@@ -14,6 +14,8 @@ var tmpRouter = require('./routes/tmp');
 var developerRouter = require('./routes/developer');
 var developerDwiRouter = require('./routes/developerDwi');
 var githubPagesRouter = require('./routes/githubPages');
+var mplRouter = require('./routes/mpl');
+var mplStatsRouter = require('./routes/mplStats');
 
 var dwijprRouter = require('./routes/dwijpr');
 var coverRouter = require('./routes/cover');
@@ -43,6 +45,8 @@ app.use('/tmp', tmpRouter);
 app.use('/developer', developerRouter);
 app.use('/developer/dwi', developerDwiRouter);
 app.use('/github-pages', githubPagesRouter);
+app.use('/mlbb/tournaments/mpl', mplRouter);
+app.use('/mlbb/tournaments/mpl/stats', mplStatsRouter);
 
 app.use('/dwijpr', dwijprRouter);
 app.use('/', coverRouter);
