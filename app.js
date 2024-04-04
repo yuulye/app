@@ -16,12 +16,14 @@ var developerDwiRouter = require('./routes/developerDwi');
 var githubPagesRouter = require('./routes/githubPages');
 var mplRouter = require('./routes/mpl');
 var mplStatsRouter = require('./routes/mplStats');
+var gamesRouter = require('./routes/games');
 
 var dwijprRouter = require('./routes/dwijpr');
 var coverRouter = require('./routes/cover');
 var uangRouter = require('./routes/uang');
 var rpgRouter = require('./routes/rpg');
 var pwaRouter = require('./routes/pwa');
+var mlbbRouter = require('./routes/mlbb');
 
 var app = express();
 
@@ -35,6 +37,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.use('/games/mlbb', mlbbRouter);
 app.use('/pwa', pwaRouter);
 app.use('/rpg', rpgRouter);
 app.use('/uang', uangRouter);
@@ -47,6 +50,7 @@ app.use('/developer/dwi', developerDwiRouter);
 app.use('/github-pages', githubPagesRouter);
 app.use('/mlbb/tournaments/mpl', mplRouter);
 app.use('/mlbb/tournaments/mpl/stats', mplStatsRouter);
+app.use('/games', gamesRouter);
 
 app.use('/dwijpr', dwijprRouter);
 app.use('/', coverRouter);
