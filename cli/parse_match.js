@@ -13,6 +13,32 @@ try {
 
 const $ = cheerio.load(html);
 
+
+/* ----- */
+const listBlueRed = $(
+  'div.brkts-popup-body-element.brkts-popup-body-game'
+  + ' div > div'
+);
+
+const colors = [];
+let colorsCounter = 0;
+const colorsLimit = 4;
+listBlueRed.each(function(idx, el) {
+  const val = $(el).attr('class').split("-")[4];
+  //console.log(val);
+  colorsCounter++;
+  if (colorsCounter >= colorsLimit) {
+    colorsCounter = 0;
+    colors.push(val);
+  }
+});
+
+//console.log(colors);
+/* ----- */
+
+
+
+/* ----- */
 const list = $(
   'div.brkts-popup-body-element.brkts-popup-body-game'
   + ' div > div'
@@ -37,6 +63,7 @@ list.each(function(idx, el) {
     heroes = [];
   }
 });
+/* ----- */
 
 // bans
 //console.log('\n######## bans\n');
@@ -60,5 +87,5 @@ listBan.each(function(idx, el) {
 });
 
 console.log(JSON.stringify({
-  picks: groups, bans: bans
+  picks: groups, bans: bans, colors: colors,
 }, null, 2));
