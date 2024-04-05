@@ -1,0 +1,37 @@
+[
+  {
+    "date": "March 8, 2024",
+    "matches": [
+      {
+        "time": "15:00",
+        "opponent1": "ae",
+        "opponent2": "evos",
+        "games": [
+          {
+            "vod": "https://www.youtube.com/live/UsN3Nse_RYE?si=WFUKqr3q1o5jIjqr&t=2721",
+            "length": "14:20",
+            "winner": 1,
+            "team1": {
+              "color": "blue",
+              "picks": [
+                "teri", "nolan", "vexana", "harith", "tigreal"
+              ],
+              "bans": [
+                "guin", "fara", "ruby", "baxia", "fred"
+              ]
+            },
+            "team2": {
+              "color": "red",
+              "picks": [
+                "phove", "martis", "nova", "karrie", "mino"
+              ],
+              "bans": [
+                "mathil", "cici", "arlot", "grock", "uranus"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

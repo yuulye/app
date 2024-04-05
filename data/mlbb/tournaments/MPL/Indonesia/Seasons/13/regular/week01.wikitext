@@ -1,0 +1,226 @@
+===={{HiddenSort|Week 1}}====
+{{Matchlist|width=375px|id=MPLIDS13W1|title=Week 1
+|M1header=March 8
+|M1={{Match|bestof=3|mvp=Tazz
+	|date=March 8,2024 - 15:00{{Abbr/ICT}}
+    |youtube=MPL Indonesia|facebook=MPL Indonesia
+	|caster1=Ranger Emas|caster2=Momochan|caster3=KB
+    |opponent1={{TeamOpponent|ae}}
+    |opponent2={{TeamOpponent|evos}}
+    |map1={{Map|vod=https://www.youtube.com/live/UsN3Nse_RYE?si=WFUKqr3q1o5jIjqr&t=2721
+        |team1side=blue|team2side=red|length=14:20|winner=1
+        <!-- Hero picks -->
+        |t1h1=teri|t1h2=nolan|t1h3=vexana|t1h4=harith|t1h5=tigreal
+        |t2h1=phove|t2h2=martis|t2h3=nova|t2h4=karrie|t2h5=mino
+        <!-- Hero bans -->
+        |t1b1=guin|t1b2=fara|t1b3=ruby|t1b4=baxia|t1b5=fred
+        |t2b1=mathil|t2b2=cici|t2b3=arlot|t2b4=grock|t2b5=uranus
+    }}
+    |map2={{Map|vod=https://www.youtube.com/live/UsN3Nse_RYE?si=jGElfkC62oFoDL_8&t=6638
+        |team1side=red|team2side=blue|length=17:40|winner=1
+        <!-- Hero picks -->
+        |t1h1=teri|t1h2=joy|t1h3=phove|t1h4=brody|t1h5=angela
+        |t2h1=paqui|t2h2=baxia|t2h3=lylia|t2h4=harith|t2h5=ruby
+        <!-- Hero bans -->
+        |t1b1=guin|t1b2=mathil|t1b3=cici|t1b4=fara|t1b5=odette
+        |t2b1=fanny|t2b2=arlot|t2b3=nolan|t2b4=tigreal|t2b5=mino
+    }}
+}}
+|M2={{Match|bestof=3|mvp=Drian
+	|date=March 8,2024 - 18:30{{Abbr/ICT}}
+    |youtube=MPL Indonesia|facebook=MPL Indonesia
+    |caster1=Ranger Emas|caster2=Momochan|caster3=KB
+    |opponent1={{TeamOpponent|dewa}}
+    |opponent2={{TeamOpponent|rebellion esports}}
+    |map1={{Map|vod=https://youtu.be/bto41Ur_t_A
+        |team1side=red|team2side=blue|length=17:36|winner=1
+        <!-- Hero picks -->
+        |t1h1=arlot|t1h2=baxia|t1h3=vexana|t1h4=karrie|t1h5=chou
+        |t2h1=ruby|t2h2=hanzo|t2h3=valen|t2h4=bruno|t2h5=tigreal
+        <!-- Hero bans -->
+        |t1b1=mathil|t1b2=joy|t1b3=nova|t1b4=barats|t1b5=fred
+        |t2b1=fanny|t2b2=cici|t2b3=nolan|t2b4=claude|t2b5=kaja
+    }}
+    |map2={{Map|vod=https://youtu.be/yzVL0Gwy4Xw
+        |team1side=blue|team2side=red|length=20:20|winner=1
+        <!-- Hero picks -->
+        |t1h1=thamuz|t1h2=fred|t1h3=nova|t1h4=karrie|t1h5=mino
+        |t2h1=xborg|t2h2=baxia|t2h3=valen|t2h4=claude|t2h5=angela
+        <!-- Hero bans -->
+        |t1b1=nolan|t1b2=cici|t1b3=fanny|t1b4=arlot|t1b5=lapu
+        |t2b1=mathil|t2b2=joy|t2b3=guin|t2b4=kaja|t2b5=ruby
+    }}
+}}
+|M3header=March 9
+|M3={{Match|bestof=3|mvp=EMANN
+	|date=March 9,2024 - 15:45{{Abbr/ICT}}
+    |youtube=MPL Indonesia|facebook=MPL Indonesia
+	|caster1=Pak Pulung|caster2=Awl|caster3=Om Wawa
+    |comment= Due to technical issue, the match is delayed from 15:00 to 15:45 {{abbr/ICT}}
+    |opponent1={{TeamOpponent|geek fam id}}
+    |opponent2={{TeamOpponent|btr}}
+    |map1={{Map|vod=https://youtu.be/ZkPz9XSKgfI
+        |team1side=red|team2side=blue|length=17:45|winner=2
+        <!-- Hero picks -->
+        |t1h1=yu|t1h2=barats|t1h3=valen|t1h4=bruno|t1h5=arlot
+        |t2h1=xborg|t2h2=guin|t2h3=vexana|t2h4=brody|t2h5=grock
+        <!-- Hero bans -->
+        |t1b1=joy|t1b2=nolan|t1b3=mathil|t1b4=mino|t1b5=diggie
+        |t2b1=fara|t2b2=ruby|t2b3=karrie|t2b4=lapu|t2b5=tigreal
+    }}
+    |map2={{Map|vod=https://youtu.be/IL9ScLgpMF4
+        |team1side=blue|team2side=red|length=16:10|winner=2
+        <!-- Hero picks -->
+        |t1h1=cici|t1h2=fred|t1h3=fara|t1h4=ixia|t1h5=diggie
+        |t2h1=barats|t2h2=fanny|t2h3=vexana|t2h4=karrie|t2h5=arlot
+        <!-- Hero bans -->
+        |t1b1=mathil|t1b2=joy|t1b3=xborg|t1b4=paqui|t1b5=lance
+        |t2b1=ruby|t2b2=guin|t2b3=nolan|t2b4=natan|t2b5=grock
+    }}
+}}
+|M4={{Match|bestof=3|mvp=Tazz
+	|date=March 9,2024 - 18:30{{Abbr/ICT}}
+    |youtube=MPL Indonesia|facebook=MPL Indonesia
+	|caster1=Pak Pulung|caster2=Awl|caster3=Om Wawa
+    |opponent1={{TeamOpponent|rebellion esports}}
+    |opponent2={{TeamOpponent|ae}}
+    |map1={{Map|vod=https://youtu.be/5XlkskEXffk
+        |team1side=red|team2side=blue|length=26:37|winner=2
+        <!-- Hero picks -->
+        |t1h1=lapu|t1h2=hanzo|t1h3=vexana|t1h4=claude|t1h5=tigreal
+        |t2h1=teri|t2h2=guin|t2h3=nova|t2h4=karrie|t2h5=selena
+        <!-- Hero bans -->
+        |t1b1=mathil|t1b2=nolan|t1b3=joy|t1b4=grock|t1b5=fanny
+        |t2b1=fara|t2b2=ruby|t2b3=arlot|t2b4=cici|t2b5=xborg
+    }}
+    |map2={{Map|vod=https://youtu.be/-d4cfZFkags
+        |team1side=blue|team2side=red|length=16:26|winner=1
+        <!-- Hero picks -->
+        |t1h1=paqui|t1h2=guin|t1h3=nova|t1h4=bruno|t1h5=mino
+        |t2h1=teri|t2h2=martis|t2h3=vexana|t2h4=karrie|t2h5=grock
+        <!-- Hero bans -->
+        |t1b1=fara|t1b2=nolan|t1b3=ruby|t1b4=kaja|t1b5=fanny
+        |t2b1=mathil|t2b2=joy|t2b3=cici|t2b4=xborg|t2b5=arlot
+    }}
+    |map3={{Map|vod=https://youtu.be/lHTFTBfq3Uo
+        |team1side=red|team2side=blue|length=26:14|winner=2
+        <!-- Hero picks -->
+        |t1h1=cici|t1h2=martis|t1h3=angela|t1h4=karrie|t1h5=ruby
+        |t2h1=gloo|t2h2=fanny|t2h3=vexana|t2h4=bruno|t2h5=arlot
+        <!-- Hero bans -->
+        |t1b1=nolan|t1b2=mathil|t1b3=joy|t1b4=xborg|t1b5=tigreal
+        |t2b1=fara|t2b2=nova|t2b3=guin|t2b4=hanzo|t2b5=baxia
+    }}
+}}
+|M5={{Match|bestof=3|mvp=Kimura
+	|date=March 9,2024 - 21:20{{Abbr/ICT}}
+    |youtube=MPL Indonesia|facebook=MPL Indonesia
+	|caster1=Pak Pulung|caster2=Awl|caster3=Om Wawa
+    |opponent1={{TeamOpponent|aura}}
+    |opponent2={{TeamOpponent|dewa}}
+    |map1={{Map|vod=https://youtu.be/IaoXdb-F_gs
+        |team1side=blue|team2side=red|length=17:24|winner=2
+        <!-- Hero picks -->
+        |t1h1=paqui|t1h2=barats|t1h3=vexana|t1h4=bruno|t1h5=guin
+        |t2h1=arlot|t2h2=baxia|t2h3=lylia|t2h4=claude|t2h5=kadita
+        <!-- Hero bans -->
+        |t1b1=ruby|t1b2=karrie|t1b3=mathil|t1b4=grock|t1b5=mino
+        |t2b1=joy|t2b2=nolan|t2b3=nova|t2b4=xborg|t2b5=cici
+    }}
+    |map2={{Map|vod=https://youtu.be/d9e0Ojmq3po
+        |team1side=blue|team2side=red|length=21:55|winner=2
+        <!-- Hero picks -->
+        |t1h1=teri|t1h2=martis|t1h3=vexana|t1h4=claude|t1h5=ruby
+        |t2h1=bene|t2h2=fred|t2h3=valen|t2h4=natan|t2h5=grock
+        <!-- Hero bans -->
+        |t1b1=karrie|t1b2=arlot|t1b3=mathil|t1b4=mino|t1b5=fanny
+        |t2b1=joy|t2b2=nolan|t2b3=nova|t2b4=barats|t2b5=baxia
+    }}
+}}
+|M6header=March 10
+|M6={{Match|bestof=3|mvp=CW
+	|date=March 10,2024 - 15:00{{Abbr/ICT}}
+    |youtube=MPL Indonesia|facebook=MPL Indonesia
+	|caster1=Ranger Emas|caster2=Momochan|caster3=KB
+    |opponent1={{TeamOpponent|onic}}
+    |opponent2={{TeamOpponent|geek fam id}}
+    |map1={{Map|vod=https://youtu.be/IqAHVRzJp9o
+        |team1side=red|team2side=blue|length=18:37|winner=1
+        <!-- Hero picks -->
+        |t1h1=lapu|t1h2=fred|t1h3=gord|t1h4=claude|t1h5=arlot
+        |t2h1=ruby|t2h2=martis|t2h3=fara|t2h4=karrie|t2h5=grock
+        <!-- Hero bans -->
+        |t1b1=guin|t1b2=mathil|t1b3=nolan|t1b4=baxia|t1b5=barats
+        |t2b1=joy|t2b2=nova|t2b3=cici|t2b4=lylia|t2b5=xborg
+    }}
+    |map2={{Map|vod=https://youtu.be/mcitg0OX3k4
+        |team1side=red|team2side=blue|length=18:43|winner=1
+        <!-- Hero picks -->
+        |t1h1=yu|t1h2=fred|t1h3=vexana|t1h4=claude|t1h5=grock
+        |t2h1=ruby|t2h2=barats|t2h3=nana|t2h4=karrie|t2h5=arlot
+        <!-- Hero bans -->
+        |t1b1=nolan|t1b2=fara|t1b3=guin|t1b4=lylia|t1b5=valen
+        |t2b1=joy|t2b2=nova|t2b3=mathil|t2b4=tigreal|t2b5=xborg
+    }}
+}}
+|M7={{Match|bestof=3|mvp=Skylar
+	|date=March 10,2024 - 18:30{{Abbr/ICT}}
+    |youtube=MPL Indonesia|facebook=MPL Indonesia
+	|caster1=Ranger Emas|caster2=Momochan|caster3=KB
+    |opponent1={{TeamOpponent|rrq}}
+    |opponent2={{TeamOpponent|aura}}
+    |map1={{Map|vod=https://youtu.be/RiTQg2U58eM
+        |team1side=blue|team2side=red|length=28:38|winner=2
+        <!-- Hero picks -->
+        |t1h1=xborg|t1h2=barats|t1h3=vexana|t1h4=clint|t1h5=mino
+        |t2h1=paqui|t2h2=akai|t2h3=nova|t2h4=karrie|t2h5=tigreal
+        <!-- Hero bans -->
+        |t1b1=ruby|t1b2=nolan|t1b3=arlot|t1b4=martis|t1b5=grock
+        |t2b1=mathil|t2b2=joy|t2b3=guin|t2b4=claude|t2b5=bruno
+    }}
+    |map2={{Map|vod=https://youtu.be/9Up1_FJ7DvU
+        |team1side=red|team2side=blue|length=15:51|winner=1
+        <!-- Hero picks -->
+        |t1h1=cici|t1h2=fred|t1h3=vexana|t1h4=karrie|t1h5=mino
+        |t2h1=yu|t2h2=barats|t2h3=valen|t2h4=bruno|t2h5=mathil
+        <!-- Hero bans -->
+        |t1b1=nolan|t1b2=joy|t1b3=nova|t1b4=paqui|t1b5=xborg
+        |t2b1=ruby|t2b2=arlot|t2b3=claude|t2b4=baxia|t2b5=fanny
+    }}
+    |map3={{Map|vod=https://youtu.be/XxBBwaa_Ru4
+        |team1side=blue|team2side=red|length=16:08|winner=1
+        <!-- Hero picks -->
+        |t1h1=cici|t1h2=baxia|t1h3=valen|t1h4=claude|t1h5=angela
+        |t2h1=xborg|t2h2=barats|t2h3=nova|t2h4=brody|t2h5=arlot
+        <!-- Hero bans -->
+        |t1b1=nolan|t1b2=ruby|t1b3=karrie|t1b4=guin|t1b5=fred
+        |t2b1=mathil|t2b2=joy|t2b3=mino|t2b4=vexana|t2b5=lylia
+    }}
+}}
+|M8={{Match|bestof=3|mvp=EMANN
+	|date=March 10,2024 - 21:20{{Abbr/ICT}}
+    |youtube=MPL Indonesia|facebook=MPL Indonesia
+	|caster1=Ranger Emas|caster2=Momochan|caster3=KB
+    |opponent1={{TeamOpponent|btr}}
+    |opponent2={{TeamOpponent|evos}}
+    |map1={{Map|vod=https://youtu.be/A4JdSa3q4UY
+        |team1side=blue|team2side=red|length=20:55|winner=1
+        <!-- Hero picks -->
+        |t1h1=xborg|t1h2=guin|t1h3=vexana|t1h4=karrie|t1h5=tigreal
+        |t2h1=cici|t2h2=baxia|t2h3=valen|t2h4=clint|t2h5=angela
+        <!-- Hero bans -->
+        |t1b1=natan|t1b2=fara|t1b3=mathil|t1b4=claude|t1b5=bruno
+        |t2b1=nolan|t2b2=joy|t2b3=ruby|t2b4=grock|t2b5=fanny
+    }}
+    |map2={{Map|vod=https://youtu.be/gJ5W5lEb2e0
+        |team1side=blue|team2side=red|length=11:55|winner=1
+        <!-- Hero picks -->
+        |t1h1=arlot|t1h2=guin|t1h3=nova|t1h4=bruno|t1h5=diggie
+        |t2h1=teri|t2h2=lance|t2h3=vexana|t2h4=karrie|t2h5=ruby
+        <!-- Hero bans -->
+        |t1b1=fara|t1b2=natan|t1b3=cici|t1b4=baxia|t1b5=bene
+        |t2b1=joy|t2b2=nolan|t2b3=mathil|t2b4=grock|t2b5=fanny
+    }}
+}}
+}}
+{{box|break|padding=2em}}
