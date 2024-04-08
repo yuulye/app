@@ -1,36 +1,858 @@
 [
   {
-    "date": "March 8, 2024",
+    "date": "March 8",
     "matches": [
       {
-        "time": "15:00",
-        "opponent1": "ae",
-        "opponent2": "evos",
+        "mvp": "Tazz",
         "games": [
           {
             "vod": "https://www.youtube.com/live/UsN3Nse_RYE?si=WFUKqr3q1o5jIjqr&t=2721",
-            "length": "14:20",
-            "winner": 1,
-            "team1": {
-              "color": "blue",
-              "picks": [
-                "teri", "nolan", "vexana", "harith", "tigreal"
-              ],
-              "bans": [
-                "guin", "fara", "ruby", "baxia", "fred"
-              ]
+            "info": {
+              "team1": "blue",
+              "team2": "red",
+              "time": "14:20",
+              "winner": "1"
             },
-            "team2": {
-              "color": "red",
-              "picks": [
-                "phove", "martis", "nova", "karrie", "mino"
+            "heroes": [
+              [
+                "teri",
+                "nolan",
+                "vexana",
+                "harith",
+                "tigreal"
               ],
-              "bans": [
-                "mathil", "cici", "arlot", "grock", "uranus"
+              [
+                "phove",
+                "martis",
+                "nova",
+                "karrie",
+                "mino"
               ]
-            }
+            ],
+            "bans": [
+              [
+                "guin",
+                "fara",
+                "ruby",
+                "baxia",
+                "fred"
+              ],
+              [
+                "mathil",
+                "cici",
+                "arlot",
+                "grock",
+                "uranus"
+              ]
+            ]
+          },
+          {
+            "vod": "https://www.youtube.com/live/UsN3Nse_RYE?si=jGElfkC62oFoDL_8&t=6638",
+            "info": {
+              "team1": "red",
+              "team2": "blue",
+              "time": "17:40",
+              "winner": "1"
+            },
+            "heroes": [
+              [
+                "teri",
+                "joy",
+                "phove",
+                "brody",
+                "angela"
+              ],
+              [
+                "paqui",
+                "baxia",
+                "lylia",
+                "harith",
+                "ruby"
+              ]
+            ],
+            "bans": [
+              [
+                "guin",
+                "mathil",
+                "cici",
+                "fara",
+                "odette"
+              ],
+              [
+                "fanny",
+                "arlot",
+                "nolan",
+                "tigreal",
+                "mino"
+              ]
+            ]
           }
-        ]
+        ],
+        "time": "March 8,2024 - 15:00",
+        "casters": [
+          "Ranger Emas",
+          "Momochan",
+          "KB"
+        ],
+        "team1": "ae",
+        "team2": "evos"
+      },
+      {
+        "mvp": "Drian",
+        "games": [
+          {
+            "vod": "https://youtu.be/bto41Ur_t_A",
+            "info": {
+              "team1": "red",
+              "team2": "blue",
+              "time": "17:36",
+              "winner": "1"
+            },
+            "heroes": [
+              [
+                "arlot",
+                "baxia",
+                "vexana",
+                "karrie",
+                "chou"
+              ],
+              [
+                "ruby",
+                "hanzo",
+                "valen",
+                "bruno",
+                "tigreal"
+              ]
+            ],
+            "bans": [
+              [
+                "mathil",
+                "joy",
+                "nova",
+                "barats",
+                "fred"
+              ],
+              [
+                "fanny",
+                "cici",
+                "nolan",
+                "claude",
+                "kaja"
+              ]
+            ]
+          },
+          {
+            "vod": "https://youtu.be/yzVL0Gwy4Xw",
+            "info": {
+              "team1": "blue",
+              "team2": "red",
+              "time": "20:20",
+              "winner": "1"
+            },
+            "heroes": [
+              [
+                "thamuz",
+                "fred",
+                "nova",
+                "karrie",
+                "mino"
+              ],
+              [
+                "xborg",
+                "baxia",
+                "valen",
+                "claude",
+                "angela"
+              ]
+            ],
+            "bans": [
+              [
+                "nolan",
+                "cici",
+                "fanny",
+                "arlot",
+                "lapu"
+              ],
+              [
+                "mathil",
+                "joy",
+                "guin",
+                "kaja",
+                "ruby"
+              ]
+            ]
+          }
+        ],
+        "time": "March 8,2024 - 18:30",
+        "casters": [
+          "Ranger Emas",
+          "Momochan",
+          "KB"
+        ],
+        "team1": "dewa",
+        "team2": "rebellion esports"
+      }
+    ]
+  },
+  {
+    "date": "March 9",
+    "matches": [
+      {
+        "mvp": "EMANN",
+        "games": [
+          {
+            "vod": "https://youtu.be/ZkPz9XSKgfI",
+            "info": {
+              "team1": "red",
+              "team2": "blue",
+              "time": "17:45",
+              "winner": "2"
+            },
+            "heroes": [
+              [
+                "yu",
+                "barats",
+                "valen",
+                "bruno",
+                "arlot"
+              ],
+              [
+                "xborg",
+                "guin",
+                "vexana",
+                "brody",
+                "grock"
+              ]
+            ],
+            "bans": [
+              [
+                "joy",
+                "nolan",
+                "mathil",
+                "mino",
+                "diggie"
+              ],
+              [
+                "fara",
+                "ruby",
+                "karrie",
+                "lapu",
+                "tigreal"
+              ]
+            ]
+          },
+          {
+            "vod": "https://youtu.be/IL9ScLgpMF4",
+            "info": {
+              "team1": "blue",
+              "team2": "red",
+              "time": "16:10",
+              "winner": "2"
+            },
+            "heroes": [
+              [
+                "cici",
+                "fred",
+                "fara",
+                "ixia",
+                "diggie"
+              ],
+              [
+                "barats",
+                "fanny",
+                "vexana",
+                "karrie",
+                "arlot"
+              ]
+            ],
+            "bans": [
+              [
+                "mathil",
+                "joy",
+                "xborg",
+                "paqui",
+                "lance"
+              ],
+              [
+                "ruby",
+                "guin",
+                "nolan",
+                "natan",
+                "grock"
+              ]
+            ]
+          }
+        ],
+        "time": "March 9,2024 - 15:45",
+        "casters": [
+          "Pak Pulung",
+          "Awl",
+          "Om Wawa"
+        ],
+        "team1": "geek fam id",
+        "team2": "btr"
+      },
+      {
+        "mvp": "Tazz",
+        "games": [
+          {
+            "vod": "https://youtu.be/5XlkskEXffk",
+            "info": {
+              "team1": "red",
+              "team2": "blue",
+              "time": "26:37",
+              "winner": "2"
+            },
+            "heroes": [
+              [
+                "lapu",
+                "hanzo",
+                "vexana",
+                "claude",
+                "tigreal"
+              ],
+              [
+                "teri",
+                "guin",
+                "nova",
+                "karrie",
+                "selena"
+              ]
+            ],
+            "bans": [
+              [
+                "mathil",
+                "nolan",
+                "joy",
+                "grock",
+                "fanny"
+              ],
+              [
+                "fara",
+                "ruby",
+                "arlot",
+                "cici",
+                "xborg"
+              ]
+            ]
+          },
+          {
+            "vod": "https://youtu.be/-d4cfZFkags",
+            "info": {
+              "team1": "blue",
+              "team2": "red",
+              "time": "16:26",
+              "winner": "1"
+            },
+            "heroes": [
+              [
+                "paqui",
+                "guin",
+                "nova",
+                "bruno",
+                "mino"
+              ],
+              [
+                "teri",
+                "martis",
+                "vexana",
+                "karrie",
+                "grock"
+              ]
+            ],
+            "bans": [
+              [
+                "fara",
+                "nolan",
+                "ruby",
+                "kaja",
+                "fanny"
+              ],
+              [
+                "mathil",
+                "joy",
+                "cici",
+                "xborg",
+                "arlot"
+              ]
+            ]
+          },
+          {
+            "vod": "https://youtu.be/lHTFTBfq3Uo",
+            "info": {
+              "team1": "red",
+              "team2": "blue",
+              "time": "26:14",
+              "winner": "2"
+            },
+            "heroes": [
+              [
+                "cici",
+                "martis",
+                "angela",
+                "karrie",
+                "ruby"
+              ],
+              [
+                "gloo",
+                "fanny",
+                "vexana",
+                "bruno",
+                "arlot"
+              ]
+            ],
+            "bans": [
+              [
+                "nolan",
+                "mathil",
+                "joy",
+                "xborg",
+                "tigreal"
+              ],
+              [
+                "fara",
+                "nova",
+                "guin",
+                "hanzo",
+                "baxia"
+              ]
+            ]
+          }
+        ],
+        "time": "March 9,2024 - 18:30",
+        "casters": [
+          "Pak Pulung",
+          "Awl",
+          "Om Wawa"
+        ],
+        "team1": "rebellion esports",
+        "team2": "ae"
+      },
+      {
+        "mvp": "Kimura",
+        "games": [
+          {
+            "vod": "https://youtu.be/IaoXdb-F_gs",
+            "info": {
+              "team1": "blue",
+              "team2": "red",
+              "time": "17:24",
+              "winner": "2"
+            },
+            "heroes": [
+              [
+                "paqui",
+                "barats",
+                "vexana",
+                "bruno",
+                "guin"
+              ],
+              [
+                "arlot",
+                "baxia",
+                "lylia",
+                "claude",
+                "kadita"
+              ]
+            ],
+            "bans": [
+              [
+                "ruby",
+                "karrie",
+                "mathil",
+                "grock",
+                "mino"
+              ],
+              [
+                "joy",
+                "nolan",
+                "nova",
+                "xborg",
+                "cici"
+              ]
+            ]
+          },
+          {
+            "vod": "https://youtu.be/d9e0Ojmq3po",
+            "info": {
+              "team1": "blue",
+              "team2": "red",
+              "time": "21:55",
+              "winner": "2"
+            },
+            "heroes": [
+              [
+                "teri",
+                "martis",
+                "vexana",
+                "claude",
+                "ruby"
+              ],
+              [
+                "bene",
+                "fred",
+                "valen",
+                "natan",
+                "grock"
+              ]
+            ],
+            "bans": [
+              [
+                "karrie",
+                "arlot",
+                "mathil",
+                "mino",
+                "fanny"
+              ],
+              [
+                "joy",
+                "nolan",
+                "nova",
+                "barats",
+                "baxia"
+              ]
+            ]
+          }
+        ],
+        "time": "March 9,2024 - 21:20",
+        "casters": [
+          "Pak Pulung",
+          "Awl",
+          "Om Wawa"
+        ],
+        "team1": "aura",
+        "team2": "dewa"
+      }
+    ]
+  },
+  {
+    "date": "March 10",
+    "matches": [
+      {
+        "mvp": "CW",
+        "games": [
+          {
+            "vod": "https://youtu.be/IqAHVRzJp9o",
+            "info": {
+              "team1": "red",
+              "team2": "blue",
+              "time": "18:37",
+              "winner": "1"
+            },
+            "heroes": [
+              [
+                "lapu",
+                "fred",
+                "gord",
+                "claude",
+                "arlot"
+              ],
+              [
+                "ruby",
+                "martis",
+                "fara",
+                "karrie",
+                "grock"
+              ]
+            ],
+            "bans": [
+              [
+                "guin",
+                "mathil",
+                "nolan",
+                "baxia",
+                "barats"
+              ],
+              [
+                "joy",
+                "nova",
+                "cici",
+                "lylia",
+                "xborg"
+              ]
+            ]
+          },
+          {
+            "vod": "https://youtu.be/mcitg0OX3k4",
+            "info": {
+              "team1": "red",
+              "team2": "blue",
+              "time": "18:43",
+              "winner": "1"
+            },
+            "heroes": [
+              [
+                "yu",
+                "fred",
+                "vexana",
+                "claude",
+                "grock"
+              ],
+              [
+                "ruby",
+                "barats",
+                "nana",
+                "karrie",
+                "arlot"
+              ]
+            ],
+            "bans": [
+              [
+                "nolan",
+                "fara",
+                "guin",
+                "lylia",
+                "valen"
+              ],
+              [
+                "joy",
+                "nova",
+                "mathil",
+                "tigreal",
+                "xborg"
+              ]
+            ]
+          }
+        ],
+        "time": "March 10,2024 - 15:00",
+        "casters": [
+          "Ranger Emas",
+          "Momochan",
+          "KB"
+        ],
+        "team1": "onic",
+        "team2": "geek fam id"
+      },
+      {
+        "mvp": "Skylar",
+        "games": [
+          {
+            "vod": "https://youtu.be/RiTQg2U58eM",
+            "info": {
+              "team1": "blue",
+              "team2": "red",
+              "time": "28:38",
+              "winner": "2"
+            },
+            "heroes": [
+              [
+                "xborg",
+                "barats",
+                "vexana",
+                "clint",
+                "mino"
+              ],
+              [
+                "paqui",
+                "akai",
+                "nova",
+                "karrie",
+                "tigreal"
+              ]
+            ],
+            "bans": [
+              [
+                "ruby",
+                "nolan",
+                "arlot",
+                "martis",
+                "grock"
+              ],
+              [
+                "mathil",
+                "joy",
+                "guin",
+                "claude",
+                "bruno"
+              ]
+            ]
+          },
+          {
+            "vod": "https://youtu.be/9Up1_FJ7DvU",
+            "info": {
+              "team1": "red",
+              "team2": "blue",
+              "time": "15:51",
+              "winner": "1"
+            },
+            "heroes": [
+              [
+                "cici",
+                "fred",
+                "vexana",
+                "karrie",
+                "mino"
+              ],
+              [
+                "yu",
+                "barats",
+                "valen",
+                "bruno",
+                "mathil"
+              ]
+            ],
+            "bans": [
+              [
+                "nolan",
+                "joy",
+                "nova",
+                "paqui",
+                "xborg"
+              ],
+              [
+                "ruby",
+                "arlot",
+                "claude",
+                "baxia",
+                "fanny"
+              ]
+            ]
+          },
+          {
+            "vod": "https://youtu.be/XxBBwaa_Ru4",
+            "info": {
+              "team1": "blue",
+              "team2": "red",
+              "time": "16:08",
+              "winner": "1"
+            },
+            "heroes": [
+              [
+                "cici",
+                "baxia",
+                "valen",
+                "claude",
+                "angela"
+              ],
+              [
+                "xborg",
+                "barats",
+                "nova",
+                "brody",
+                "arlot"
+              ]
+            ],
+            "bans": [
+              [
+                "nolan",
+                "ruby",
+                "karrie",
+                "guin",
+                "fred"
+              ],
+              [
+                "mathil",
+                "joy",
+                "mino",
+                "vexana",
+                "lylia"
+              ]
+            ]
+          }
+        ],
+        "time": "March 10,2024 - 18:30",
+        "casters": [
+          "Ranger Emas",
+          "Momochan",
+          "KB"
+        ],
+        "team1": "rrq",
+        "team2": "aura"
+      },
+      {
+        "mvp": "EMANN",
+        "games": [
+          {
+            "vod": "https://youtu.be/A4JdSa3q4UY",
+            "info": {
+              "team1": "blue",
+              "team2": "red",
+              "time": "20:55",
+              "winner": "1"
+            },
+            "heroes": [
+              [
+                "xborg",
+                "guin",
+                "vexana",
+                "karrie",
+                "tigreal"
+              ],
+              [
+                "cici",
+                "baxia",
+                "valen",
+                "clint",
+                "angela"
+              ]
+            ],
+            "bans": [
+              [
+                "natan",
+                "fara",
+                "mathil",
+                "claude",
+                "bruno"
+              ],
+              [
+                "nolan",
+                "joy",
+                "ruby",
+                "grock",
+                "fanny"
+              ]
+            ]
+          },
+          {
+            "vod": "https://youtu.be/gJ5W5lEb2e0",
+            "info": {
+              "team1": "blue",
+              "team2": "red",
+              "time": "11:55",
+              "winner": "1"
+            },
+            "heroes": [
+              [
+                "arlot",
+                "guin",
+                "nova",
+                "bruno",
+                "diggie"
+              ],
+              [
+                "teri",
+                "lance",
+                "vexana",
+                "karrie",
+                "ruby"
+              ]
+            ],
+            "bans": [
+              [
+                "fara",
+                "natan",
+                "cici",
+                "baxia",
+                "bene"
+              ],
+              [
+                "joy",
+                "nolan",
+                "mathil",
+                "grock",
+                "fanny"
+              ]
+            ]
+          }
+        ],
+        "time": "March 10,2024 - 21:20",
+        "casters": [
+          "Ranger Emas",
+          "Momochan",
+          "KB"
+        ],
+        "team1": "btr",
+        "team2": "evos"
       }
     ]
   }

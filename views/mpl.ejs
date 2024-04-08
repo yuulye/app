@@ -11,56 +11,146 @@
       href="/images/logo.png"
     />
     <title><%- title %></title>
+<style>
+.day {
+  padding-bottom: 8px;
+  margin: 8px 0px;
+}
+.match {
+  margin: 8px 0px;
+}
+.match .team {
+  height: 32px;
+}
+.match table {
+  width: 360px;
+}
+.match table .teamName {
+  width: 20%;
+  font: bold 0.975em serif;
+  vertical-align: middle;
+}
+.match table .teamLogo {
+  width: 20%;
+}
+.match table .teamScore {
+  width: 10%;
+  font: 1.275em monospace;
+}
+.match table .winner.check,
+.match table .teamScore, 
+.match table .teamLogo {
+  text-align: center;
+  vertical-align: middle;
+}
+.match table .team1 {
+  text-align: right;
+}
+.match table .winner {
+  color: DarkGreen;
+}
+div.heroes {
+  display: inline;
+}
+div.heroes.ban {
+  opacity: .6;
+}
+div.heroes img {
+  width: 24px;
+}
+</style>
   </head>
   <body>
     <h2><%- title %></h2>
-    <%
-      pickBansCounter = 0;
-    %>
     <% for (let i = 0; i < data.length; i++) { %>
     <%
-      matches = data[i];
+      const day = data[i];
     %>
-    <div>
-      <h3>Week <%- i + 1 %></h3>
-      <!--
-      <%- JSON.stringify(matches.pickBans) %>
-      -->
-      <table>
-        <% for (let j = 0; j < matches.scores.length; j++) { %>
-        <%
-          match = matches.scores[j];
-        %>
-        <tr>
-          <td><%- match.team %></td>
-          <td><%- match.score1 %></td>
-          <td><%- match.score2 %></td>
-          <td style="text-align: right;">
-            <%- match.opponent %>
-          </td>
-        </tr>
-        <% for (
-          let k = 0;
-          k < parseInt(match.score1) + parseInt(match.score2);
-          k++
-        ) { %>
-        <tr>
-          <td colspan="2" style="font-size:8px">
-            <%- pickBansCounter %>
-            <%- JSON.stringify(
-              matches.pickBans.picks[pickBansCounter++]
-            ) %>
-          </td>
-          <td colspan="2" style="font-size:8px">
-            <%- pickBansCounter %>
-            <%- JSON.stringify(
-              matches.pickBans.picks[pickBansCounter++]
-            ) %>
-          </td>
-        </tr>
-        <% } %>
-        <% } %>
-      </table>
+    <div class="day">
+    <%- day.date %>
+      <% for (let j = 0; j < day.matches.length; j++) { %>
+      <%
+        const match = day.matches[j];
+      %>
+      <div class="match">
+        <table>
+          <tr>
+            <td class="teamName team1 <%-
+              match.winner == 1?"winner":""
+            %>">
+              <%- match.team1.short %>
+            </td>
+            <td class="teamLogo">
+              <img
+                class="team"
+                src="/images/mlbb/teams/<%-match.team1.name%>.png"
+              />
+            </td>
+            <td class="teamScore">
+              <%- match.team1Score %>
+            </td>
+            <td class="teamScore">
+              <%- match.team2Score %>
+            </td>
+            <td class="teamLogo">
+              <img
+                class="team"
+                src="/images/mlbb/teams/<%-match.team2.name%>.png"
+              />
+            </td>
+            <td class="teamName <%-
+              match.winner == 2?"winner":""
+            %>">
+              <%- match.team2.short %>
+            </td>
+          </tr>
+          <% for (let k = 0; k < match.games.length; k++) { %>
+          <%
+            const game = match.games[k];
+            const heroes = game.heroes;
+            const bans = game.bans;
+            const winner = game.info.winner;
+          %>
+          <tr>
+            <td colspan="2" class="team1">
+              <%- include(
+                'mpl/heroes', {heroes: heroes[0], ban: false}
+              ) %>
+            </td>
+            <td class="<%-winner==1?"winner check":""%>">
+              <%-winner==1?'&#10004;':''%>
+            </td>
+            <td class="<%-winner==2?"winner check":""%>">
+              <%-winner==2?'&#10004;':''%>
+            </td>
+            <td colspan="2">
+              <%- include(
+                'mpl/heroes', {heroes: heroes[1], ban: false}
+              ) %>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="team1">
+              <%- include(
+                'mpl/heroes', {heroes: bans[0], ban: true}
+              ) %>
+            </td>
+            <td>
+              &nbsp;
+            </td>
+            <td>
+              &nbsp;
+            </td>
+            <td colspan="2">
+              <%- include(
+                'mpl/heroes', {heroes: bans[1], ban: true}
+              ) %>
+            </td>
+          </tr>
+          <% } %>
+        </table>
+      </div>
+      <% } %>
     </div>
     <% } %>
     <script>

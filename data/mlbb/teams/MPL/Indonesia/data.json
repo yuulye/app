@@ -1,38 +1,38 @@
-[
-  {
+{
+  "onic": {
     "name": "ONIC",
     "short": "ONIC"
   },
-  {
+  "btr": {
     "name": "Bigetron Alpha",
     "short": "BTR"
   },
-  {
+  "ae": {
     "name": "Alter Ego",
     "short": "AE"
   },
-  {
+  "dewa": {
     "name": "Dewa United Esports",
     "short": "DEWA"
   },
-  {
+  "aura": {
     "name": "AURA Fire",
     "short": "AURA"
   },
-  {
+  "geek fam id": {
     "name": "Geek Fam ID",
     "short": "GEEK"
   },
-  {
+  "rrq": {
     "name": "RRQ Hoshi",
     "short": "RRQ"
   },
-  {
+  "rebellion esports": {
     "name": "Rebellion Esports",
     "short": "RBG"
   },
-  {
+  "evos": {
     "name": "EVOS Glory",
     "short": "EVOS"
   }
-]
+}

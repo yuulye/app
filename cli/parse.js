@@ -39,15 +39,20 @@ function dl(item) {
   });
 }
 
-const result = [];
+const result = {};
 for (let i = data.length - 1; i >= 0; i--) {
   const hero = data[i];
-  result.push({
+  result[hero.name.toLowerCase()] = {
     name: hero.name
-  });
+  };
 }
 
 console.log(result);
 
-fs.writeFile('./data/mlbb/heroes/data.json', JSON.stringify(result), 'utf8', function(){});
+fs.writeFile(
+  './data/mlbb/heroes/data.json'
+  , JSON.stringify(result, null, 2)
+  , 'utf8'
+  , function(){}
+);
 

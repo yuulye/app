@@ -1,1 +1,374 @@
-[{"name":"Miya"},{"name":"Balmond"},{"name":"Saber"},{"name":"Alice"},{"name":"Nana"},{"name":"Tigreal"},{"name":"Alucard"},{"name":"Karina"},{"name":"Akai"},{"name":"Franco"},{"name":"Bane"},{"name":"Bruno"},{"name":"Clint"},{"name":"Rafaela"},{"name":"Eudora"},{"name":"Zilong"},{"name":"Fanny"},{"name":"Layla"},{"name":"Minotaur"},{"name":"Lolita"},{"name":"Hayabusa"},{"name":"Freya"},{"name":"Gord"},{"name":"Natalia"},{"name":"Kagura"},{"name":"Chou"},{"name":"Sun"},{"name":"Alpha"},{"name":"Ruby"},{"name":"Yi Sun-shin"},{"name":"Moskov"},{"name":"Johnson"},{"name":"Cyclops"},{"name":"Estes"},{"name":"Hilda"},{"name":"Aurora"},{"name":"Lapu-Lapu"},{"name":"Vexana"},{"name":"Roger"},{"name":"Karrie"},{"name":"Gatotkaca"},{"name":"Harley"},{"name":"Irithel"},{"name":"Grock"},{"name":"Argus"},{"name":"Odette"},{"name":"Lancelot"},{"name":"Diggie"},{"name":"Hylos"},{"name":"Zhask"},{"name":"Helcurt"},{"name":"Pharsa"},{"name":"Lesley"},{"name":"Jawhead"},{"name":"Angela"},{"name":"Gusion"},{"name":"Valir"},{"name":"Martis"},{"name":"Uranus"},{"name":"Hanabi"},{"name":"Chang'e"},{"name":"Kaja"},{"name":"Selena"},{"name":"Aldous"},{"name":"Claude"},{"name":"Vale"},{"name":"Leomord"},{"name":"Lunox"},{"name":"Hanzo"},{"name":"Belerick"},{"name":"Kimmy"},{"name":"Thamuz"},{"name":"Harith"},{"name":"Minsitthar"},{"name":"Kadita"},{"name":"Faramis"},{"name":"Badang"},{"name":"Khufra"},{"name":"Granger"},{"name":"Guinevere"},{"name":"Esmeralda"},{"name":"Terizla"},{"name":"X.Borg"},{"name":"Ling"},{"name":"Dyrroth"},{"name":"Lylia"},{"name":"Baxia"},{"name":"Masha"},{"name":"Wanwan"},{"name":"Silvanna"},{"name":"Cecilion"},{"name":"Carmilla"},{"name":"Atlas"},{"name":"Popol and Kupa"},{"name":"Yu Zhong"},{"name":"Luo Yi"},{"name":"Benedetta"},{"name":"Khaleed"},{"name":"Barats"},{"name":"Brody"},{"name":"Yve"},{"name":"Mathilda"},{"name":"Paquito"},{"name":"Gloo"},{"name":"Beatrix"},{"name":"Phoveus"},{"name":"Natan"},{"name":"Aulus"},{"name":"Aamon"},{"name":"Valentina"},{"name":"Edith"},{"name":"Floryn"},{"name":"Yin"},{"name":"Melissa"},{"name":"Xavier"},{"name":"Julian"},{"name":"Fredrinn"},{"name":"Joy"},{"name":"Novaria"},{"name":"Arlott"},{"name":"Ixia"},{"name":"Nolan"},{"name":"Cici"},{"name":"Chip"}]
+{
+  "miya": {
+    "name": "Miya"
+  },
+  "balmond": {
+    "name": "Balmond"
+  },
+  "saber": {
+    "name": "Saber"
+  },
+  "alice": {
+    "name": "Alice"
+  },
+  "nana": {
+    "name": "Nana"
+  },
+  "tigreal": {
+    "name": "Tigreal"
+  },
+  "alucard": {
+    "name": "Alucard"
+  },
+  "karina": {
+    "name": "Karina"
+  },
+  "akai": {
+    "name": "Akai"
+  },
+  "franco": {
+    "name": "Franco"
+  },
+  "bane": {
+    "name": "Bane"
+  },
+  "bruno": {
+    "name": "Bruno"
+  },
+  "clint": {
+    "name": "Clint"
+  },
+  "rafaela": {
+    "name": "Rafaela"
+  },
+  "eudora": {
+    "name": "Eudora"
+  },
+  "zilong": {
+    "name": "Zilong"
+  },
+  "fanny": {
+    "name": "Fanny"
+  },
+  "layla": {
+    "name": "Layla"
+  },
+  "mino": {
+    "name": "Minotaur"
+  },
+  "lolita": {
+    "name": "Lolita"
+  },
+  "hayabusa": {
+    "name": "Hayabusa"
+  },
+  "freya": {
+    "name": "Freya"
+  },
+  "gord": {
+    "name": "Gord"
+  },
+  "natalia": {
+    "name": "Natalia"
+  },
+  "kagura": {
+    "name": "Kagura"
+  },
+  "chou": {
+    "name": "Chou"
+  },
+  "sun": {
+    "name": "Sun"
+  },
+  "alpha": {
+    "name": "Alpha"
+  },
+  "ruby": {
+    "name": "Ruby"
+  },
+  "yi sun-shin": {
+    "name": "Yi Sun-shin"
+  },
+  "moskov": {
+    "name": "Moskov"
+  },
+  "johnson": {
+    "name": "Johnson"
+  },
+  "cyclops": {
+    "name": "Cyclops"
+  },
+  "estes": {
+    "name": "Estes"
+  },
+  "hilda": {
+    "name": "Hilda"
+  },
+  "aurora": {
+    "name": "Aurora"
+  },
+  "lapu": {
+    "name": "Lapu-lapu"
+  },
+  "vexana": {
+    "name": "Vexana"
+  },
+  "roger": {
+    "name": "Roger"
+  },
+  "karrie": {
+    "name": "Karrie"
+  },
+  "gatotkaca": {
+    "name": "Gatotkaca"
+  },
+  "harley": {
+    "name": "Harley"
+  },
+  "irithel": {
+    "name": "Irithel"
+  },
+  "grock": {
+    "name": "Grock"
+  },
+  "argus": {
+    "name": "Argus"
+  },
+  "odette": {
+    "name": "Odette"
+  },
+  "lance": {
+    "name": "Lancelot"
+  },
+  "diggie": {
+    "name": "Diggie"
+  },
+  "hylos": {
+    "name": "Hylos"
+  },
+  "zhask": {
+    "name": "Zhask"
+  },
+  "helcurt": {
+    "name": "Helcurt"
+  },
+  "pharsa": {
+    "name": "Pharsa"
+  },
+  "lesley": {
+    "name": "Lesley"
+  },
+  "jawhead": {
+    "name": "Jawhead"
+  },
+  "angela": {
+    "name": "Angela"
+  },
+  "gusion": {
+    "name": "Gusion"
+  },
+  "valir": {
+    "name": "Valir"
+  },
+  "martis": {
+    "name": "Martis"
+  },
+  "uranus": {
+    "name": "Uranus"
+  },
+  "hanabi": {
+    "name": "Hanabi"
+  },
+  "chang'e": {
+    "name": "Chang'e"
+  },
+  "kaja": {
+    "name": "Kaja"
+  },
+  "selena": {
+    "name": "Selena"
+  },
+  "aldous": {
+    "name": "Aldous"
+  },
+  "claude": {
+    "name": "Claude"
+  },
+  "vale": {
+    "name": "Vale"
+  },
+  "leomord": {
+    "name": "Leomord"
+  },
+  "lunox": {
+    "name": "Lunox"
+  },
+  "hanzo": {
+    "name": "Hanzo"
+  },
+  "belerick": {
+    "name": "Belerick"
+  },
+  "kimmy": {
+    "name": "Kimmy"
+  },
+  "thamuz": {
+    "name": "Thamuz"
+  },
+  "harith": {
+    "name": "Harith"
+  },
+  "minsitthar": {
+    "name": "Minsitthar"
+  },
+  "kadita": {
+    "name": "Kadita"
+  },
+  "fara": {
+    "name": "Faramis"
+  },
+  "badang": {
+    "name": "Badang"
+  },
+  "khufra": {
+    "name": "Khufra"
+  },
+  "granger": {
+    "name": "Granger"
+  },
+  "guin": {
+    "name": "Guinevere"
+  },
+  "esmeralda": {
+    "name": "Esmeralda"
+  },
+  "teri": {
+    "name": "Terizla"
+  },
+  "xborg": {
+    "name": "X.Borg"
+  },
+  "ling": {
+    "name": "Ling"
+  },
+  "dyrroth": {
+    "name": "Dyrroth"
+  },
+  "lylia": {
+    "name": "Lylia"
+  },
+  "baxia": {
+    "name": "Baxia"
+  },
+  "masha": {
+    "name": "Masha"
+  },
+  "wanwan": {
+    "name": "Wanwan"
+  },
+  "silvanna": {
+    "name": "Silvanna"
+  },
+  "cecilion": {
+    "name": "Cecilion"
+  },
+  "carmilla": {
+    "name": "Carmilla"
+  },
+  "atlas": {
+    "name": "Atlas"
+  },
+  "popol and kupa": {
+    "name": "Popol and Kupa"
+  },
+  "yu": {
+    "name": "Yu Zhong"
+  },
+  "luo yi": {
+    "name": "Luo Yi"
+  },
+  "bene": {
+    "name": "Benedetta"
+  },
+  "khaleed": {
+    "name": "Khaleed"
+  },
+  "barats": {
+    "name": "Barats"
+  },
+  "brody": {
+    "name": "Brody"
+  },
+  "yve": {
+    "name": "Yve"
+  },
+  "mathil": {
+    "name": "Mathilda"
+  },
+  "paqui": {
+    "name": "Paquito"
+  },
+  "gloo": {
+    "name": "Gloo"
+  },
+  "beatrix": {
+    "name": "Beatrix"
+  },
+  "phove": {
+    "name": "Phoveus"
+  },
+  "natan": {
+    "name": "Natan"
+  },
+  "aulus": {
+    "name": "Aulus"
+  },
+  "aamon": {
+    "name": "Aamon"
+  },
+  "valen": {
+    "name": "Valentina"
+  },
+  "edith": {
+    "name": "Edith"
+  },
+  "floryn": {
+    "name": "Floryn"
+  },
+  "yin": {
+    "name": "Yin"
+  },
+  "melissa": {
+    "name": "Melissa"
+  },
+  "xavier": {
+    "name": "Xavier"
+  },
+  "julian": {
+    "name": "Julian"
+  },
+  "fred": {
+    "name": "Fredrinn"
+  },
+  "joy": {
+    "name": "Joy"
+  },
+  "nova": {
+    "name": "Novaria"
+  },
+  "arlot": {
+    "name": "Arlott"
+  },
+  "ixia": {
+    "name": "Ixia"
+  },
+  "nolan": {
+    "name": "Nolan"
+  },
+  "cici": {
+    "name": "Cici"
+  },
+  "chip": {
+    "name": "Chip"
+  }
+}
